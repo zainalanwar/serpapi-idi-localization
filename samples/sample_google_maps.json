@@ -1,0 +1,34 @@
+{
+  "search_parameters": {
+    "engine": "google_maps",
+    "q": "kafe bogor",
+    "gl": "id",
+    "hl": "id"
+  },
+  "maps_results": [
+    {
+      "name": "Kopi Nyawa",
+      "star_rating": 4.6,
+      "num_reviews": 1204,
+      "address": "Jl. Boulevard Raya, Kota Bogor"
+    },
+    {
+      "name": "Sahaba Kafe",
+      "star_rating": 4.5,
+      "num_reviews": 872,
+      "address": "Jl. Pajajaran, Kota Bogor"
+    },
+    {
+      "name": "Tugu Coffee House",
+      "star_rating": 4.4,
+      "num_reviews": 1531,
+      "address": "Jl. Tugu, Kota Bogor"
+    },
+    {
+      "name": "Waroeng Kopi",
+      "star_rating": 4.3,
+      "num_reviews": 410,
+      "address": "Jl. Paledang, Kota Bogor"
+    }
+  ]
+}

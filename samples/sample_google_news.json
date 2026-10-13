@@ -1,0 +1,35 @@
+{
+  "search_parameters": {
+    "engine": "google_news",
+    "q": "gempa surabaya",
+    "gl": "id",
+    "hl": "id"
+  },
+  "news_results": [
+    {
+      "title": "Gempa 5,2 SR Guncang Timur Laut Surabaya, Tidak Berpotensi Tsunami",
+      "source": "kumparan",
+      "date": "2 jam lalu"
+    },
+    {
+      "title": "BMKG: Gempa M 5,2 Terasa di Surabaya dan Sidoarjo",
+      "source": "detik.com",
+      "date": "3 jam lalu"
+    },
+    {
+      "title": "Respon Warga Surabaya Setelah Gempa, Jalur Transportasi Aman",
+      "source": "suarabaya.id",
+      "date": "4 jam lalu"
+    },
+    {
+      "title": "Gempa M 5,2: Gedung Perkantoran di Surabaya Dirutekan Warganya",
+      "source": "jatim.tribunnews.com",
+      "date": "5 jam lalu"
+    },
+    {
+      "title": "Ternyata Ini Penyebab Gempa di Sekitar Surabaya",
+      "source": "liputan6.com",
+      "date": "7 jam lalu"
+    }
+  ]
+}

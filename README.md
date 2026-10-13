@@ -27,6 +27,17 @@ cron job, atau laporan mingguan.
 
 ---
 
+## Engine yang didukung
+
+Tool ini mendukung 4 engine SerpApi, semuanya dengan default `gl=id&hl=id`:
+
+| `--engine` | Mengembalikan | Contoh use case |
+|---|---|---|
+| `google` (default) | Peringkat web + PAA + related searches | Monitoring kata kunci |
+| `google_news` | Berita (`news_results`) | Monitoring berita & sentiment |
+| `google_maps` | Bisnis & tempat (`maps_results`) | Riset kompetitor lokal |
+| `google_autocomplete` | Saran pencarian | Riset keyword & ide konten |
+
 ## 🇮🇩 Versi Bahasa Indonesia
 
 ### 1. Siapkan API key
@@ -54,10 +65,20 @@ Tool di repo ini **standalone — hanya pakai Python standard library**
 (`urllib`, `json`). Tidak perlu `pip install` apa pun.
 
 ```bash
+# Riset peringkat kata kunci (engine default: google)
 python3 serp_idi_tracker.py --keyword "kafe terbaik bogor" --pages 5
+
+# Monitoring berita
+python3 serp_idi_tracker.py --engine google_news --keyword "gempa surabaya"
+
+# Riset kompetitor lokal
+python3 serp_idi_tracker.py --engine google_maps --keyword "kafe bogor"
+
+# Riset saran pencarian
+python3 serp_idi_tracker.py --engine google_autocomplete --keyword "cara membuat nasi goreng"
 ```
 
-Contoh output:
+Contoh output (engine `google`):
 
 ```
 == Ranking untuk "kafe terbaik bogor" (gl=id, hl=id) ==
@@ -71,25 +92,26 @@ Contoh output:
 
 ### 3. Mode offline (tanpa API key)
 
-Kalau Anda belum punya key, tool otomatis fallback ke `sample_response.json`
-sehingga Anda tetap bisa melihat bentuk respons & cara membacanya:
+Kalau Anda belum punya key, setiap engine punya sample di `samples/` sehingga
+Anda tetap bisa melihat bentuk respons & cara membacanya:
 
 ```bash
-python3 serp_idi_tracker.py --keyword "kafe terbaik bogor" --offline
+python3 serp_idi_tracker.py --engine google_news --keyword "gempa surabaya" --offline
+python3 serp_idi_tracker.py --engine google_maps --keyword "kafe bogor" --offline
 ```
 
 ### 4. Pelajari respons SerpApi
 
-Bagian penting dalam respons Google Search:
+Bagian penting dalam respons, per engine:
 
-| Field | Berarti apa |
-|---|---|
-| `organic_results[]` | Hasil utama (pos 1–10). Ini yang Anda monitor |
-| `organic_results[].position` | Peringkat |
-| `organic_results[].title` / `link` / `snippet` | Judul, URL, deskripsi |
-| `people_also_ask[]` | Pertanyaan terkait (bahan konten) |
-| `related_searches[]` | Pencarian serupa (ide keyword) |
-| `search_information` | Estimasi jumlah hasil, durasi query |
+| Engine | Field kunci | Berarti apa |
+|---|---|---|
+| `google` | `organic_results[]` | Hasil utama (pos 1–10) + `position`, `title`, `link`, `snippet` |
+| `google` | `people_also_ask[]` | Pertanyaan terkait (bahan konten) |
+| `google` | `related_searches[]` | Pencarian serupa (ide keyword) |
+| `google_news` | `news_results[]` | `title`, `source`, `date` |
+| `google_maps` | `maps_results[]` | `name`, `star_rating`, `num_reviews`, `address` |
+| `google_autocomplete` | `autocomplete_results[]` | `suggestion` (saran pencarian) |
 
 ---
 
@@ -100,7 +122,12 @@ Bagian penting dalam respons Google Search:
 ```bash
 export SERP_API_KEY="your_key"
 python3 serp_idi_tracker.py --keyword "best coffee in bogor" --pages 5
-```
+
+# Or use another engine:
+python3 serp_idi_tracker.py --engine google_news --keyword "surabaya earthquake"
+python3 serp_idi_tracker.py --engine google_maps --keyword "coffee in bogor"
+python3 serp_idi_tracker.py --engine google_autocomplete --keyword "how to make"
+
 
 The tool calls `GET https://serpapi.com/search` with:
 
@@ -126,7 +153,12 @@ Run without a key (offline demo) with `--offline`.
 Repo ini menyertakan cuplikan dokumentasi SerpApi yang telah **diterjemahkan ke
 Bahasa Indonesia** sebagai contoh gaya lokalasi yang kami gunakan:
 
-→ lihat [`contoh_lokalisasi/google-search-api-ID.md`](contoh_lokalisasi/google-search-api-ID.md)
+| Docs | Engine |
+|---|---|
+| [`google-search-api-ID.md`](contoh_lokalisasi/google-search-api-ID.md) | `google` |
+| [`google-news-api-ID.md`](contoh_lokalisasi/google-news-api-ID.md) | `google_news` |
+| [`google-maps-api-ID.md`](contoh_lokalisasi/google-maps-api-ID.md) | `google_maps` |
+| [`google-autocomplete-api-ID.md`](contoh_lokalisasi/google-autocomplete-api-ID.md) | `google_autocomplete` |
 
 Pola lokalasi: terminologi teknis (`endpoint`, `GET`, `JSON`, `query parameter`)
 dibiarkan dalam bahasa Inggris karena komunitas developer membacanya begitu;
@@ -140,10 +172,17 @@ lokal).
 ```
 .
 ├── README.md                      # tutorial bilingual (ID + EN)
-├── serp_idi_tracker.py            # tool runnable, stdlib-only
-├── sample_response.json          # contoh respons SerpApi (mode offline)
+├── serp_idi_tracker.py            # tool runnable, stdlib-only, 4 engine
+├── samples/                       # contoh respons SerpApi (mode offline)
+│   ├── sample_google.json
+│   ├── sample_google_news.json
+│   ├── sample_google_maps.json
+│   └── sample_google_autocomplete.json
 ├── contoh_lokalisasi/
-│   └── google-search-api-ID.md   # cuplikan docs SerpApi → Indonesia
+│   ├── google-search-api-ID.md
+│   ├── google-news-api-ID.md
+│   ├── google-maps-api-ID.md
+│   └── google-autocomplete-api-ID.md
 ├── .env.example                  # template environment
 ├── .gitignore
 └── LICENSE                       # MIT
@@ -155,7 +194,7 @@ lokal).
 
 - SerpApi & seluruh endpoint/doc referensinya milik [SerpApi](https://serpapi.com).
   Tutorial ini adalah karya lokalasi independen untuk tujuan edukasi.
-- `sample_response.json` adalah cuplikan bentuk respons, bukan data produksi.
+- Isi folder `samples/` adalah cuplikan bentuk respons, bukan data produksi.
 - Kode tool: MIT (lihat `LICENSE`).
 
 ---

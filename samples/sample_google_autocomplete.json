@@ -1,0 +1,31 @@
+{
+  "search_parameters": {
+    "engine": "google_autocomplete",
+    "q": "cara membuat nasi goreng",
+    "gl": "id",
+    "hl": "id"
+  },
+  "autocomplete_results": [
+    {
+      "suggestion": "cara membuat nasi goreng spesial rumahan"
+    },
+    {
+      "suggestion": "cara membuat nasi goreng pedas"
+    },
+    {
+      "suggestion": "cara membuat nasi goreng kecap"
+    },
+    {
+      "suggestion": "cara membuat nasi goreng seafood"
+    },
+    {
+      "suggestion": "cara membuat nasi goreng telur"
+    },
+    {
+      "suggestion": "cara membuat nasi goreng kecombrang"
+    },
+    {
+      "suggestion": "cara membuat nasi goreng ayam"
+    }
+  ]
+}
