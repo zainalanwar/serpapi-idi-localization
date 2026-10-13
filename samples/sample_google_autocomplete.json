@@ -1,31 +1,116 @@
 {
+  "search_metadata": {
+    "id": "6acddcebbbd349a335210e16",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/YV8HRN7LR6XIbIvENdBzyeKdJHBR35emUqxfEyYXiM0/6acddcebbbd349a335210e16.json",
+    "markdown_endpoint": "https://serpapi.com/searches/YV8HRN7LR6XIbIvENdBzyeKdJHBR35emUqxfEyYXiM0/6acddcebbbd349a335210e16.md",
+    "created_at": "2026-10-13 07:25:31 UTC",
+    "processed_at": "2026-10-13 07:25:31 UTC",
+    "google_autocomplete_url": "https://www.google.com/complete/search?q=cara+membuat+nasi+goreng&gl=id&hl=id&client=chrome&dpr=1",
+    "raw_html_file": "https://serpapi.com/searches/YV8HRN7LR6XIbIvENdBzyeKdJHBR35emUqxfEyYXiM0/6acddcebbbd349a335210e16.html",
+    "prettify_html_file": "https://serpapi.com/searches/YV8HRN7LR6XIbIvENdBzyeKdJHBR35emUqxfEyYXiM0/6acddcebbbd349a335210e16.prettify",
+    "total_time_taken": 0.82
+  },
   "search_parameters": {
     "engine": "google_autocomplete",
     "q": "cara membuat nasi goreng",
     "gl": "id",
     "hl": "id"
   },
-  "autocomplete_results": [
+  "search_information": {
+    "autocomplete_results_state": "Showing completion results."
+  },
+  "suggestions": [
     {
-      "suggestion": "cara membuat nasi goreng spesial rumahan"
+      "value": "cara membuat nasi goreng yang enak",
+      "relevance": 1050,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+yang+enak"
     },
     {
-      "suggestion": "cara membuat nasi goreng pedas"
+      "value": "cara membuat nasi goreng simpel",
+      "relevance": 601,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+simpel"
     },
     {
-      "suggestion": "cara membuat nasi goreng kecap"
+      "value": "cara membuat nasi goreng dalam bahasa inggris",
+      "relevance": 600,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+dalam+bahasa+inggris"
     },
     {
-      "suggestion": "cara membuat nasi goreng seafood"
+      "value": "cara membuat nasi goreng dengan bumbu racik",
+      "relevance": 561,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+dengan+bumbu+racik"
     },
     {
-      "suggestion": "cara membuat nasi goreng telur"
+      "value": "cara membuat nasi goreng kampung",
+      "relevance": 560,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+kampung"
     },
     {
-      "suggestion": "cara membuat nasi goreng kecombrang"
+      "value": "cara membuat nasi goreng yang enak dan simpel",
+      "relevance": 559,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+yang+enak+dan+simpel"
     },
     {
-      "suggestion": "cara membuat nasi goreng ayam"
+      "value": "cara membuat nasi goreng spesial",
+      "relevance": 558,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+spesial"
+    },
+    {
+      "value": "cara membuat nasi goreng sederhana",
+      "relevance": 557,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+sederhana"
+    },
+    {
+      "value": "cara membuat nasi goreng jawa",
+      "relevance": 556,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+jawa"
+    },
+    {
+      "value": "cara membuat nasi goreng telur",
+      "relevance": 555,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+telur"
+    },
+    {
+      "value": "cara membuat nasi goreng putih",
+      "relevance": 554,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+putih"
+    },
+    {
+      "value": "cara membuat nasi goreng tanpa kecap",
+      "relevance": 553,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+tanpa+kecap"
+    },
+    {
+      "value": "cara membuat nasi goreng dalam bahasa inggris dan artinya",
+      "relevance": 552,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+dalam+bahasa+inggris+dan+artinya"
+    },
+    {
+      "value": "cara membuat nasi goreng solaria",
+      "relevance": 551,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+solaria"
+    },
+    {
+      "value": "cara membuat nasi goreng merah",
+      "relevance": 550,
+      "type": "QUERY",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=id&hl=id&q=cara+membuat+nasi+goreng+merah"
     }
-  ]
+  ],
+  "verbatim_relevance": 1300
 }

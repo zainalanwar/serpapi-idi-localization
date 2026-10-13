@@ -125,27 +125,33 @@ def print_news(data, keyword, gl, hl):
 
 
 def print_maps(data, keyword, gl, hl):
-    places = data.get("maps_results", data.get("place_results", []))
+    places = data.get("local_results", data.get("maps_results", []))
     print(f'== Tempat/Bisnis untuk "{keyword}" (gl={gl}, hl={hl}) ==\n')
     if not places:
-        print("(tidak ada maps_results — periksa keyword atau mode offline)")
+        print("(tidak ada local_results — periksa keyword atau mode offline)")
     for p in places[:10]:
-        name = p.get("name", "")
-        stars = p.get("star_rating")
-        count = p.get("num_reviews")
+        name = p.get("title") or p.get("name") or ""
+        stars = p.get("rating") or p.get("star_rating")
+        count = p.get("reviews") or p.get("num_reviews")
+        ptype = p.get("type") or ""
         rating = f" ({stars}★, {count} ulasan)" if stars else ""
-        print(f"  • {name}{rating}")
+        typetxt = f" — {ptype}" if ptype else ""
+        print(f"  • {name}{rating}{typetxt}")
         if p.get("address"):
             print(f"    {p['address']}")
 
 
 def print_autocomplete(data, keyword, gl, hl):
-    sugg = data.get("autocomplete_results", data.get("autocomplete", []))
+    sugg = data.get("suggestions", data.get("autocomplete_results", []))
     print(f'== Saran Autocomplete untuk "{keyword}" (gl={gl}, hl={hl}) ==\n')
     if not sugg:
-        print("(tidak ada autocomplete_results — periksa keyword atau mode offline)")
+        print("(tidak ada suggestions — periksa keyword atau mode offline)")
     for s in sugg[:15]:
-        print(f"  • {s.get('suggestion', s)}")
+        if isinstance(s, dict):
+            text = s.get("value", s.get("suggestion", ""))
+        else:
+            text = str(s)
+        print(f"  • {text}")
 
 
 PRINTERS = {

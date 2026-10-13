@@ -1,34 +1,970 @@
 {
+  "search_metadata": {
+    "id": "6acddcc1dea400c230cc71cc",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/cvHHRmC5rXRcekkLZnw_i0vJ62NIXpdTotelGWEtQTk/6acddcc1dea400c230cc71cc.json",
+    "markdown_endpoint": "https://serpapi.com/searches/cvHHRmC5rXRcekkLZnw_i0vJ62NIXpdTotelGWEtQTk/6acddcc1dea400c230cc71cc.md",
+    "created_at": "2026-10-13 07:24:49 UTC",
+    "processed_at": "2026-10-13 07:24:49 UTC",
+    "google_maps_url": "https://www.google.com/maps/search/kafe+bogor//data=!3m1!4b1!4m2!2m1!6e5?hl=id&gl=id",
+    "raw_html_file": "https://serpapi.com/searches/cvHHRmC5rXRcekkLZnw_i0vJ62NIXpdTotelGWEtQTk/6acddcc1dea400c230cc71cc.html",
+    "prettify_html_file": "https://serpapi.com/searches/cvHHRmC5rXRcekkLZnw_i0vJ62NIXpdTotelGWEtQTk/6acddcc1dea400c230cc71cc.prettify",
+    "total_time_taken": 1.23
+  },
   "search_parameters": {
     "engine": "google_maps",
+    "type": "search",
     "q": "kafe bogor",
-    "gl": "id",
-    "hl": "id"
+    "google_domain": "google.co.id",
+    "hl": "id",
+    "gl": "id"
   },
-  "maps_results": [
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "kafe bogor"
+  },
+  "local_results": [
     {
-      "name": "Kopi Nyawa",
-      "star_rating": 4.6,
-      "num_reviews": 1204,
-      "address": "Jl. Boulevard Raya, Kota Bogor"
+      "position": 1,
+      "title": "Raindear Coffee & Kitchen Bogor",
+      "place_id": "ChIJtxddBb3FaS4RtobpJPtSYKc",
+      "data_id": "0x2e69c5bd055d17b7:0xa76052fb24e986b6",
+      "data_cid": "12060731040707741366",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5bd055d17b7%3A0xa76052fb24e986b6&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5bd055d17b7%3A0xa76052fb24e986b6&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.6034326,
+        "longitude": 106.8102516
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJtxddBb3FaS4RtobpJPtSYKc",
+      "provider_id": "/g/11h7cqvl4c",
+      "rating": 4.8,
+      "reviews": 7614,
+      "type": "Kedai Kopi",
+      "types": [
+        "Kedai Kopi",
+        "Restoran"
+      ],
+      "address": "Jl. Bina Marga No.7, RT.04/RW.11, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 22.00",
+      "hours": "Buka · Tutup pukul 22.00",
+      "operating_hours": {
+        "selasa": "10.00–22.00",
+        "rabu": "10.00–22.00",
+        "kamis": "10.00–22.00",
+        "jumat": "10.00–22.00",
+        "sabtu": "10.00–22.00",
+        "minggu": "10.00–22.00",
+        "senin": "10.00–22.00"
+      },
+      "phone": "0821-1178-9089",
+      "website": "https://www.raindearcoffee.com/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Tempat parkir khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "pesan_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFoN2Nxdmw0YxgBOgMI8A0%3D&hl=id-ID&gl=id&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=wtzNaq6XAvaH0PEP0fPrsQY&ei=wtzNaq6XAvaH0PEP0fPrsQY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeqoqWw27NuSrrPqOcaDj38iPV_SrGAomJCO8lXmYaWnRGaS5YmAt4Y1zUUu2MdKqs_fo6L5aOCY2XcYCpMYOpy8wyY9GEuKbOCl_ebhPxVXf7lAT4i2clB2yyQZOk3DKQrtBw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/LWbc3HicHcTbDoIgAADQLzINu1hbD2jNLSssu0gvjoi0AlHAmX1g_9DftHUezvdTGFPpqW3zwu3lUuacNZopKkvDStOjUti5IlpbVNsQ-k-xYrWsTy0Yb5pEqbhGlMwfrnePj1miQijFMkAeTwUmp3IXkmSIBTQD3H8fDg1YX6NaZzc5Wg0JCjBIKQ6qNUZV57UdnoSLJrqggGfsUsSvY3obc7gf3AHlPui67Rk93Xm0VcZvZ23fcRyr-E-t8gecKEVp"
     },
     {
-      "name": "Sahaba Kafe",
-      "star_rating": 4.5,
-      "num_reviews": 872,
-      "address": "Jl. Pajajaran, Kota Bogor"
+      "position": 2,
+      "title": "Circuloo Coffee & Cat",
+      "place_id": "ChIJVyZElxjFaS4RGx1oW6_Lzso",
+      "data_id": "0x2e69c51897442657:0xcacecbaf5b681d1b",
+      "data_cid": "14613841794877103387",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c51897442657%3A0xcacecbaf5b681d1b&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c51897442657%3A0xcacecbaf5b681d1b&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.573715699999999,
+        "longitude": 106.7966119
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJVyZElxjFaS4RGx1oW6_Lzso",
+      "provider_id": "/g/11smv70nv6",
+      "rating": 4.8,
+      "reviews": 1494,
+      "type": "Kedai Kopi",
+      "types": [
+        "Kedai Kopi"
+      ],
+      "address": "Jl. Pemuda No.24, RT.04/RW.02, Tanah Sareal, Kota Bogor, Jawa Barat 16162",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 22.00",
+      "hours": "Buka · Tutup pukul 22.00",
+      "operating_hours": {
+        "selasa": "10.00–22.00",
+        "rabu": "10.00–22.00",
+        "kamis": "10.00–22.00",
+        "jumat": "10.00–22.00",
+        "sabtu": "08.00–23.00",
+        "minggu": "08.00–23.00",
+        "senin": "10.00–22.00"
+      },
+      "phone": "0856-8883-342",
+      "website": "https://circuloogroup.com/",
+      "pesan_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFzbXY3MG52NhgBOgMI8A0%3D&hl=id-ID&gl=id&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=wtzNaq6XAvaH0PEP0fPrsQY&ei=wtzNaq6XAvaH0PEP0fPrsQY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfpPBOxkWseliuOXtk0LryZNr90T3zYSBnDUbF91QBj8Zs38NlJ4Hmg__Gyfm3Jh0Q4K3MAybhGohQfoLY51siZrTShROgfjWf5mBPjAaedlRZ5uJCijjuiT-OCSmfjLi_vO1Bk=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/PPsKH3icHcRLjoIwAADQEyEllURNXFCNGkQrgnFkQxT7paWmLTPiBT2DtzGZt3ifN_f-4WZhqDgcMWOYIr0jtjGdJ50fNUaHzF6dCxoXJglqdUYfB4Sf7dkRJXr841uQ2aHa2yko4etSoG55uq2mUY7kpHJwslfpeKNZXa8HqmHKQT7ewl0y3Pja8Jya7BJHTlS2LPgRMyrPNNboIJMruatjFffpQkjZizLAi0JTmYn6F0eonf9FAICA_98E3RfB30WS"
     },
     {
-      "name": "Tugu Coffee House",
-      "star_rating": 4.4,
-      "num_reviews": 1531,
-      "address": "Jl. Tugu, Kota Bogor"
+      "position": 3,
+      "title": "Roofpark Cafe & Restaurant Bogor",
+      "place_id": "ChIJd-2rmc3FaS4R1sFROjDZmcE",
+      "data_id": "0x2e69c5cd99abed77:0xc199d9303a51c1d6",
+      "data_cid": "13950420121916916182",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5cd99abed77%3A0xc199d9303a51c1d6&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5cd99abed77%3A0xc199d9303a51c1d6&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.589328999999999,
+        "longitude": 106.80515
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJd-2rmc3FaS4R1sFROjDZmcE",
+      "provider_id": "/g/11c2mzx_ds",
+      "rating": 4.6,
+      "reviews": 3761,
+      "type": "Kafe",
+      "types": [
+        "Kafe",
+        "Gastropub",
+        "Restoran"
+      ],
+      "address": "RAJA FO Bogor, Jl. Raya Pajajaran No.3 Lt.3, RT.02/RW.04, Babakan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16128",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 22.00",
+      "hours": "Buka · Tutup pukul 22.00",
+      "operating_hours": {
+        "selasa": "10.00–22.00",
+        "rabu": "10.00–22.00",
+        "kamis": "10.00–22.00",
+        "jumat": "10.00–22.00",
+        "sabtu": "10.00–23.00",
+        "minggu": "10.00–22.00",
+        "senin": "10.00–22.00"
+      },
+      "phone": "(0251) 8576519",
+      "website": "http://roofpark.co.id/info/",
+      "description": "Kafe lantai 3, panorama & dekorasi mewah. Makanan Indonesia klasik dan tradisional yang disajikan di tempat berlatar mewah dengan panorama di lantai 3.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Kursi khusus pengguna kursi roda",
+            "Pintu masuk khusus pengguna kursi roda",
+            "Tempat parkir khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfLFDTciXXqyqpaSPpTYpCUpNbZ33IidJTk9peqvXWLiW_vxwnqIc08vNcciqp1gyQuhbyCKva2R14Ib1aJgotYucQ8jVTx8tLp-unCX0h9ro9jO4z6fBqv03yNQqiQu1bfYLpc=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/tE3iinicHcTbToMwGADgJ2K0sixg4sWGWcJsUBQdeGPgF9ru0P6lhw1f0GfwbZb4XXx_v8I5tPdxfBLJgmvNT4O3wwRauUG5BehzzKfO2ghsvF5vjmc2su1jDbJpzGywe3vBusX8Hcv-M0kK-b2rjxkOJjR7Jvdf4XpRpgCShhJAGqR8rrzo5_wpdHevdFn0tNtx7VoPVXr4qK-pYxh5lTdEZJPODs_Ln9W4MYEkc1kZWXnajy1DeLhQQkgk_odI3QBet0cT"
     },
     {
-      "name": "Waroeng Kopi",
-      "star_rating": 4.3,
-      "num_reviews": 410,
-      "address": "Jl. Paledang, Kota Bogor"
+      "position": 4,
+      "title": "Mojoke Communify",
+      "place_id": "ChIJS6y9WNTFaS4R1Qo0R2-WkoI",
+      "data_id": "0x2e69c5d458bdac4b:0x8292966f47340ad5",
+      "data_cid": "9408747976210516693",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5d458bdac4b%3A0x8292966f47340ad5&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5d458bdac4b%3A0x8292966f47340ad5&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.596822899999999,
+        "longitude": 106.8174145
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJS6y9WNTFaS4R1Qo0R2-WkoI",
+      "provider_id": "/g/11sm7p5xk9",
+      "rating": 4.8,
+      "reviews": 1994,
+      "type": "Kafe",
+      "types": [
+        "Kafe",
+        "Kedai Kopi",
+        "Bar Kopi Espresso",
+        "Restoran"
+      ],
+      "address": "Komplek Baranangsiang 4 Blok D Ujung, RT.01/RW.10, Tanah Baru, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16154",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 22.30",
+      "hours": "Buka · Tutup pukul 22.30",
+      "operating_hours": {
+        "selasa": "10.00–22.30",
+        "rabu": "10.00–22.30",
+        "kamis": "10.00–22.30",
+        "jumat": "10.00–22.30",
+        "sabtu": "10.00–23.00",
+        "minggu": "10.00–23.00",
+        "senin": "10.00–22.30"
+      },
+      "phone": "0813-2390-2022",
+      "website": "http://mojoke-communify.com/",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLc0in4P5gUDmAVbFyR_6Y9mYzvv5jgsUd8PAxFpDUbtpsxQbXgCe03FdF02FgKLJyLQ9GNmSDlGDpuxWU_gnWH8gThB_BPF8xikMLN78x7_avWmDXEyKfkg0M_DJa5JwpuuFiyQUg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/NHwmoHicHcxBcoIwFADQEyGpiqIzLsAYOogOqCm6ykCgH4QExgCG3rBH6G10unnL9_dbdF2r1qZZF7MJNA3Uea_yB29kl8tuwhthwiNRyuDKdBy3EgFHpZyHFlAsnK-UjCe2uK3E7WcYrDsomtmho0mLafp-dZReYZujGckImhLYB_4YRCvvKM649nDb65gykPGnDZfCZW5IbF1Wh-C4tPWSJUMs8HU37r8rQAeG_cTyn23fk3KMKGyeHwgho_iXG_IFMt9GIg"
+    },
+    {
+      "position": 5,
+      "title": "Volcan Coffee & Space",
+      "place_id": "ChIJjZVDpw7FaS4RUkpiZb-dFRE",
+      "data_id": "0x2e69c50ea743958d:0x11159dbf65624a52",
+      "data_cid": "1231063518520953426",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c50ea743958d%3A0x11159dbf65624a52&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c50ea743958d%3A0x11159dbf65624a52&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.585234799999999,
+        "longitude": 106.8044592
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJjZVDpw7FaS4RUkpiZb-dFRE",
+      "provider_id": "/g/11m898ykn8",
+      "rating": 4.7,
+      "reviews": 399,
+      "type": "Kafe",
+      "types": [
+        "Kafe"
+      ],
+      "address": "Jl. Guntur No.34, RT.01/RW.06, Babakan, Bogor Tengah, Bogor City, West Java 16128",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 23.00",
+      "hours": "Buka · Tutup pukul 23.00",
+      "operating_hours": {
+        "selasa": "09.00–23.00",
+        "rabu": "09.00–23.00",
+        "kamis": "09.00–23.00",
+        "jumat": "09.00–23.00",
+        "sabtu": "09.00–23.00",
+        "minggu": "09.00–23.00",
+        "senin": "09.00–23.00"
+      },
+      "phone": "0852-1576-7898",
+      "website": "https://www.instagram.com/volcancoffee.roastery",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Kursi khusus pengguna kursi roda",
+            "Pintu masuk khusus pengguna kursi roda",
+            "Tempat parkir khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "pesan_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFtODk4eWtuOBgBOgMI8A0%3D&hl=id-ID&gl=id&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=wtzNaq6XAvaH0PEP0fPrsQY&ei=wtzNaq6XAvaH0PEP0fPrsQY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeyFt0JuyWQuLLDe5VhKn5FgEQclm7yhonW-wBxNGQLCwIGLTUltN_OCOD1LAU4OvCG1xuqo7T2oid-N8CndgJ5HK2o-HfUuUa2Z84Tv37DzXrHAsUMIehATDFUBpqXtTYXFosd=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/md7lgnicHcTdboIwGADQJ6r8KMGY7KKAgNpBSNrJdmNM6dpF6Ke0FfEF9wx7G5Odi_P3q6y9mo3n9Wq5kACyF86IkYO2QtsFh8GT49kYxI2HcXIZiJhz6-_dfGwcIZmIPtRBR7ncNrwf4lmBPqIpeVRFQ9JpVxDKelud6rTOAoLZqr6nRfBwN4hpCD8dqtap7uQ-Kg8hoPKbOXYOv9Yrel_G2bMdS2zY-04oTLOcJddba-lnm4Pp3qbA932k_udIvwBtDkRV"
+    },
+    {
+      "position": 6,
+      "title": "Sequoia Coffee And Space",
+      "place_id": "ChIJ0Vi_tcjFaS4ROr-jNj7IStM",
+      "data_id": "0x2e69c5c8b5bf58d1:0xd34ac83e36a3bf3a",
+      "data_cid": "15225201659809611578",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5c8b5bf58d1%3A0xd34ac83e36a3bf3a&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5c8b5bf58d1%3A0xd34ac83e36a3bf3a&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.5843881,
+        "longitude": 106.8058121
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJ0Vi_tcjFaS4ROr-jNj7IStM",
+      "provider_id": "/g/11r_q3zd0x",
+      "rating": 4.4,
+      "reviews": 667,
+      "type": "Kedai Kopi",
+      "types": [
+        "Kedai Kopi"
+      ],
+      "address": "Jl. Raya Pajajaran No.49, RT.04/RW.111, Babakan, Bogor Tengah, Bogor City, West Java 16128",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 23.00",
+      "hours": "Buka · Tutup pukul 23.00",
+      "operating_hours": {
+        "selasa": "08.00–23.00",
+        "rabu": "08.00–23.00",
+        "kamis": "08.00–23.00",
+        "jumat": "08.00–02.00",
+        "sabtu": "08.00–02.00",
+        "minggu": "08.00–23.00",
+        "senin": "08.00–23.00"
+      },
+      "phone": "0821-2420-8406",
+      "website": "https://linktr.ee/SQgarden",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Kursi khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeCmsWtFZaRVirzb2MMHrAC6EGHWNpOIYDFKFt-WMsn8UakpvBnGi6C_46nh_N-UHaVA8r634Tp7T4ncFODgMmL-ULLpOfIBCpcawoTCVLb41NI6Wkpg5XeCngLadUiedAtOuAf=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/4jTs-nicHcTbDoIgAADQLyKtjFpbD0h5Wahb81K9NCJEZwIDqq0f7Bv6m7bOw_l-Oue0XXvevZtPhFLizh-WG6ak49JNmBo9Yai1gFkPoXAYCcejbVx0poe6N-_rLMsSgzDcxUmT6yI9baN95ECTWbmq6KCfoYx7iC8BlN0lB1VCa7QycB6UelkGkkXFVmQjARUhumjTEGtGX6rENbkG0zyFzaDF4sixFITeqp7fkCseqN28pr7vg-4_A_IHN45ECA"
+    },
+    {
+      "position": 7,
+      "title": "Hideout Coffee and Kitchen",
+      "place_id": "ChIJlactCuHFaS4Rh3uE88RAy7E",
+      "data_id": "0x2e69c5e10a2da795:0xb1cb40c4f3847b87",
+      "data_cid": "12811404779628821383",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5e10a2da795%3A0xb1cb40c4f3847b87&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5e10a2da795%3A0xb1cb40c4f3847b87&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.5752966,
+        "longitude": 106.8010142
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJlactCuHFaS4Rh3uE88RAy7E",
+      "provider_id": "/g/11q4bypwjf",
+      "rating": 4.8,
+      "reviews": 940,
+      "type": "Kedai Kopi",
+      "types": [
+        "Kedai Kopi"
+      ],
+      "address": "Jl. A. Yani No.62 A, RT.02/RW.02, Tanah Sareal, Bogor City, West Java 16161",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 23.00",
+      "hours": "Buka · Tutup pukul 23.00",
+      "operating_hours": {
+        "selasa": "07.00–23.00",
+        "rabu": "07.00–23.00",
+        "kamis": "07.00–23.00",
+        "jumat": "07.00–23.00",
+        "sabtu": "09.00–02.00",
+        "minggu": "09.00–02.00",
+        "senin": "07.00–23.00"
+      },
+      "phone": "0812-3333-1245",
+      "extensions": [
+        {
+          "accessibility": [
+            "Dukungan instalasi bantu dengar",
+            "Kursi khusus pengguna kursi roda",
+            "Pintu masuk khusus pengguna kursi roda",
+            "Tempat parkir khusus pengguna kursi roda",
+            "Toilet khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "pesan_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFxNGJ5cHdqZhgBOgMI8A0%3D&hl=id-ID&gl=id&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=wtzNaq6XAvaH0PEP0fPrsQY&ei=wtzNaq6XAvaH0PEP0fPrsQY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdBXp_6gzZ4-4A1A1BsyuRRDrP--fpUzy8Vd6owTaQvDuovJzOw9128nBH8NwriEXYjgFb1X3Cg-XtJ8gHzwjFFsqXyUQziCJXqSJIXliNCJ52zLvm3SDxXRQLYmyI4g79pC49H=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/-h6NlHicHcRJDoIwAADAF1UooIKJBxYJNkQFlxQvRhELChRoodIP-gZ_Y-Ic5vvJOW_YQlHKXJ8QSkmZ9SzrUlrzrOaTlFYK6a6MgZQptu28qvDu4OYyI_JsAMOGNnTY2Mex1-0AeDRHOZqn-4yKwzUavJ4OSG6FBTWzdgJzI7pihZMn8W8Q6y4BmCOTBFI8fZ-1eDxGsnARbvdojcti46KpJsOh0vfeG8dRmFTj2iBzq3ENK1gKqKoqyP-noP4BbUFEcg"
+    },
+    {
+      "position": 8,
+      "title": "Two Stories - Bogor",
+      "place_id": "ChIJ7SDR2-DFaS4RAgh2rdCGN7U",
+      "data_id": "0x2e69c5e0dbd120ed:0xb53786d0ad760802",
+      "data_cid": "13058053875405555714",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5e0dbd120ed%3A0xb53786d0ad760802&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5e0dbd120ed%3A0xb53786d0ad760802&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.618080399999999,
+        "longitude": 106.8345245
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJ7SDR2-DFaS4RAgh2rdCGN7U",
+      "provider_id": "/g/11b7y791r_",
+      "rating": 4.6,
+      "reviews": 6784,
+      "type": "Restoran Eklektik",
+      "types": [
+        "Restoran Eklektik"
+      ],
+      "address": "Jl. Sukaraja - Katulampa, Katulampa, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 01.00",
+      "hours": "Buka · Tutup pukul 01.00",
+      "operating_hours": {
+        "selasa": "10.00–01.00",
+        "rabu": "10.00–01.00",
+        "kamis": "10.00–01.00",
+        "jumat": "10.00–01.00",
+        "sabtu": "10.00–01.00",
+        "minggu": "10.00–01.00",
+        "senin": "10.00–01.00"
+      },
+      "website": "https://www.instagram.com/twostories_id?igsh=dXk0ejJkMHF5dnAw",
+      "description": "Resto, pencuci mulut & makanan global. Dapur sejuk dengan tempat duduk outdoor yang menawarkan hidangan internasional, hidangan penutup, dan kopi.",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLc4emPg2-i_S9jQQhdWz9LBd7TweILLaJWRlOM7MBAu0_Kig11Pv11qAdtgDwSnuRmGc2jj6ulCpEyuDBQFU29aVLwGG58W9x_Midlq5SOAIMUYqG5rF3Oc-kRnU_iLfW9kvMU=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/UNLgdnicHcTbToMwAADQL-qgIM6a-FDGRqZtuInEJ0JKLZdSBm2H8wP9B_9miefh_P12xlz0s-PIzt-JeRaSW81XNivDldmxeXLE2mgNmHYwDseJsAc-pcIDfV2gIcu6tvpBJGz37xs_E9K8VrlM6J6G2Lr1Wy8gTK8QLrg1ItoKZfMpZt4wPFp5uBxvNgqzU-mh5oNscRw8Vei7pn0rl6BI8JmWn0scrCc_YWDMVVn35KtC45WWLxt0XRd0_zOg7vTZQ7w"
+    },
+    {
+      "position": 9,
+      "title": "POPOLO Coffee",
+      "place_id": "ChIJc9grwd3FaS4R2a8MnjKBZ2o",
+      "data_id": "0x2e69c5ddc12bd873:0x6a6781329e0cafd9",
+      "data_cid": "7667238945021538265",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5ddc12bd873%3A0x6a6781329e0cafd9&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5ddc12bd873%3A0x6a6781329e0cafd9&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.6055017,
+        "longitude": 106.810707
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJc9grwd3FaS4R2a8MnjKBZ2o",
+      "provider_id": "/g/11c1nyb4nx",
+      "rating": 4.6,
+      "reviews": 3860,
+      "type": "Kedai Kopi",
+      "types": [
+        "Kedai Kopi"
+      ],
+      "address": "Jl. Loader No.9, RT.04/RW.11, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 20.00",
+      "hours": "Buka · Tutup pukul 20.00",
+      "operating_hours": {
+        "selasa": "09.00–20.00",
+        "rabu": "09.00–20.00",
+        "kamis": "09.00–20.00",
+        "jumat": "08.00–20.00",
+        "sabtu": "08.00–20.00",
+        "minggu": "Tutup",
+        "senin": "09.00–20.00"
+      },
+      "phone": "(0251) 7545475",
+      "website": "https://www.instagram.com/popolocoffee/",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Kursi khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcJGnp9JOS-QfCymMASxAFdpPx7qsmoRC-Bp212wzH7sRy1MRayUEN0eTGe1vpZvY-MZWGx2FutqRud0TY8dwsI08QvSXe7o91bbfoaqQ_MLbQncP11n9PLTBYmluYEkr4WId_O=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/R-5CmXicHcRJDoIwAADAF1VaNAFMPIAR1ICyGcWLgVIhkS7QsvlB3-BvTJzDfD-1UkKuNa2pl4uK86ohvSQd5kwRphaYU63qcikBlpptOy_q46PHhHU8JyB6bmca2Mlku6UIJ6OVlMdb4Agd6eN7b8h4RkGcz5fdCZLUI2gQ9yEDwf3qTbrbqzbuS5hmZjnKAzSjIbkRg1uoKJ48b6NH4BcRwyFCzAr91Mlo02e7V7e6HsrHeTMiCCGo_2PAfoAvROY"
+    },
+    {
+      "position": 10,
+      "title": "Maraca Books And Coffee",
+      "place_id": "ChIJFyoejM7FaS4RCbHEA_3-Pno",
+      "data_id": "0x2e69c5ce8c1e2a17:0x7a3efefd03c4b109",
+      "data_cid": "8808758283826671881",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5ce8c1e2a17%3A0x7a3efefd03c4b109&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5ce8c1e2a17%3A0x7a3efefd03c4b109&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.5932014,
+        "longitude": 106.8030081
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJFyoejM7FaS4RCbHEA_3-Pno",
+      "provider_id": "/g/11clsc5kn7",
+      "rating": 4.7,
+      "reviews": 930,
+      "type": "Kafe",
+      "types": [
+        "Kafe",
+        "Kedai Kopi",
+        "Perpustakaan",
+        "Restoran"
+      ],
+      "address": "Jl. Jalak Harupat No.9a, RT.05/RW.04, Babakan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16122",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 22.00",
+      "hours": "Buka · Tutup pukul 22.00",
+      "operating_hours": {
+        "selasa": "06.30–22.00",
+        "rabu": "06.30–22.00",
+        "kamis": "06.30–22.00",
+        "jumat": "06.30–22.00",
+        "sabtu": "06.30–22.00",
+        "minggu": "06.30–22.00",
+        "senin": "06.30–22.00"
+      },
+      "phone": "0882-1263-8796",
+      "website": "https://www.instagram.com/maracacoffee/",
+      "description": "Restoran mewah, buku & minuman premium. Restoran trendi bersuasana nyaman yang menjual buku, campuran kopi & teh yang kompleks & makanan ringan.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Toilet khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Kursi khusus pengguna kursi roda",
+            "Pintu masuk khusus pengguna kursi roda",
+            "Tempat parkir khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "pesan_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjbHNjNWtuNxgBOgMI8A0%3D&hl=id-ID&gl=id&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=wtzNaq6XAvaH0PEP0fPrsQY&ei=wtzNaq6XAvaH0PEP0fPrsQY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLexcsiVQJfD5UMuT45rCHOSmjQWfoON8YjADV43FnJ-NOIFB0VabVzK9ynmc8J5P5t580OSmVl7nXkNoCyHW_pADwnw9WiQwygYNkhfdPyM6LPBlyydq9cp7sN95GiTgbbUuPx5zw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/XBdWW3icHcpJDoIwAADAFyE1WgUTDyxxQS0QtejJSIWCQIu0pNYf-gR_o_Eyp_m8CylbMTPNuhgNKOe0znqRdYQzmTE5ILwxaXcVwiDCdBy3arbZk4gSx0Huw-OuP4xh563CfXOPk5yHyDrfHR-PRwsWGChcL1yAryl-bWzNGmIFMIISWuD3cT1lpwpxT6-SS-v4iik7KWOl6RlVRX6L9G6yjdxa69vDJu1UIBsuywNN02MfPeFLzdUQAGAUf4nBvviLRgk"
+    },
+    {
+      "position": 11,
+      "title": "HAGU Coffee & Space - Sancang",
+      "place_id": "ChIJAfwIUj3FaS4RWoV4BEKpYxs",
+      "data_id": "0x2e69c53d5208fc01:0x1b63a9420478855a",
+      "data_cid": "1973607162726352218",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c53d5208fc01%3A0x1b63a9420478855a&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c53d5208fc01%3A0x1b63a9420478855a&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.591513099999999,
+        "longitude": 106.8080215
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJAfwIUj3FaS4RWoV4BEKpYxs",
+      "provider_id": "/g/11rtd2crjx",
+      "rating": 4.6,
+      "reviews": 1294,
+      "type": "Kedai Kopi",
+      "types": [
+        "Kedai Kopi"
+      ],
+      "address": "Jl. Sancang. 22 A RT 003/007, RT.03/RW.07, Babakan, Bogor Tengah, Bogor City, West Java 16128",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 23.00",
+      "hours": "Buka · Tutup pukul 23.00",
+      "operating_hours": {
+        "selasa": "09.00–23.00",
+        "rabu": "09.00–23.00",
+        "kamis": "09.00–23.00",
+        "jumat": "09.00–23.00",
+        "sabtu": "09.00–23.00",
+        "minggu": "09.00–23.00",
+        "senin": "09.00–23.00"
+      },
+      "phone": "0818-990-012",
+      "website": "https://instagram.com/hagu.space?utm_medium=copy_link",
+      "extensions": [
+        {
+          "accessibility": [
+            "Toilet khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "pesan_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFydGQyY3JqeBgCOgMI8A0%3D&hl=id-ID&gl=id&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=wtzNaq6XAvaH0PEP0fPrsQY&ei=wtzNaq6XAvaH0PEP0fPrsQY&fo_s=OA,SOE&opi=79508299&orderType=2&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcCxBHH1Ihb3lNHKHxMJBslmVCLmpM0X28HkRYFDvy2bh1pOdgq9Ia25qNVfg-YvkE6v9k8clPJHJPvIp3uNcusz8xOZ5TscUy58yw56WcR91M7UpInTBBVbA_kMlQQQEZtKol2zg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/do5RwHicHcRJDoIwFADQEyFTUDBxQR1SUFCM4rAx8sU2aaHVFgRv6BG8jYlv8b4fqrVUY9Pk1B0QIQgvG1U-QdS6rPUARGWS51UpA5QZhohVK5h2CGM7ooXLU7zEXRIjxat8uqpkYh0dH7PtaTFre6egtlzfyCOIro73SPM7MU4tmw_bgPnANzGON20k3SaFRr39bn32dgr2vef3L294gG1gJ6O9jOodQnkRXljCsyybn_VScOdNJi_bsiyD_gej_gHXEUUr"
+    },
+    {
+      "position": 12,
+      "title": "IMAH NINI COFFEE & VINTAGE",
+      "place_id": "ChIJmZTCCdLFaS4RpniuSXRnuRo",
+      "data_id": "0x2e69c5d209c29499:0x1ab9677449ae78a6",
+      "data_cid": "1925684064827635878",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5d209c29499%3A0x1ab9677449ae78a6&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5d209c29499%3A0x1ab9677449ae78a6&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.590997,
+        "longitude": 106.806387
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJmZTCCdLFaS4RpniuSXRnuRo",
+      "provider_id": "/g/11cjj7kfvy",
+      "rating": 4.5,
+      "reviews": 1139,
+      "type": "Kafe",
+      "types": [
+        "Kafe",
+        "Kedai Kopi"
+      ],
+      "address": "Jl. Sancang No.7, RT.02/RW.06, A-B, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16151",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 22.00",
+      "hours": "Buka · Tutup pukul 22.00",
+      "operating_hours": {
+        "selasa": "07.30–22.00",
+        "rabu": "07.30–22.00",
+        "kamis": "07.30–22.00",
+        "jumat": "07.30–22.00",
+        "sabtu": "07.30–22.00",
+        "minggu": "07.30–22.00",
+        "senin": "07.30–22.00"
+      },
+      "website": "http://linktr.ee/visitimahnini",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Kursi khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "pesan_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjamo3a2Z2eRgBOgMI8A0%3D&hl=id-ID&gl=id&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=wtzNaq6XAvaH0PEP0fPrsQY&ei=wtzNaq6XAvaH0PEP0fPrsQY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdtkhpVIDqxfad6VYmdZdYlYzsBdp4G9HvdELzwDtS-Enxpj8AcgS_LRswD_bGq9OMs2fYEfWetpsYwiGDctdrwfBmISy6-bZFdUoNEThb9qfYujURTCfytcOL5Jv3HU5hSUOxW=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/F2Hgf3icHc3BDoIgAADQLyIsq2VbB02zmuWmmcNLSxCpVFQo1B_sG_qbWpd3fZ83k7IWSwgLpo9yzvMie4qsxbySWSVHmJcwb69CACygaVqP0iPywerzzm46eiXzMypJQlCBBmGReuoa2xdxvEHZMgRO1dX3hYnz8OIFQtmX1G0M_yAmFDk0zn4vUjfXxpK0ilrlLuznIE02JOJH58RSo6HoeY-C05r2EvvebP_St9GMhZHfxSs11jQNsL8YVF-GjUdg"
+    },
+    {
+      "position": 13,
+      "title": "Third Wave Coffee Co Indonesia",
+      "place_id": "ChIJsVkwKcXFaS4RX98Byq5cAYQ",
+      "data_id": "0x2e69c5c5293059b1:0x84015caeca01df5f",
+      "data_cid": "9511985793766383455",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5c5293059b1%3A0x84015caeca01df5f&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5c5293059b1%3A0x84015caeca01df5f&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.5993439,
+        "longitude": 106.8056651
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJsVkwKcXFaS4RX98Byq5cAYQ",
+      "provider_id": "/g/11g9w5bbr_",
+      "rating": 4.6,
+      "reviews": 1996,
+      "type": "Kedai Kopi",
+      "types": [
+        "Kedai Kopi"
+      ],
+      "address": "Jl. Prof. DR. H. Andi Hakim Nasoetion No.1, RT.02/RW.05, Tegallega, Bogor Tengah, Bogor City, West Java 16129",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 22.00",
+      "hours": "Buka · Tutup pukul 22.00",
+      "operating_hours": {
+        "selasa": "08.00–22.00",
+        "rabu": "08.00–22.00",
+        "kamis": "08.00–22.00",
+        "jumat": "08.00–22.00",
+        "sabtu": "08.00–22.00",
+        "minggu": "08.00–22.00",
+        "senin": "08.00–22.00"
+      },
+      "phone": "(0251) 8575930",
+      "website": "http://desty.page/twcoffee",
+      "description": "Restoran dengan kopi & makanan rumahan. Kafe nyaman dengan meja outdoor yang menyajikan berbagai minuman kopi, makanan enak & camilan manis.",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Kursi khusus pengguna kursi roda",
+            "Pintu masuk khusus pengguna kursi roda",
+            "Tempat parkir khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "pesan_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFnOXc1YmJyXxgBOgMI8A0%3D&hl=id-ID&gl=id&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=wtzNaq6XAvaH0PEP0fPrsQY&ei=wtzNaq6XAvaH0PEP0fPrsQY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLciDv-Kt7U3o27k1KHZ2PT8s-IuNdkPE4udxW16CBh-5IilgkpY_z5aKrc9BkQ4QeZ-Pb7-9SCziATNF842XWD3_fYjKB3FdvR69HnX53TYrN7Y3YEsYHYtxZpDShY3kg4movA2=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/wJdfsXicHcTbCoIwAADQL1pe5iWDHjQVwxAro-ZL2LTNpk7cNPEH-4b-Jug8nO-HStmLjaI0FK4I56SpRlENmHey6uQK81YhQyEEwEJxXY-1B1z7E4ilfYFct5kWR7meZmsB9mNSsjQwxnK-atbOo8Dc1w1hPbovZhEP2PHY0ThWOUgfNnDOu6V2syRcG_rt6sP7E71iD4bldLKcqLuZMENDYiOIAoEiJOe8988UQUaMlk-uvn1rqqoC-h-D7geidkJx"
+    },
+    {
+      "position": 14,
+      "title": "Agreya Coffee Bogor - Cafe & Coffee Shop Bogor: WFC, Meeting Room, dan Smoking Indoor",
+      "place_id": "ChIJEb7hb8_FaS4RMb74YwG8J-Y",
+      "data_id": "0x2e69c5cf6fe1be11:0xe627bc0163f8be31",
+      "data_cid": "16584430866973376049",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5cf6fe1be11%3A0xe627bc0163f8be31&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5cf6fe1be11%3A0xe627bc0163f8be31&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.5924597,
+        "longitude": 106.816228
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJEb7hb8_FaS4RMb74YwG8J-Y",
+      "provider_id": "/g/11tgd4hmx3",
+      "rating": 4.8,
+      "reviews": 4689,
+      "type": "Kedai Kopi",
+      "types": [
+        "Kedai Kopi",
+        "Restoran"
+      ],
+      "address": "Jl. Kol. Enjo Martadisastra Jl. Kol. Ahmad Syam No.45 E, RT.04/RW.10, Tanah Baru, Bogor Utara, Bogor City, West Java 16154",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 01.00",
+      "hours": "Buka · Tutup pukul 01.00",
+      "operating_hours": {
+        "selasa": "06.00–01.00",
+        "rabu": "06.00–01.00",
+        "kamis": "06.00–01.00",
+        "jumat": "06.00–01.00",
+        "sabtu": "06.00–01.00",
+        "minggu": "06.00–01.00",
+        "senin": "06.00–01.00"
+      },
+      "phone": "0811-1185-5620",
+      "extensions": [
+        {
+          "accessibility": [
+            "Kursi khusus pengguna kursi roda",
+            "Toilet khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLf9DKA67Cb7tamqevEjCaw84NpZWV1GcZTjv_tAK2jA_3I5T-145aIhJoRtZ21TTu2VR3PmW3QQaIezkw2iMvIh5ZDdzIaRV9LqM6o-3GMJJkm04ZdpMTlqVswxuvEZmqsDkg1p=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/TczYrnicHcRLjoIwAADQE1UoBX-Jiw4YU5TJSBpMuiG1VipQCraA8YJzhrmNybzF-_tVzvV263mtQovKmKqVo5VPYTonO7cQRnvVk1sLhPUw_mr06b5Jjni5iq8rx_Ugp30d83kdfvfsUsCDYLSeSoePQY1LRCIKYBhxolKTOxZASsegyNGPvqDzmRP5bubgkU1ERSy5vQnPi81pyJYGoEOWpo32Q3brM9oOhZ1f47RnerBJU8F-N0Pf94H6X4DuAwM4RDU"
+    },
+    {
+      "position": 15,
+      "title": "Raindear Coffee House",
+      "place_id": "ChIJx3t3QdbFaS4RbcuuHF6UseY",
+      "data_id": "0x2e69c5d641777bc7:0xe6b1945e1caecb6d",
+      "data_cid": "16623230831530265453",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5d641777bc7%3A0xe6b1945e1caecb6d&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5d641777bc7%3A0xe6b1945e1caecb6d&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.6067149999999994,
+        "longitude": 106.8099159
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJx3t3QdbFaS4RbcuuHF6UseY",
+      "provider_id": "/g/11rx3g26pm",
+      "rating": 4.8,
+      "reviews": 3009,
+      "type": "Kedai Kopi",
+      "types": [
+        "Kedai Kopi"
+      ],
+      "address": "Jl. Kantor. Pos No.6, RT.04/RW.11, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 22.00",
+      "hours": "Buka · Tutup pukul 22.00",
+      "operating_hours": {
+        "selasa": "10.00–22.00",
+        "rabu": "10.00–22.00",
+        "kamis": "10.00–22.00",
+        "jumat": "10.00–22.00",
+        "sabtu": "10.00–22.00",
+        "minggu": "10.00–22.00",
+        "senin": "10.00–22.00"
+      },
+      "phone": "0821-1178-9089",
+      "website": "https://www.raindearcoffee.com/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Kursi khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "pesan_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFyeDNnMjZwbRgBOgMI8A0%3D&hl=id-ID&gl=id&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=wtzNaq6XAvaH0PEP0fPrsQY&ei=wtzNaq6XAvaH0PEP0fPrsQY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdXKzch31RSGeRIKW-LxQE9eaxZOy4_v5QT28h-oDEmo32sn2OGxIfeo9k1TevrSKFV3vioQ67oGksTRT-rhLa8nQl39iNxLFaGRXJbQHOP9veXWkz--m4t--_6vplN9eZJKUki=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/0v-dMHicHcTdTsIwFADgJzrspwjUxAuMMGALs2PKwg2Z9bAu3XrIWuvkBXkG38bE7-L7vSvnrvYxCDrFJg1R0-GXxUGScWjcRFIfNENtLUgbLJfPus8-q_QmFYuKQ4LFNj1CNooVx3o85T_Ts38QZbxQQC-rnlhsTZwn4_aCxHVUoh8O6fqd-ZbEbE6JtmVRwqCyemFEx3i7H7N1nRTV7kNs8lfusTrqG0A_dQDnmb92e46nXfqm26fvKAxDUP9LMH88UEQU"
+    },
+    {
+      "position": 16,
+      "title": "Hofland Cafe and Resto Bogor",
+      "place_id": "ChIJY7lCn5TFaS4RzcElz7gFhUQ",
+      "data_id": "0x2e69c5949f42b963:0x448505b8cf25c1cd",
+      "data_cid": "4937358857789096397",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5949f42b963%3A0x448505b8cf25c1cd&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5949f42b963%3A0x448505b8cf25c1cd&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.5690878999999995,
+        "longitude": 106.8048275
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJY7lCn5TFaS4RzcElz7gFhUQ",
+      "provider_id": "/g/11jn4vcmr1",
+      "rating": 4.6,
+      "reviews": 402,
+      "type": "Kafe",
+      "types": [
+        "Kafe",
+        "Restoran"
+      ],
+      "address": "Jl. A. Yani No.2, RT.01/RW.05, Tanah Sareal, Kota Bogor, Jawa Barat 16161",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 22.00",
+      "hours": "Buka · Tutup pukul 22.00",
+      "operating_hours": {
+        "selasa": "10.00–22.00",
+        "rabu": "10.00–22.00",
+        "kamis": "10.00–22.00",
+        "jumat": "10.00–22.00",
+        "sabtu": "10.00–23.00",
+        "minggu": "10.00–22.00",
+        "senin": "10.00–22.00"
+      },
+      "phone": "0852-8619-3186",
+      "extensions": [
+        {
+          "accessibility": [
+            "Toilet khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "pesan_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqbjR2Y21yMRgAOgMI8A0%3D&hl=id-ID&gl=id&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=wtzNaq6XAvaH0PEP0fPrsQY&ei=wtzNaq6XAvaH0PEP0fPrsQY&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLebDjo_2AVy8qjLbYtpAca4dy3HUcUeXUkl9SoVLtkKHVjgok95mJ0t7RZ6qdnC5Am9iQVVR40KtcxK8kznwDm6fJcnNZaoxEMNdutoqQ4XqDewkiXZsnEodR-kgnU9LELYvWkX=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ktH9VHicHcTdboIwGADQJ0Kq4g9LdlGFxEg1kYUK3BgstUhpP7GfQ_eCe4a9zRLPxfn7bRBv7sP3u2Y6UgCqkw8n7wIsSosjAcZX98o5Tzif0pU2TJ6jFk4Tyl_LvmXnAm9UVEH9mm4ykck80134BZyhTja8VaDDmdkSXKTlvK_tekZNeD1wngYkQfFMlvrHDpGZX7bC7ssKnvFuXz8Q-kOQ95Ec9DUvnY2hTj2tbBaymBXfR51_DmNCiNe8F579BwV_Rqo"
+    },
+    {
+      "position": 17,
+      "title": "Seahorse Coffee and Kitchen",
+      "place_id": "ChIJ-aS-faPHaS4RQY8gKgqZfL8",
+      "data_id": "0x2e69c7a37dbea4f9:0xbf7c990a2a208f41",
+      "data_cid": "13798071627291856705",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c7a37dbea4f9%3A0xbf7c990a2a208f41&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c7a37dbea4f9%3A0xbf7c990a2a208f41&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.6103203,
+        "longitude": 106.8198977
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJ-aS-faPHaS4RQY8gKgqZfL8",
+      "provider_id": "/g/11j6149sg8",
+      "rating": 4.8,
+      "reviews": 1317,
+      "type": "Kafe",
+      "types": [
+        "Kafe",
+        "Restoran",
+        "Kedai Kopi"
+      ],
+      "address": "Jl. Kol. Ahmad Syam, RT.05/RW.05, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 22.00",
+      "hours": "Buka · Tutup pukul 22.00",
+      "operating_hours": {
+        "selasa": "08.00–22.00",
+        "rabu": "08.00–22.00",
+        "kamis": "08.00–22.00",
+        "jumat": "08.00–22.00",
+        "sabtu": "08.00–22.00",
+        "minggu": "08.00–22.00",
+        "senin": "08.00–22.00"
+      },
+      "phone": "0821-2347-7997",
+      "extensions": [
+        {
+          "accessibility": [
+            "Kursi khusus pengguna kursi roda",
+            "Pintu masuk khusus pengguna kursi roda",
+            "Toilet khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "pesan_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFqNjE0OXNnOBgBOgMI8A0%3D&hl=id-ID&gl=id&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=wtzNaq6XAvaH0PEP0fPrsQY&ei=wtzNaq6XAvaH0PEP0fPrsQY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfTCv85whWVkNjaCGDItqW9DHsU31pchMq2MXV9lGSEhgBNKeOPood7owmZ7BNFbO7MJuwZSxNAQLqLlAczycQk3oAkziuX61BLPCCOvRznJS3o6EENE8qJLuNbscSgfSn7CMf_=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/UyZ5lXicHcRRboIwGADgEyEgUdTEh1LQDUtR65T4YrSDdgP6iy3iuKBn8DYm-x6-11Mac9Uz266kNxAAospbnd84KJMrM-BQ2-J21tri2kYoKGtS7PB9MurkYV_S3zNehp-mOUzDD_3luVcuk2aYZPtptWSRFAFd5eka4NuHrj76AV1cUj-J2-7IHhRtSEMqxPs_vik9QGX_02ZjNyBrjNP7tlcx82AcRTSaNDFp6UVzJgqmfJwUp3nnOo5jyf-5pd6LqUT_"
+    },
+    {
+      "position": 18,
+      "title": "Kemenady Coffee and Co-Working Space",
+      "place_id": "ChIJNzSABsrFaS4RpOPc3G54lH8",
+      "data_id": "0x2e69c5ca06803437:0x7f94786edcdce3a4",
+      "data_cid": "9193105156917224356",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5ca06803437%3A0x7f94786edcdce3a4&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5ca06803437%3A0x7f94786edcdce3a4&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.5917014,
+        "longitude": 106.79604169999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJNzSABsrFaS4RpOPc3G54lH8",
+      "provider_id": "/g/11c2r682n5",
+      "rating": 4.5,
+      "reviews": 1087,
+      "type": "Kedai Kopi",
+      "types": [
+        "Kedai Kopi",
+        "Kafe",
+        "Tempat penyangraian kopi",
+        "Ruang Kerja Bersama"
+      ],
+      "address": "Jl. Pengadilan No.23B, RT.05/RW.03, Pabaton, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16121",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 22.00",
+      "hours": "Buka · Tutup pukul 22.00",
+      "operating_hours": {
+        "selasa": "08.00–22.00",
+        "rabu": "08.00–22.00",
+        "kamis": "08.00–22.00",
+        "jumat": "08.00–22.00",
+        "sabtu": "08.00–22.00",
+        "minggu": "08.00–22.00",
+        "senin": "08.00–22.00"
+      },
+      "phone": "0881-2922-047",
+      "website": "http://kemenady.com/",
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Pintu masuk khusus pengguna kursi roda",
+            "Tempat parkir khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "pesan_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjMnI2ODJuNRgBOgMI8A0%3D&hl=id-ID&gl=id&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=wtzNaq6XAvaH0PEP0fPrsQY&ei=wtzNaq6XAvaH0PEP0fPrsQY&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcgX2C2PDAjyqwnd-18oO-rbBo-9mtSqDI-d6so8lbSPrgUw7Xl7ixyL8vWfc46Q0ywTsEr9fooUNKuG7d5GDDP5JQsbEINS3_bNGC1J4M5TN0Xvb6zT1QVPorNLXchmBv4Gr1Gsw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/kJyswXicHcTdToMwGADQJ-poN_5m4gWMpdnECoEpd8YWVlTgc_06Kr6hj7C3MfFcnNtvb-0X3nne0G9WGkAP3RU7o2Cy3WRXCkZPmzdEotBLkvRzzJVu1rt1kSUfy8VNLWExPBEjUyDb0VaX7EDaECEeZFUYfXJRM0Tv30sezy9n5YclXVyNe7M9A5zEw5VHbcCzrAiOJcr9QVSbVyn4jh39x6AWtJll-FOz8rkAI_JG9WM6-9wwju7eMUop6f9XZPoD1aJEnA"
+    },
+    {
+      "position": 19,
+      "title": "Miru Coffee",
+      "place_id": "ChIJE5lzDkPFaS4Rj6YZ_IATVfs",
+      "data_id": "0x2e69c5430e739913:0xfb551380fc19a68f",
+      "data_cid": "18110402921246598799",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5430e739913%3A0xfb551380fc19a68f&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5430e739913%3A0xfb551380fc19a68f&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.6117969,
+        "longitude": 106.8143544
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJE5lzDkPFaS4Rj6YZ_IATVfs",
+      "provider_id": "/g/11k3lnwfll",
+      "rating": 4.6,
+      "reviews": 418,
+      "type": "Kafe",
+      "types": [
+        "Kafe",
+        "Kedai Sarapan & Makan Siang",
+        "Kedai Kopi"
+      ],
+      "address": "Jl. Pajajaran Indah No.7, RT.01/RW.11, Baranangsiang, Bogor Timur, Bogor City, West Java 16143",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 21.00",
+      "hours": "Buka · Tutup pukul 21.00",
+      "operating_hours": {
+        "selasa": "07.00–21.00",
+        "rabu": "07.00–21.00",
+        "kamis": "07.00–21.00",
+        "jumat": "07.00–22.00",
+        "sabtu": "07.00–22.00",
+        "minggu": "07.00–22.00",
+        "senin": "07.00–21.00"
+      },
+      "extensions": [
+        {
+          "accessibility": [
+            "Toilet khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfmq4z_FHpGU16_PTYdTq4hvqVgqANxsVZTqDop7oEgaMXWX0_v9EwWRkIDOoScGHBHt9jUwCXIqcKxqOwnjWecT6KVXbSblOPYWUyqBghhkz3YrkNQh0GD0sy5e4sQC8kR2njkxw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/XJFO5nicHcRJDoIwAADAFyFVcU08gCgYF1xYvRCttQ2FltJq0R_6BH9j4hzm-yFK1XJqmiXpdzDnuEQPiRrImUJMdSCvTNxcpDSgNG3bodXmXgnrnS_92ou6w3wfZrdQWOQpYizsXSvjcyhcXo_4Al-2aZKC_DlZ6ORIV27AT9DzHV9NikjP05WA61YEmhUJguFwHafX07UM9lkSvYSDCaHvftbQ3YEAzwXyNUCWPMzH9NhjBW31THcBAAb5Dw32A61WR2I"
+    },
+    {
+      "position": 20,
+      "title": "Dailydose Coffee & Eatery",
+      "place_id": "ChIJjWqdbNXFaS4RMGylspM_0Po",
+      "data_id": "0x2e69c5d56c9d6a8d:0xfad03f93b2a56c30",
+      "data_cid": "18073015208227728432",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x2e69c5d56c9d6a8d%3A0xfad03f93b2a56c30&engine=google_maps_reviews&hl=id",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x2e69c5d56c9d6a8d%3A0xfad03f93b2a56c30&engine=google_maps_photos&hl=id",
+      "gps_coordinates": {
+        "latitude": -6.5881972,
+        "longitude": 106.81662779999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=id&place_id=ChIJjWqdbNXFaS4RMGylspM_0Po",
+      "provider_id": "/g/11bc7mdccd",
+      "rating": 4.6,
+      "reviews": 1219,
+      "type": "Kafe",
+      "types": [
+        "Kafe",
+        "Kedai Kopi"
+      ],
+      "address": "No.141 A, Jl. Pandu Raya No.141a, RT.03/RW.16, Tegal Gundil, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16152",
+      "country": "Indonesia",
+      "open_state": "Buka · Tutup pukul 22.00",
+      "hours": "Buka · Tutup pukul 22.00",
+      "operating_hours": {
+        "selasa": "10.00–22.00",
+        "rabu": "10.00–22.00",
+        "kamis": "10.00–22.00",
+        "jumat": "10.00–22.00",
+        "sabtu": "10.00–22.00",
+        "minggu": "10.00–22.00",
+        "senin": "10.00–22.00"
+      },
+      "phone": "0817-0379-3059",
+      "website": "http://dailydosebogor.wix.com/site",
+      "description": "Kafe dan tempat makan yang nyaman. Kopi arabika pilihan, beragam menu Asia dan Barat, dan makanan penutup disajikan di tempat bernuansa nyaman.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Tempat parkir khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Kursi khusus pengguna kursi roda",
+            "Pintu masuk khusus pengguna kursi roda"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfVO32xTTZf5jvqKWuaoI5pNnWSmwFE3CtajzQSII_uqh2UFHWC-o5eQl44SRtqZl4lWaFOyBFvdWnPkaqyex1n-TNOL6-h5c5tnCuKZzcCrqVrc-sWCsngO5YbSxXsYxRKL0JUHw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/oSDIHHicHcTBDoIgAADQLyItpUNbh2K5TJeVFumlEaHMEEIwrT_sE_qbtt7hfT_c2oeZOY7g3qhSqhKsM6ylSlom7YiqxqlaYgygxlkslvcmLk-JNxmyrChh_dQR7ogK4WMrcdr0wcpDltTvfRqGl07zyTFYYwQUZHvh--nB6kL4ApMgeS2D5w3L3Z3oFxvGEmTbJJ4CDim0EnVR8aao1aeWAoORkVUC82s6nE0-HKLY3RzX_bwfu64L-H8K5A9sy0av"
     }
-  ]
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&gl=id&google_domain=google.co.id&hl=id&q=kafe+bogor&start=20&type=search"
+  }
 }
