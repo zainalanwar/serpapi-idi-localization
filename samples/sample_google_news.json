@@ -1,35 +1,1377 @@
 {
+  "search_metadata": {
+    "id": "6acddc5c2d916aa5210399c8",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/C5i3j4lZUiZkPTkntgUa4WRYIXorM4h8k4Qb3_faDkg/6acddc5c2d916aa5210399c8.json",
+    "markdown_endpoint": "https://serpapi.com/searches/C5i3j4lZUiZkPTkntgUa4WRYIXorM4h8k4Qb3_faDkg/6acddc5c2d916aa5210399c8.md",
+    "created_at": "2026-10-13 07:23:08 UTC",
+    "processed_at": "2026-10-13 07:23:08 UTC",
+    "google_news_url": "https://news.google.com/search?q=gempa+indonesia&hl=id&gl=ID",
+    "raw_html_file": "https://serpapi.com/searches/C5i3j4lZUiZkPTkntgUa4WRYIXorM4h8k4Qb3_faDkg/6acddc5c2d916aa5210399c8.html",
+    "total_time_taken": 1.48
+  },
   "search_parameters": {
     "engine": "google_news",
-    "q": "gempa surabaya",
     "gl": "id",
-    "hl": "id"
+    "hl": "id",
+    "q": "gempa indonesia"
   },
   "news_results": [
     {
-      "title": "Gempa 5,2 SR Guncang Timur Laut Surabaya, Tidak Berpotensi Tsunami",
-      "source": "kumparan",
-      "date": "2 jam lalu"
+      "position": 1,
+      "title": "Skenario Terburuk Megathrust RI Pecah: Gempa M 9,2-Tsunami 10 M Lebih",
+      "source": {
+        "name": "CNBC Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbcindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnbcindonesia.com/tech/20261010231013-37-775023/skenario-terburuk-megathrust-ri-pecah-gempa-m-92-tsunami-10-m-lebih",
+      "thumbnail": "https://awsimages.detik.net.id/visual/2025/12/30/segmen-zona-megathrust-di-selatan-jawa-dan-sumatra-1767083097655_169.jpeg?w=650&q=80",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNHlWRGxJT1UxTlNGTnVTVmQyVFJEdUFoaUtCU2dLTWdNVk1Bdw",
+      "date": "10/11/2026, 06:39 AM, +0000 UTC",
+      "iso_date": "2026-10-11T06:39:26Z"
     },
     {
-      "title": "BMKG: Gempa M 5,2 Terasa di Surabaya dan Sidoarjo",
-      "source": "detik.com",
-      "date": "3 jam lalu"
+      "position": 2,
+      "title": "Toa Masjid Indonesia Bisa Jadi Sistem Peringatan Dini Gempa",
+      "source": {
+        "name": "detikInet",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://inet.detik.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://inet.detik.com/science/d-8703808/toa-masjid-indonesia-bisa-jadi-sistem-peringatan-dini-gempa",
+      "thumbnail": "https://awsimages.detik.net.id/community/media/visual/2023/02/10/ilustrasi-gempa-bumi-di-indonesia_169.jpeg?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXVMWFEwV0VRNFZHWXlkVzE2VFJDZkF4ampCU2dLTWdZQlFKU2dOd1k",
+      "date": "10/12/2026, 10:42 AM, +0000 UTC",
+      "iso_date": "2026-10-12T10:42:39Z"
     },
     {
-      "title": "Respon Warga Surabaya Setelah Gempa, Jalur Transportasi Aman",
-      "source": "suarabaya.id",
-      "date": "4 jam lalu"
+      "position": 3,
+      "title": "Info Gempa Hari Ini Senin, 12 Oktober 2026: Gempa M 5,7 Guncang Indonesia",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/0fda9850c81180f/info-gempa-hari-ini-senin-12-oktober-2026-gempa-m-5-7-guncang-indonesia",
+      "date": "10/11/2026, 09:40 PM, +0000 UTC",
+      "iso_date": "2026-10-11T21:40:40Z"
     },
     {
-      "title": "Gempa M 5,2: Gedung Perkantoran di Surabaya Dirutekan Warganya",
-      "source": "jatim.tribunnews.com",
-      "date": "5 jam lalu"
+      "position": 4,
+      "title": "Gempa Besar M7,7 Guncang Panama, Ahli: Jadi Pelajaran Ancaman Sesar Senyap di Indonesia",
+      "source": {
+        "name": "SINDOnews Nasional",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://nasional.sindonews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://nasional.sindonews.com/read/1758935/15/gempa-besar-m77-guncang-panama-ahli-jadi-pelajaran-ancaman-sesar-senyap-di-indonesia-1791601823",
+      "thumbnail": "https://pict.sindonews.com/dyn/850/pena/news/2026/10/10/15/1758935/gempa-besar-m77-guncang-panama-ahli-jadi-pelajaran-ancaman-sesar-senyap-di-indonesia-xzi.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUtaMDlwZWpCNGNtNDJhRmRFVFJEQUF4aXNCU2dLTWdrQlFJZ052V1RZcHdJ",
+      "date": "10/10/2026, 03:42 AM, +0000 UTC",
+      "iso_date": "2026-10-10T03:42:41Z"
     },
     {
-      "title": "Ternyata Ini Penyebab Gempa di Sekitar Surabaya",
-      "source": "liputan6.com",
-      "date": "7 jam lalu"
+      "position": 5,
+      "title": "WNI Diimbau Hubungi Nomor KBRI jika dalam Kondisi Darurat Usai Gempa M 7,7 Panama",
+      "source": {
+        "name": "Kompas.com",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://nasional.kompas.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Al Farisi"
+        ]
+      },
+      "link": "https://nasional.kompas.com/read/2026/10/10/15331611/wni-diimbau-hubungi-nomor-kbri-jika-dalam-kondisi-darurat-usai-gempa-m-77",
+      "thumbnail": "https://asset.kompas.com/crops/7kkUkjwh1iKbCSpeTIbapxjlqdg=/0x0:0x0/1200x800/data/photo/2026/08/13/6a7d74adedcd4.jpeg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXZNVEJGYnpCTk5HWmpRMWxDVFJERUF4aW1CU2dLTWdZdGRZcXVyUWM",
+      "date": "10/10/2026, 08:33 AM, +0000 UTC",
+      "iso_date": "2026-10-10T08:33:00Z"
+    },
+    {
+      "position": 6,
+      "title": "Gempa Magnitudo 5,7 Guncang Sukabumi, Jawa Barat",
+      "source": {
+        "name": "CNBC Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbcindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnbcindonesia.com/news/20261011122817-4-775071/gempa-magnitudo-57-guncang-sukabumi-jawa-barat",
+      "thumbnail": "https://awsimages.detik.net.id/visual/2026/10/11/gempa-bumi-mengguncang-sukabumi-jawa-barat-dengan-kekuatan-57-magnitudo-dengan-kedalaman-163-km-pada-minggu-11102026-1791693272615_169.png?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVpZVVJwVW1FdFdWcFJNVWxqVFJDZ0F4amlCU2dLTWdrTkFJYXZuT0lPd3dJ",
+      "date": "10/11/2026, 05:37 AM, +0000 UTC",
+      "iso_date": "2026-10-11T05:37:07Z"
+    },
+    {
+      "position": 7,
+      "title": "Prakiraan Cuaca Indonesia Sepekan Periode 09 – 15 Oktober 2026: Meski Kemarau Mendominasi, Potensi Hujan Masih Ada di Sejumlah Wilayah",
+      "source": {
+        "name": "BMKG",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.bmkg.go.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bmkg.go.id/cuaca/potensi-hujan-sepekan/prakiraan-cuaca-indonesia-sepekan-periode-09-15-oktober-2026-meski-kemarau-mendominasi-potensi-hujan-masih-ada-di-sejumlah-wilayah",
+      "thumbnail": "https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/Potensi-Hujan-Sepekan-1.png?fit=1280%2C720&ssl=1",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW1XRTl6UWpOV05WVnpiak40VFJDZkF4ampCU2dLTWdhaFU0NU1yUVU",
+      "date": "10/13/2026, 12:00 AM, +0000 UTC",
+      "iso_date": "2026-10-13T00:00:05Z"
+    },
+    {
+      "position": 8,
+      "title": "Indonesia telah mengalami serangkaian letusan gunung berapi dan gempa bumi.",
+      "source": {
+        "name": "Vietnam.vn",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.vietnam.vn&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.vietnam.vn/id/indonesia-lien-tuc-ghi-nhan-cac-dot-phun-trao-nui-lua-va-dong-dat",
+      "thumbnail": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/10/13/1791870568940_ttxvn_indonesia-lien-tuc-ghi-nhan-cac-dot-phun-trao-nui-lua-va-dong-dat-1310-jpg.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNUJRbTlPUmsxM1JGUTFkVkJzVFJDUkF4ajhCU2dLTWdNQkVnTQ",
+      "date": "10/13/2026, 07:03 AM, +0000 UTC",
+      "iso_date": "2026-10-13T07:03:16Z"
+    },
+    {
+      "position": 9,
+      "title": "Gempa Terkini: Magnitudo 5,0 Terjadi di Indonesia",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/7321c1d5dcf37bb/gempa-terkini-magnitudo-5-0-terjadi-di-indonesia",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/236191-gempa-terkini-magnitudo-5-0-terjadi-di-indonesia.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXhSamRDVjBNNWNtMUhabVpEVFJDZkF4ampCU2dLTWdhVkpJNHFxZ2M",
+      "date": "10/10/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-10-10T07:00:00Z"
+    },
+    {
+      "position": 10,
+      "title": "Indonesia uji pengeras suara masjid sebagai alarm peringatan gempa",
+      "source": {
+        "name": "IDNFinancials",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.idnfinancials.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.idnfinancials.com/id/news/70150/indonesia-uji-pengeras-suara-masjid-sebagai-alarm-peringatan-gempa",
+      "thumbnail": "https://photos.idnfinancials.com/_idn/_NEW/Rilis%20Artist%20Impression%20Aerial%20View%20Masjid%20Al-Ikhlas%20PIK.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW9YMmc1UWkxM1JEWlBibDlHVFJDZkF4ampCU2dLTWdZQk1ZaXRuUWM",
+      "date": "10/12/2026, 01:00 PM, +0000 UTC",
+      "iso_date": "2026-10-12T13:00:00Z"
+    },
+    {
+      "position": 11,
+      "title": "Gempa: Dua bulan pascagempa, warga NTT masih hidup dalam kondisi darurat",
+      "source": {
+        "name": "BBC",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Eliazar Robert"
+        ]
+      },
+      "link": "https://www.bbc.com/indonesia/articles/c65ynryd8xr7o",
+      "thumbnail": "https://ichef.bbci.co.uk/news/1024/branded_indonesia/030c/live/e6959d60-c379-11f1-bf6e-df6b71853a1a.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVlNMDFETTNZNE1IbGlUbkZMVFJDZkF4ampCU2dLTWdhQmtKQURQd1k",
+      "date": "10/09/2026, 12:54 AM, +0000 UTC",
+      "iso_date": "2026-10-09T00:54:08Z"
+    },
+    {
+      "position": 12,
+      "title": "Indonesia Manfaatkan Pengeras Suara Masjid Menjadi Sistem Peringatan Dini Gempa",
+      "source": {
+        "name": "Rmol.id",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://rmol.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://rmol.id/tekno/read/2026/10/12/724732/indonesia-manfaatkan-pengeras-suara-masjid-menjadi-sistem-peringatan-dini-gempa",
+      "thumbnail": "https://rmol.id/images/berita/normal/2026/10/940331_08015712102026_mufid-majnun-chKzuBsKydY-unsplas.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXZVQzFUVjJ0ZlFWbHBUV1ZTVFJDZkFSaS1BaWdCTWdZWmRJQ0x4UVU",
+      "date": "10/12/2026, 12:56 PM, +0000 UTC",
+      "iso_date": "2026-10-12T12:56:00Z"
+    },
+    {
+      "position": 13,
+      "title": "Peduli Gempa NTT dan Karhutla Indonesia Bersama JARS Indonesia",
+      "source": {
+        "name": "Rumah Zakat",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.rumahzakat.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.rumahzakat.org/donasi/peduli-gempa-ntt-bersama-jars-indonesia?source=0102020034090&type=zakat-emas",
+      "date": "10/11/2026, 08:51 PM, +0000 UTC",
+      "iso_date": "2026-10-11T20:51:14Z"
+    },
+    {
+      "position": 14,
+      "title": "Gempa M6,2 Guncang Kepulauan Solomon, BMKG: Tak Berpotensi Tsunami di Indonesia",
+      "source": {
+        "name": "TVRI News",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://nasional.tvrinews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://nasional.tvrinews.com/berita/tztzz3d-gempa-m62-guncang-kepulauan-solomon-bmkg-tak-berpotensi-tsunami-di-indonesia",
+      "thumbnail": "https://redaktur.tvrinews.com/storage/images/700x500/f711e53c-b21a-44d9-9400-101055d64a30.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNUpVVTlwZGpaQ2FWcHFjRVUxVFJDS0F4aThCU2dLTWdB",
+      "date": "10/11/2026, 03:19 PM, +0000 UTC",
+      "iso_date": "2026-10-11T15:19:00Z"
+    },
+    {
+      "position": 15,
+      "title": "Gempa Terkini 5,1 M Guncang Indonesia, Ini Penjelasan BMKG",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/c2a605179daa684/gempa-terkini-5-1-m-guncang-indonesia-ini-penjelasan-bmkg",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/236222-gempa-terkini-5-1-m-guncang-indonesia-ini-penjelasan-bmkg.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNU9kWGgyV0ZGc1NXSjNSUzB0VFJDb0FSaXNBaWdCTWdrRkFvaUVrcWxFOUFB",
+      "date": "10/09/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-10-09T07:00:00Z"
+    },
+    {
+      "position": 16,
+      "title": "BMKG Laporkan Gempa M 4,6 Guncang Banten, Kedalaman Titik Gempa 20 KM",
+      "source": {
+        "name": "CNBC Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbcindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnbcindonesia.com/news/20261012124757-4-775319/bmkg-laporkan-gempa-m-46-guncang-banten-kedalaman-titik-gempa-20-km",
+      "thumbnail": "https://awsimages.detik.net.id/visual/2026/08/27/ilustrasi-kantor-badan-meteorologi-klimatologi-dan-geofisika-bmkg-jakarta-1787829366049_169.jpeg?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXFWRGQ1YW5CTFZqTkdNSGRsVFJDZ0F4amlCU2dLTWdhVklZaUl3Z00",
+      "date": "10/12/2026, 05:51 AM, +0000 UTC",
+      "iso_date": "2026-10-12T05:51:10Z"
+    },
+    {
+      "position": 17,
+      "title": "Gempa Berkekuatan Sedang Guncang Indonesia dengan Magnitudo 5,1",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/1ad24d58e70a91b/gempa-berkekuatan-sedang-guncang-indonesia-dengan-magnitudo-5-1",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/232735-gempa-berkekuatan-sedang-guncang-indonesia-dengan-magnitudo-5-1.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVlUakpPZWtnMGRXaGpTWEpmVFJDZkF4ampCU2dLTWdZVkpJNUtLZ2M",
+      "date": "10/10/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-10-10T07:00:00Z"
+    },
+    {
+      "position": 18,
+      "title": "Gempa Hari Ini: Indonesia Diguncang Gempa Magnitudo 5,8, Tak Berpotensi Tsunami",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/48d3c2364ff86fc/gempa-hari-ini-indonesia-diguncang-gempa-magnitudo-5-8-tak-berpotensi-tsunami",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/243681-gempa-hari-ini-indonesia-diguncang-gempa-magnitudo-5-8-tak-berpotensi-tsunami.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNHRjblEyVkhGT2RERjRaakZxVFJDb0FSaXNBaWdCTWdrRkE0eGxFbWxyTVFF",
+      "date": "10/08/2026, 08:13 AM, +0000 UTC",
+      "iso_date": "2026-10-08T08:13:18Z"
+    },
+    {
+      "position": 19,
+      "title": "Gempa Bumi Terkini 5,2 M Guncang Indonesia, Tak Berpotensi Tsunami",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/d75f6fc63209c8f/gempa-bumi-terkini-5-2-m-guncang-indonesia-tak-berpotensi-tsunami",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/228739-gempa-bumi-terkini-5-2-m-guncang-indonesia-tak-berpotensi-tsunami.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUJjVGcyZVhVMmRDMTZaM000VFJDb0FSaXNBaWdCTWdtSkFvU0VrbWxVTkFF",
+      "date": "10/07/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-10-07T07:00:00Z"
+    },
+    {
+      "position": 20,
+      "title": "Info Gempa Hari Ini Senin, 12 Oktober 2026: Gempa M 4,1 Guncang Kabupaten Blitar",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/832a6e3ff65fd89/info-gempa-hari-ini-senin-12-oktober-2026-gempa-m-4-1-guncang-kabupaten-blitar",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/244482-gempa-bumi-terkini-4-6-m-guncang-lumajang-jawa-timur-tak-berpotensi-tsunami.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVRTVWRFVFU0d2FXWmhlSEZRVFJEY0FoanNCQ2dLTWdtSkE0aGxGdWxiOFFB",
+      "date": "10/12/2026, 06:01 AM, +0000 UTC",
+      "iso_date": "2026-10-12T06:01:24Z"
+    },
+    {
+      "position": 21,
+      "title": "Gempa Bumi Terkini 6,1 M Guncang Indonesia, Terbesar dalam Sepekan",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/cd474f15418e4c6/gempa-bumi-terkini-6-1-m-guncang-indonesia-terbesar-dalam-sepekan",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/243019-gempa-bumi-terkini-6-1-m-guncang-indonesia-terbesar-dalam-sepekan.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNW5YMnh3U1ZJMGJuVTJjRTlXVFJEY0FoanNCQ2dLTWdrSkJJaGxrdWxydEFB",
+      "date": "10/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-10-04T07:00:00Z"
+    },
+    {
+      "position": 22,
+      "title": "Gempa Terkini 4,5 M Guncang Deiyai, Ini Penjelasan BMKG",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/58ab349686db44a/gempa-terkini-4-5-m-guncang-deiyai-ini-penjelasan-bmkg",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/243758-info-gempa-hari-ini-jumat-09-oktober-2026-gempa-m-4-7-guncang-waingapu.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWpkbFJZUTBkZlRFVktWR0p2VFJDb0FSaXNBaWdCTWdrRkE0eUZGcWxqTUFF",
+      "date": "10/11/2026, 10:25 PM, +0000 UTC",
+      "iso_date": "2026-10-11T22:25:25Z"
+    },
+    {
+      "position": 23,
+      "title": "Potret Hotel Ambruk-Kantor Gubernur Roboh Usai Diguncang Gempa M 7,7",
+      "source": {
+        "name": "CNBC Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbcindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnbcindonesia.com/news/20261005124332-7-773354/potret-hotel-ambruk-kantor-gubernur-roboh-usai-diguncang-gempa-m-77",
+      "thumbnail": "https://awsimages.detik.net.id/visual/2026/10/10/sebuah-mobil-rusak-akibat-tertimpa-reruntuhan-setelah-gempa-bumi-melanda-dekat-pantai-selatan-panama-di-penonome-panama-pada-9-1791602110683_169.jpeg?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNUhUbVpRUmxnMlprRnJRM0ZJVFJDZkF4ampCU2dLTWdPQkZ3aw",
+      "date": "10/10/2026, 06:15 AM, +0000 UTC",
+      "iso_date": "2026-10-10T06:15:44Z"
+    },
+    {
+      "position": 24,
+      "title": "Gempa Bumi Terkini 5,9 M Guncang Indonesia, Tak Berpotensi Tsunami",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/428a5ec3cf5d5d0/gempa-bumi-terkini-5-9-m-guncang-indonesia-tak-berpotensi-tsunami",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/243021-gempa-bumi-terkini-5-9-m-guncang-indonesia-tak-berpotensi-tsunami.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXJkMDV3U1VZM1VFZG1hVGhHVFJDb0FSaXNBaWdCTWdtRkE0NWxFdWx6Y1FF",
+      "date": "10/03/2026, 11:43 PM, +0000 UTC",
+      "iso_date": "2026-10-03T23:43:29Z"
+    },
+    {
+      "position": 25,
+      "title": "Negara Gempa Dahsyat M 7,7 & 200 Gempa Susulan, Presiden Turun Gunung",
+      "source": {
+        "name": "CNBC Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbcindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnbcindonesia.com/news/20261012094133-4-775239/negara-gempa-dahsyat-m-77-200-gempa-susulan-presiden-turun-gunung",
+      "thumbnail": "https://awsimages.detik.net.id/visual/2026/10/11/sebuah-mobil-tampak-hancur-tertimpa-reruntuhan-bangunan-setelah-gempa-bumi-melanda-dekat-pesisir-selatan-panama-di-penonome-pa-1791691558340_169.jpeg?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUVRVXhFVEdKU2QxTktRWGw2VFJDZkF4ampCU2dLTWdZQlFJYTFWQUk",
+      "date": "10/12/2026, 04:00 AM, +0000 UTC",
+      "iso_date": "2026-10-12T04:00:00Z"
+    },
+    {
+      "position": 26,
+      "title": "Indonesia Uji Pengeras Suara Masjid untuk Alarm Gempa",
+      "source": {
+        "name": "Demokratis.co.id",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://demokratis.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://demokratis.co.id/indonesia-uji-pengeras-suara-masjid-alarm-gempa",
+      "thumbnail": "https://cdn.demokratis.co.id/media/images/2026/10/GuHJTCTcNN.jpeg?location=1&width=&height=&quality=90&fit=1",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWlWRUZVU2xWc1FWUmZkRFZ5VFJDZkF4ampCU2dLTWdZQlFKU2dOd1k",
+      "date": "10/12/2026, 10:48 AM, +0000 UTC",
+      "iso_date": "2026-10-12T10:48:19Z"
+    },
+    {
+      "position": 27,
+      "title": "Gempa M5,7 di Laut Selatan Sukabumi, Tidak Berpotensi Tsunami",
+      "source": {
+        "name": "CNN Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnnindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnnindonesia.com/nasional/20261011113019-20-1414035/gempa-m57-di-laut-selatan-sukabumi-tidak-berpotensi-tsunami",
+      "thumbnail": "https://akcdn.detik.net.id/visual/2019/09/26/22b8de88-e376-40c0-9f8e-5efb7cb4ec0b_169.jpeg?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHhZM1pDYTIxUUxYZFpNak5MVFJDZ0F4amlCU2dLTWdZUmdJNk50UWM",
+      "date": "10/11/2026, 04:35 AM, +0000 UTC",
+      "iso_date": "2026-10-11T04:35:46Z"
+    },
+    {
+      "position": 28,
+      "title": "Gempa Dahsyat Bak Bom Atom Hantam Padang, Saksi Mata Tertimbun Seleher",
+      "source": {
+        "name": "CNBC Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbcindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Muhammad Fakhriansyah"
+        ]
+      },
+      "link": "https://www.cnbcindonesia.com/news/20261010102507-4-774913/gempa-dahsyat-bak-bom-atom-hantam-padang-saksi-mata-tertimbun-seleher",
+      "thumbnail": "https://awsimages.detik.net.id/visual/2026/10/10/gempa-bumi-76-sr-yang-mengguncang-kota-padang-dan-sekitarnya-pada-rabu-30-september-2009-1791621447594_169.jpeg?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVdja2RuVDA5bE4xbFhVbmhXVFJDZ0F4amhCU2dLTWdZQlVKQXdSUVU",
+      "date": "10/10/2026, 10:30 AM, +0000 UTC",
+      "iso_date": "2026-10-10T10:30:00Z"
+    },
+    {
+      "position": 29,
+      "title": "Gempa M 4,6 Guncang Barat Daya Lumajang, Jawa Timur",
+      "source": {
+        "name": "TOPIK.ID",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.topik.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.topik.id/gempa-m-46-guncang-barat-daya-lumajang-jawa-timur",
+      "thumbnail": "https://www.topik.id/wp-content/uploads/2026/09/gempa-bumi.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVplakY0UnpZd1RESk1OVzFyVFJDZkF4ampCU2dLTWdZTmxJak14UVE",
+      "date": "10/12/2026, 12:19 PM, +0000 UTC",
+      "iso_date": "2026-10-12T12:19:04Z"
+    },
+    {
+      "position": 30,
+      "title": "BMKG Catat 2.768 Gempa Susulan Pasca-Gempa M7,7 Flores, Masyarakat Diimbau Tetap Waspada",
+      "source": {
+        "name": "BMKG",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.bmkg.go.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bmkg.go.id/siaran-pers/bmkg-catat-2-768-gempa-susulan-pasca-gempa-m77-flores-masyarakat-diimbau-tetap-waspada",
+      "thumbnail": "https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/WhatsApp-Image-2026-08-19-at-05.29.06.jpeg?fit=1280%2C640&ssl=1",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXhWMnhJYUdSMVoyeGlaV2d0VFJDSEF4aVBCaWdLTWdZVk1KSW9KZ2M",
+      "date": "08/19/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-19T07:00:00Z"
+    },
+    {
+      "position": 31,
+      "title": "Jawa Barat Sarang Gempa Dikepung 29 Sesar Aktif, Ini Daftarnya",
+      "source": {
+        "name": "CNBC Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbcindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnbcindonesia.com/tech/20261010231857-37-775024/jawa-barat-sarang-gempa-dikepung-29-sesar-aktif-ini-daftarnya",
+      "thumbnail": "https://awsimages.detik.net.id/visual/2026/01/19/atlas-siaga-sesar-lembang-dok-biro-pemerintahan-dan-otonomi-daerah-provinsi-jawa-barat-1768813164679_169.jpeg?w=650&q=80",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXliVGwwUVdNMFZWVjFhR1ZyVFJEdUFoaUtCU2dLTWdhZFpaRHJyUVk",
+      "date": "10/11/2026, 10:45 AM, +0000 UTC",
+      "iso_date": "2026-10-11T10:45:00Z"
+    },
+    {
+      "position": 32,
+      "title": "Tol 'Langit' Anti Gempa 1.000 Tahun Milik Babah Alun Dibuka 2028",
+      "source": {
+        "name": "CNBC Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbcindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnbcindonesia.com/news/20261010225711-4-775020/tol-langit-anti-gempa-1000-tahun-milik-babah-alun-dibuka-2028",
+      "thumbnail": "https://awsimages.detik.net.id/visual/2026/08/07/suasana-pengerjaan-area-proyek-pembangunan-jalan-tol-harbour-road-ii-hbr-ii-di-kawasan-tanjung-priok-jakarta-jumat-782026-1786092785796_169.jpeg?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTFVbll4U21GMll6RlZaM3B4VFJDZkF4ampCU2dLTWdZOUVJVFVHQUk",
+      "date": "10/11/2026, 09:45 AM, +0000 UTC",
+      "iso_date": "2026-10-11T09:45:06Z"
+    },
+    {
+      "position": 33,
+      "title": "Gempa Flores M7,7 Jadi Momentum Penguatan Mitigasi Bencana Berbasis Sains dan Teknologi",
+      "source": {
+        "name": "BMKG",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.bmkg.go.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bmkg.go.id/berita/utama/gempa-flores-m77-jadi-momentum-penguatan-mitigasi-bencana-berbasis-sains-dan-teknologi",
+      "thumbnail": "https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/Screenshot-779.png?fit=1280%2C720&ssl=1",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVZPV3RYTmxKMFprbzFaRFF0VFJDZkF4ampCU2dLTWdZaGhZak5NUVk",
+      "date": "09/11/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-11T07:00:00Z"
+    },
+    {
+      "position": 34,
+      "title": "Gempa Bumi M5,9 – 6 km Tenggara KEPSERIBU-DKI",
+      "source": {
+        "name": "BMKG",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.bmkg.go.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bmkg.go.id/gempabumi/20260912042631",
+      "thumbnail": "https://cdn.bmkg.go.id/20260912042631_rev/intensity_logo.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVZXamhaUVZwRmExVkZlVW81VFJDVEJSalJBeWdLTWdhVkVvS091UVk",
+      "date": "09/12/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-12T07:00:00Z"
+    },
+    {
+      "position": 35,
+      "title": "Kapan Gempa Megathrust Bakal Guncang Indonesia? Ini Kata Ahli",
+      "source": {
+        "name": "CNN Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnnindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnnindonesia.com/teknologi/20260929153733-199-1409558/kapan-gempa-megathrust-bakal-guncang-indonesia-ini-kata-ahli",
+      "thumbnail": "https://akcdn.detik.net.id/visual/2024/08/16/ilustrasi-sesar-patahan-megathrust-gempa-bumi-3_169.jpeg?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNUhMVW95Y2pGamMzaG9VRGxqVFJDZkF4ampCU2dLTWdPQk5RZw",
+      "date": "09/30/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-30T07:00:00Z"
+    },
+    {
+      "position": 36,
+      "title": "6.700 Peserta Satukan Langkah, Donasi Rp232,850.000,- untuk Korban Gempa NTT",
+      "source": {
+        "name": "Korpri",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://korpri.go.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://korpri.go.id/berita/gemilang-korpri-night-run-2026-6700-peserta-satukan-langkah-donasi-rp232850000-untuk-korban-gempa-ntt",
+      "thumbnail": "https://korpri.go.id/file_manager/berita/1791690904.jpeg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXBaVmRyWkhWTVNGaFBWMU56VFJEZ0F4aUFCU2dLTWdZQmdZcVF0UWM",
+      "date": "10/11/2026, 01:00 AM, +0000 UTC",
+      "iso_date": "2026-10-11T01:00:05Z"
+    },
+    {
+      "position": 37,
+      "title": "Horor! Tanah Terbelah Muncul Usai Gempa Dahsyat Guncang Panama",
+      "source": {
+        "name": "CNBC Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbcindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnbcindonesia.com/news/20261011110615-7-775054/horor-tanah-terbelah-muncul-usai-gempa-dahsyat-guncang-panama",
+      "thumbnail": "https://awsimages.detik.net.id/visual/2026/10/11/tampilan-dari-drone-memperlihatkan-retakan-tanah-yang-membelah-lahan-pertanian-setelah-gempa-bumi-melanda-dekat-pesisir-selata-1791691558463_169.jpeg?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNVZhRUpzYm04d1RtOWtVV0ZXVFJDZkF4ampCU2dLTWdzQnNZYWp6T093bWtnTGJB",
+      "date": "10/11/2026, 06:54 AM, +0000 UTC",
+      "iso_date": "2026-10-11T06:54:17Z"
+    },
+    {
+      "position": 38,
+      "title": "Bencana: Mengapa lebih banyak penyintas gempa NTT meninggal di pengungsian daripada akibat bencana?",
+      "source": {
+        "name": "BBC",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bbc.com/indonesia/articles/cm790p742qvgo",
+      "thumbnail": "https://ichef.bbci.co.uk/news/1024/branded_indonesia/4e24/live/3afe1fd0-baf6-11f1-a831-2d69d9b13247.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVpWSGR3T1c5UWRUaHRORFJUVFJDZkF4ampCU2dLTWdrQnNJZ25RZVJiRFFJ",
+      "date": "09/28/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-28T07:00:00Z"
+    },
+    {
+      "position": 39,
+      "title": "Gempa Bumi M7,7 – 30 km TimurLaut MBAY-NAGEKEO-NTT",
+      "source": {
+        "name": "BMKG",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.bmkg.go.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bmkg.go.id/gempabumi/berpotensi-tsunami/20260815050954",
+      "thumbnail": "https://cdn.bmkg.go.id/20260815050954.gif",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNURTRzVITVdjeVNtUnNVekJqVFJEd0FSakFBaWdLTWdZQkFJNkpCUW8",
+      "date": "08/15/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-15T07:00:00Z"
+    },
+    {
+      "position": 40,
+      "title": "BRIN dan Jepang Kembangkan Sistem agar Respons Gempa Lebih Cepat dan Tepat",
+      "source": {
+        "name": "RRI.co.id",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://rri.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://rri.co.id/iptek/2804282/brin-dan-jepang-kembangkan-sistem-agar-respons-gempa-lebih-cepat-dan-tepat",
+      "thumbnail": "https://rri-portal-app-assets.obs.ap-southeast-4.myhuaweicloud.com/upload/berita/image/humas-kementrian-lembaga/1791771669897074_22aa490049_berita_humas-kementrian-lembaga.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNHlRVTFmWmpSU1dGbzJiMFpuVFJDZkF4ampCU2dLTWdB",
+      "date": "10/12/2026, 11:51 AM, +0000 UTC",
+      "iso_date": "2026-10-12T11:51:00Z"
+    },
+    {
+      "position": 41,
+      "title": "Mengenal Megathrust, Potensi Gempa dan Sebarannya di Indonesia",
+      "source": {
+        "name": "CNBC Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbcindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnbcindonesia.com/news/20260928112210-4-771403/mengenal-megathrust-potensi-gempa-dan-sebarannya-di-indonesia",
+      "thumbnail": "https://awsimages.detik.net.id/visual/2026/09/26/zona-megathrust-instagram-bmkg-1790403944506_169.png?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXFOVXBRTm14eFdrRklWMkpzVFJDZkF4ampCU2dLTWdhQkVvcUpuUVU",
+      "date": "09/28/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-28T07:00:00Z"
+    },
+    {
+      "position": 42,
+      "title": "Info Gempa Terkini: Banten Diguncang Gempa Magnitudo 4,6",
+      "source": {
+        "name": "MerahPutih",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.merahputih.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.merahputih.com/post/read/info-gempa-terkini-muarabinuangeun-banten",
+      "thumbnail": "https://img.merahputih.com/media/fe/ea/bf/feeabfd719f4c976c913079ecb445738_800x450.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNUJjV05OVVdZMGJ6QjJkMnBOVFJDZkF4ampCU2dLTWdNQlFCWQ",
+      "date": "10/12/2026, 05:39 AM, +0000 UTC",
+      "iso_date": "2026-10-12T05:39:15Z"
+    },
+    {
+      "position": 43,
+      "title": "Rangkaian Gempa Bumi di Kabupaten Bandung dan Sekitarnya 11 Agustus-17 September 2026",
+      "source": {
+        "name": "BMKG",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.bmkg.go.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bmkg.go.id/siaran-pers/rangkaian-gempa-bumi-di-kabupaten-bandung-dan-sekitarnya-11-agustus-17-september-2026",
+      "thumbnail": "https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/WhatsApp-Image-2026-09-17-at-11.48.21.jpeg?fit=1280%2C905&ssl=1",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXVOeTFKVjFGdVIxcGlWalpzVFJEU0F4aVRCU2dLTWdrQklJcVlGR21DeXdF",
+      "date": "09/17/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-17T07:00:00Z"
+    },
+    {
+      "position": 44,
+      "title": "Bentley jelaskan AI yang bantu rancang bangunan tahan gempa Indonesia",
+      "source": {
+        "name": "ANTARA News",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.antaranews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.antaranews.com/berita/5779184/bentley-jelaskan-ai-yang-bantu-rancang-bangunan-tahan-gempa-indonesia",
+      "thumbnail": "https://cdn.antaranews.com/cache/1200x800/2026/10/09/IMG-20261009-WA0004.v1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUVhWEl4U0V0SVkwNXBkSFIzVFJERUF4aW1CU2dLTWdZZFI1WXFJZ2c",
+      "date": "10/09/2026, 01:52 PM, +0000 UTC",
+      "iso_date": "2026-10-09T13:52:56Z"
+    },
+    {
+      "position": 45,
+      "title": "Gempa Bumi Berkekuatan M 5,6 Guncang Indonesia",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/884921a9fee6491/gempa-bumi-berkekuatan-m-5-6-guncang-indonesia",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/236146-gempa-bumi-berkekuatan-m-5-6-guncang-indonesia.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVNPVmxNUjE5c01FZzJVM0pJVFJDb0FSaXNBaWdCTWdhVkpJNHJKZ2s",
+      "date": "10/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-10-04T07:00:00Z"
+    },
+    {
+      "position": 46,
+      "title": "Potensi bencana megathrust di Indonesia – Apakah Indonesia siap menghadapinya jika terjadi?",
+      "source": {
+        "name": "BBC",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bbc.com/indonesia/articles/c84gkvwn691ro",
+      "thumbnail": "https://ichef.bbci.co.uk/news/1024/branded_indonesia/242b/live/b28d61a0-b0e7-11f1-ae0d-6f5ba3aa85ac.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWpaRTVHY0hoWlMwVnlZM2g1VFJDZkF4ampCU2dLTWdhcElZVFF2QVE",
+      "date": "09/16/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-16T07:00:00Z"
+    },
+    {
+      "position": 47,
+      "title": "Gempa Terkini 5,3 M Guncang Indonesia, Ini Penjelasan BMKG",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/b5eacd34508ef0e/gempa-terkini-5-3-m-guncang-indonesia-ini-penjelasan-bmkg",
+      "date": "09/21/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-21T07:00:00Z"
+    },
+    {
+      "position": 48,
+      "title": "Gempa Bumi Terkini 5,1 M Guncang Indonesia, Terbesar dalam Sepekan",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/227a01bb40885a9/gempa-bumi-terkini-5-1-m-guncang-indonesia-terbesar-dalam-sepekan",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/242518-gempa-bumi-terkini-5-1-m-guncang-indonesia-terbesar-dalam-sepekan.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXhWMmhWZFZSbWJUUlViM0ZFVFJEY0FoanNCQ2dLTWdrRkJJeUZHaXBrOHdB",
+      "date": "10/01/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-10-01T07:00:00Z"
+    },
+    {
+      "position": 49,
+      "title": "Bandara Saudi Dihantam Rudal - Tol 'Langit' Anti Gempa Dibuka 2028",
+      "source": {
+        "name": "CNBC Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbcindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnbcindonesia.com/news/20261012124548-8-775318/bandara-saudi-dihantam-rudal--tol-langit-anti-gempa-dibuka-2028",
+      "thumbnail": "https://awsimages.detik.net.id/visual/2026/10/12/bandara-saudi-dihantam-rudal-tol-langit-anti-gempa-dibuka-2028-1791784407984_169.png?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDRiRzB0ZEZSWlMyVjRTVUU1VFJDZkF4ampCU2dLTWdZVlFwYUlIZ2s",
+      "date": "10/12/2026, 07:16 AM, +0000 UTC",
+      "iso_date": "2026-10-12T07:16:28Z"
+    },
+    {
+      "position": 50,
+      "title": "AI Bantu Rancang Bangunan Tahan Gempa di Indonesia, tapi Keputusan Tetap di Tangan Insinyur",
+      "source": {
+        "name": "VOI.ID",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://voi.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://voi.id/teknologi/597840/ai-bantu-rancang-bangunan-tahan-gempa-di-indonesia-tapi-keputusan-tetap-di-tangan-insinyur",
+      "thumbnail": "https://imgsrv2.voi.id/7ocovZytBdhOofergAYJSO_VJxswawtN-X4C1AvoLRc/auto/1280/853/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy81OTc4NDAvMjAyNjEwMTAwMTU2LW1haW4uY3JvcHBlZF8xNzkxNTcyMjE4LmpwZWc.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDVXVkZzTjNWaVZubHFXRGxwVFJERUF4aW1CU2dLTWdhbFJaRE1wUWM",
+      "date": "10/10/2026, 03:30 AM, +0000 UTC",
+      "iso_date": "2026-10-10T03:30:00Z"
+    },
+    {
+      "position": 51,
+      "title": "Gempa Hari Ini: Indonesia Diguncang Gempa Magnitudo 5,3, Tak Berpotensi Tsunami",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/c1a4c4048adcfe5/gempa-hari-ini-indonesia-diguncang-gempa-magnitudo-5-3-tak-berpotensi-tsunami",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/228429-gempa-hari-ini-indonesia-diguncang-gempa-magnitudo-5-3-tak-berpotensi-tsunami.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNHdOR3hPU0ZwV1pHNWhTMWhoVFJEY0FoanNCQ2dLTWdrSkE0QmxsaWwwOGdB",
+      "date": "09/21/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-21T07:00:00Z"
+    },
+    {
+      "position": 52,
+      "title": "Bukan Sekadar Adzan, Pengeras Suara Masjid di Indonesia Bakal Disiapkan Jadi Alarm Gempa",
+      "source": {
+        "name": "Beritakota",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://beritakota.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://beritakota.id/bukan-sekadar-adzan-pengeras-suara-masjid-di-indonesia-bakal-disiapkan-jadi-alarm-gempa/",
+      "thumbnail": "https://beritakota.id/wp-content/uploads/2026/10/IMG-20261012-WA0042.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHpWRkpFYkd4WWFVSkhhazlMVFJDVkF4alhCQ2dLTWdhUmxJeEp2Z1k",
+      "date": "10/12/2026, 04:33 AM, +0000 UTC",
+      "iso_date": "2026-10-12T04:33:00Z"
+    },
+    {
+      "position": 53,
+      "title": "Gempa Dahsyat M7,7 Guncang Panama Jadi Pelajaran Ancaman Sesar Senyap di Indonesia",
+      "source": {
+        "name": "news.okezone.com",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://news.okezone.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://news.okezone.com/read/2026/10/10/337/3247035/gempa-dahsyat-m7-7-guncang-panama-jadi-pelajaran-ancaman-sesar-senyap-di-indonesia",
+      "thumbnail": "https://img.okezone.com/content/2026/10/10/337/3247035/viral-U7Hk_large.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNXRWVE5PTTBSSlRXZFhURzFmVFJDWkFoajBBeWdLTWdPSmxBUQ",
+      "date": "10/10/2026, 02:37 AM, +0000 UTC",
+      "iso_date": "2026-10-10T02:37:39Z"
+    },
+    {
+      "position": 54,
+      "title": "Gempa Terkini: Magnitudo 5,9 Terjadi di Indonesia",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/a13e959bc923a24/gempa-terkini-magnitudo-5-9-terjadi-di-indonesia",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/243020-gempa-terkini-magnitudo-5-9-terjadi-di-indonesia.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW1NM3BKYjJ4NlNERnZVVGh1VFJDb0FSaXNBaWdCTWdhVkpJNHFxZ2M",
+      "date": "10/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-10-04T07:00:00Z"
+    },
+    {
+      "position": 55,
+      "title": "Prakiraan Cuaca Indonesia Sepekan Periode 1–6 September 2026: Awal September Masih Didominasi Cuaca Panas dan Kering, Peluang Hujan Lokal Tetap Ada",
+      "source": {
+        "name": "BMKG",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.bmkg.go.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bmkg.go.id/cuaca/potensi-hujan-sepekan/prakiraan-cuaca-indonesia-sepekan-periode-1-6-september-2026-awal-september-masih-didominasi-cuaca-panas-dan-kering-peluang-hujan-lokal-tetap-ada",
+      "thumbnail": "https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/Potensi-Hujan-Sepekan-1.png?fit=1280%2C720&ssl=1",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW1XRTl6UWpOV05WVnpiak40VFJDZkF4ampCU2dLTWdhaFU0NU1yUVU",
+      "date": "09/06/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-06T07:00:00Z"
+    },
+    {
+      "position": 56,
+      "title": "Gempa Hari Ini: Indonesia Diguncang Gempa Magnitudo 5,1, Tak Berpotensi Tsunami",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/e97a449aa1b3067/gempa-hari-ini-indonesia-diguncang-gempa-magnitudo-5-1-tak-berpotensi-tsunami",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/228334-gempa-hari-ini-indonesia-diguncang-gempa-magnitudo-5-1-tak-berpotensi-tsunami.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUZjbUZwZUdGaGNITXhMV3RvVFJEY0FoanNCQ2dLTWdtSkFvQ0VraWxzRkFF",
+      "date": "09/17/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-17T07:00:00Z"
+    },
+    {
+      "position": 57,
+      "title": "Anak-anak Kampung Pasir Angin Ikuti Simulasi Gempa, Belajar Siaga Bencana Sejak Dini",
+      "source": {
+        "name": "Editor Indonesia",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://editorindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://editorindonesia.com/edukasi-migasi-bencana-anak-pasir-angin/",
+      "thumbnail": "https://editorindonesia.com/wp-content/uploads/2026/10/edukasi-mitigasi-bencana-dok-editor-indonesia.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNDVUM3BQZGxkaWQzUm5WSEp3VFJDTUF4alBCU2dLTWdrQkE0UmlScU5MUmdJ",
+      "date": "10/12/2026, 12:26 PM, +0000 UTC",
+      "iso_date": "2026-10-12T12:26:07Z"
+    },
+    {
+      "position": 58,
+      "title": "Gempa Hari Ini: Indonesia Diguncang Gempa Magnitudo 5,6, Tak Berpotensi Tsunami",
+      "source": {
+        "name": "Databoks Katadata",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/f512868327eb772/gempa-hari-ini-indonesia-diguncang-gempa-magnitudo-5-6-tak-berpotensi-tsunami",
+      "thumbnail": "https://a.basemaps.cartocdn.com/dark_all/4/13/7@2x.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHljblpWTm10c2RHRm9VWE5MVFJDQUJCaUFCQ2dLTWdhWmRJeXJNUVk",
+      "date": "09/14/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-14T07:00:00Z"
+    },
+    {
+      "position": 59,
+      "title": "Info Gempa Hari Ini Sabtu, 19 September 2026: Gempa M 5,1 Guncang Indonesia",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/4afbda2b7026123/info-gempa-hari-ini-sabtu-19-september-2026-gempa-m-5-1-guncang-indonesia",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/239710-info-gempa-hari-ini-sabtu-19-september-2026-gempa-m-5-1-guncang-indonesia.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHRWWE4xWlVjeVdHaFZieTAzVFJEY0FoanNCQ2dLTWdhSkFvQ0VrZ2s",
+      "date": "09/19/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-19T07:00:00Z"
+    },
+    {
+      "position": 60,
+      "title": "Ilmuwan Jepang-RI Berencana Jadikan Pengeras Suara Masjid Sebagai Alarm Gempa",
+      "source": {
+        "name": "detikcom",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.detik.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.detik.com/hikmah/khazanah/d-8703382/ilmuwan-jepang-ri-berencana-jadikan-pengeras-suara-masjid-sebagai-alarm-gempa",
+      "thumbnail": "https://awsimages.detik.net.id/community/media/visual/2018/08/23/f0edf55b-d73a-4b0f-8182-ec9baf08ce87_169.jpeg?w=600&q=90",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWthamRxTVc4MWNHUjRVblJzVFJEU0FoallCQ2dLTWdtVkVvVHowT0tDVHdF",
+      "date": "10/12/2026, 07:45 AM, +0000 UTC",
+      "iso_date": "2026-10-12T07:45:10Z"
+    },
+    {
+      "position": 61,
+      "title": "Gempa Bumi Berkekuatan M 5,5 Guncang Indonesia",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/3e1ac5609bf37fd/gempa-bumi-berkekuatan-m-5-5-guncang-indonesia",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/236151-gempa-bumi-berkekuatan-m-5-5-guncang-indonesia.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVFRMFJOYmpsR2FEQlFhbmRLVFJDZkF4ampCU2dLTWdhVkpJNUtwZ2M",
+      "date": "09/21/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-21T07:00:00Z"
+    },
+    {
+      "position": 62,
+      "title": "Bandara Internasional Panama Kembali Dibuka usai Gempa Besar M 7,7",
+      "source": {
+        "name": "CNN Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnnindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnnindonesia.com/internasional/20261010081920-134-1413770/bandara-internasional-panama-kembali-dibuka-usai-gempa-besar-m-77",
+      "thumbnail": "https://akcdn.detik.net.id/visual/2026/10/10/bandara-internasional-tocumen-panama-1791595410231_169.jpeg?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW9TREJSTkMxR1NXMUpNM05YVFJDZkF4ampCU2dLTWdZQkVJeTF2QVU",
+      "date": "10/10/2026, 01:35 AM, +0000 UTC",
+      "iso_date": "2026-10-10T01:35:25Z"
+    },
+    {
+      "position": 63,
+      "title": "Prakiraan Cuaca Indonesia Sepekan Periode 25–31 Agustus 2026: Kemarau dan Risiko Karhutla Meningkat, Namun Potensi Hujan Lokal Masih Ada",
+      "source": {
+        "name": "BMKG",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.bmkg.go.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bmkg.go.id/cuaca/potensi-hujan-sepekan/prakiraan-cuaca-indonesia-sepekan-periode-25-31-agustus-2026-kemarau-dan-risiko-karhutla-meningkat-namun-potensi-hujan-lokal-masih-ada",
+      "thumbnail": "https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/Potensi-Hujan-Sepekan-1.png?fit=1280%2C720&ssl=1",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW1XRTl6UWpOV05WVnpiak40VFJDZkF4ampCU2dLTWdhaFU0NU1yUVU",
+      "date": "08/24/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-24T07:00:00Z"
+    },
+    {
+      "position": 64,
+      "title": "Gempa Berkekuatan Sedang Guncang Indonesia dengan Magnitudo 5,2",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/cecac47b8bff24d/gempa-berkekuatan-sedang-guncang-indonesia-dengan-magnitudo-5-2",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/236739-gempa-berkekuatan-sedang-guncang-indonesia-dengan-magnitudo-5-2.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVBVMnRLVUhwV1NYaE5ia0ZzVFJDZkF4ampCU2dLTWdZVkpJNUtLZ2M",
+      "date": "09/19/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-19T07:00:00Z"
+    },
+    {
+      "position": 65,
+      "title": "BMKG Ungkap 14 Zona Megathrust yang Kepung Indonesia, Potensi Magnitudo hingga M 9,2",
+      "source": {
+        "name": "Kompas.com",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.kompas.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.kompas.com/tren/read/2026/09/24/151500065/bmkg-ungkap-14-zona-megathrust-yang-kepung-indonesia-potensi-magnitudo?page=all",
+      "thumbnail": "https://asset.kompas.com/crops/c4CWyFLTUCbrFV09GdOI5oq0yvc=/116x52:1011x649/1200x675/data/photo/2026/09/24/6ab4c90b27073.jpeg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU1aMloxVjNkeFZ6SnJiMUpuVFJDZkF4ampCU2dLTWdZcEE1SVFoUXc",
+      "date": "09/24/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-24T07:00:00Z"
+    },
+    {
+      "position": 66,
+      "title": "Gempa Bumi di Indonesia Tewaskan 38 Orang; Festival Katolik Dibatalkan",
+      "source": {
+        "name": "Vatican News",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.vaticannews.va&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Kasmir Nema"
+        ]
+      },
+      "link": "https://www.vaticannews.va/id/world/news/2026-08/gempa-bumi-di-indonesia-tewaskan-38-orang-festival-dibatalkan.html",
+      "thumbnail": "https://www.vaticannews.va/content/dam/vaticannews/agenzie/images/afp/2026/08/15/07/1786771608067.jpg/_jcr_content/renditions/cq5dam.thumbnail.cropped.750.422.jpeg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWlMVFF5YUhoUlNGSXdPRXhKVFJDZkF4amlCU2dLTWdrQmdZb3hQV1d4andF",
+      "date": "08/15/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-15T07:00:00Z"
+    },
+    {
+      "position": 67,
+      "title": "Menembus Jarak, Diaspora Indonesia di Kanada Kirim Bantuan Kemanusiaan untuk Penyintas Gempa NTT",
+      "source": {
+        "name": "Dompet Dhuafa",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.dompetdhuafa.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.dompetdhuafa.org/diaspora-indonesia-di-kanada-kirim-bantuan-untuk-penyintas-gempa-ntt/",
+      "thumbnail": "https://www.dompetdhuafa.org/wp-content/uploads/2026/10/Diaspora-Indonesia-di-Kanada-untuk-NTT-1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUJOVzFZYW1SRU5FaG9SbUpmVFJEU0FoakRBeWdLTWdrQk1KQ2lKR2xqNUFJ",
+      "date": "10/06/2026, 04:19 AM, +0000 UTC",
+      "iso_date": "2026-10-06T04:19:21Z"
+    },
+    {
+      "position": 68,
+      "title": "Gempa Magnitudo 7,7 Guncang Panama, Pemerintah Tetapkan Status Darurat",
+      "source": {
+        "name": "Radar Indonesia News",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.radarindonesianews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.radarindonesianews.com/gempa-magnitudo-77-guncang-panama-pemerintah-tetapkan-status-darurat/",
+      "thumbnail": "https://www.radarindonesianews.com/wp-content/uploads/2026/10/IMG_20261011_105716.gif",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUROekozWlROdlZEQjJjMU5NVFJDekJCamdBeWdLTWdZSk1weXBJUWs",
+      "date": "10/11/2026, 04:36 AM, +0000 UTC",
+      "iso_date": "2026-10-11T04:36:42Z"
+    },
+    {
+      "position": 69,
+      "title": "BMKG Ungkap Ada 14 Segmen Megathrust di Indonesia, Potensi Gempa Capai 9,2 M di Aceh dan Jawa",
+      "source": {
+        "name": "Informasi.com",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://informasi.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://informasi.com/nasional/infrms-28270/bmkg-ungkap-ada-14-segmen-megathrust-di-indonesia-potensi-gempa-capai-92-m-di-aceh-dan-jawa",
+      "thumbnail": "https://cdn.informasi.com/informasi-public/media/images/gambar-hasil-penelitian-bmkg-yang-memetakan-14-segmen-megathrust-di-indonesia-27092026-8770.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDRhV1pqWm14dmRISlpURms1VFJEZ0F4aUFCU2dLTWdZZEFwVFFpQXM",
+      "date": "09/27/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-27T07:00:00Z"
+    },
+    {
+      "position": 70,
+      "title": "Info Gempa Hari Ini Jumat, 11 September 2026: Gempa M 5,2 Guncang Indonesia",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/77fc70e8e0db552/info-gempa-hari-ini-jumat-11-september-2026-gempa-m-5-2-guncang-indonesia",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/239019-info-gempa-hari-ini-jumat-11-september-2026-gempa-m-5-2-guncang-indonesia.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTBhRGRMYUVSV2JrUlZjRVowVFJEY0FoanNCQ2dLTWdZRkFvaUVrZ2s",
+      "date": "09/11/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-11T07:00:00Z"
+    },
+    {
+      "position": 71,
+      "title": "[HOAKS] - MENJELANG AKHIR 2026, AKAN ADA GEMPA BESAR DI INDONESIA.",
+      "source": {
+        "name": "Jala Hoaks",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://jalahoaks.jakarta.go.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://jalahoaks.jakarta.go.id/detail/Hoaks-Gempa-Bumi-Besar-akan-Terjadi-di-Indonesia-Menjelang-Akhir-2026",
+      "thumbnail": "https://jalahoaks.jakarta.go.id/apps/dashboard/view/laporan/Hoaks-Menjelang-Akhir-2026-akan-Ada-Gempa-Besar-di-Indonesia-1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNDNkV2xhVXpodFpWZFdjbTFhVFJDREFoakNBU2dCTWdtSllvb0ZTdVNLU2dJ",
+      "date": "09/30/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-30T07:00:00Z"
+    },
+    {
+      "position": 72,
+      "title": "Gempa NTT: Pemerintah Indonesia tolak bantuan dari negara lain, apa alasannya?",
+      "source": {
+        "name": "BBC",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bbc.com/indonesia/articles/cy07ez0dq0qo",
+      "thumbnail": "https://ichef.bbci.co.uk/news/1024/branded_indonesia/90d2/live/92485050-9c77-11f1-8413-79a38c9f8909.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXJSRmx2T0dvM1VHVlpOeTFvVFJDZkF4ampCU2dLTWdhdGtvWlFRUVU",
+      "date": "08/21/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-21T07:00:00Z"
+    },
+    {
+      "position": 73,
+      "title": "Gempa magnitudo 7,7 guncang NTT",
+      "source": {
+        "name": "BBC",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bbc.com/indonesia/articles/c20eyvkxlr2o",
+      "thumbnail": "https://ichef.bbci.co.uk/news/1024/branded_indonesia/2d56/live/20d29a50-9873-11f1-8852-1bac2d211d6c.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWpWVkp1YVhGMFptUm5la3R1VFJDZkF4ampCU2dLTWdZaHM0U012UVE",
+      "date": "08/15/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-15T07:00:00Z"
+    },
+    {
+      "position": 74,
+      "title": "Gempa Hari Ini: Indonesia Diguncang Gempa Magnitudo 5,2, Tak Berpotensi Tsunami",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/9bd79aedebe18ac/gempa-hari-ini-indonesia-diguncang-gempa-magnitudo-5-2-tak-berpotensi-tsunami",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail/228496-gempa-hari-ini-indonesia-diguncang-gempa-magnitudo-5-2-tak-berpotensi-tsunami.png?v=1781086525",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW9NVmh3V0dSTVlsa3dTR1ZyVFJEY0FoanNCQ2dLTWdZSkE1eUpEUXc",
+      "date": "09/14/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-14T07:00:00Z"
+    },
+    {
+      "position": 75,
+      "title": "BMKG Akhiri Peringatan Dini Tsunami Gempa M7,7 Filipina, Kenaikan Tinggi Muka Air Laut Terpantau di Sejumlah Wilayah",
+      "source": {
+        "name": "BMKG",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.bmkg.go.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bmkg.go.id/siaran-pers/bmkg-akhiri-peringatan-dini-tsunami-gempa-m77-filipina-kenaikan-tinggi-muka-air-laut-terpantau-di-sejumlah-wilayah",
+      "thumbnail": "https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/IMG-20260608-WA0012.jpg?fit=1280%2C853&ssl=1",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU1jRGsxYmtSWFltbDNibTlyVFJERUF4aW1CU2dLTWdZQmNJeUFNQWM",
+      "date": "06/08/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-06-08T07:00:00Z"
+    },
+    {
+      "position": 76,
+      "title": "Gempa NTT: Jumlah korban tewas jadi 103 orang – Apa yang diketahui sejauh ini?",
+      "source": {
+        "name": "BBC",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bbc.com/indonesia/articles/ce85mmz83qjo",
+      "thumbnail": "https://ichef.bbci.co.uk/news/1024/branded_indonesia/602a/live/c4a47070-a068-11f1-b109-879e35c24276.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVlhMjl3ZFd0aGNHUkZXa1ZJVFJDZkF4ampCU2dLTWdhQmNvU3JOUVU",
+      "date": "08/15/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-15T07:00:00Z"
+    },
+    {
+      "position": 77,
+      "title": "Gempa Bumi Terkini 6,2 M Guncang Indonesia, Terbesar dalam Sepekan",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/c5a49a8044041be/gempa-bumi-terkini-6-2-m-guncang-indonesia-terbesar-dalam-sepekan",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/231988-gempa-bumi-terkini-6-2-m-guncang-indonesia-terbesar-dalam-sepekan.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXBSRzk1WmpsWFpuSTNYMEphVFJEY0FoanNCQ2dLTWdtRkFvcUVrdWxyVXdF",
+      "date": "09/14/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-14T07:00:00Z"
+    },
+    {
+      "position": 78,
+      "title": "Gempa Terkini 5,5 M Guncang Indonesia, Ini Penjelasan BMKG",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/9268857781ae515/gempa-terkini-5-5-m-guncang-indonesia-ini-penjelasan-bmkg",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail/228261-gempa-terkini-5-5-m-guncang-indonesia-ini-penjelasan-bmkg.png?v=1780896504",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNW1iM1ZJVVRWNE5FSkhaR2N4VFJEY0FoanNCQ2dLTWdNUkF4SQ",
+      "date": "08/18/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-18T07:00:00Z"
+    },
+    {
+      "position": 79,
+      "title": "Beredar Prakiraan Gempa Indonesia Sebelum 2026 Berakhir, BMKG: Tidak Ilmiah",
+      "source": {
+        "name": "Kompas.com",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://nasional.kompas.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://nasional.kompas.com/read/2026/09/08/06140991/beredar-prakiraan-gempa-indonesia-sebelum-2026-berakhir-bmkg-tidak-ilmiah",
+      "date": "09/08/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-08T07:00:00Z"
+    },
+    {
+      "position": 80,
+      "title": "Gempa M 4,0 Guncang Selatan Aceh Singkil",
+      "source": {
+        "name": "TOPIK.ID",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.topik.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.topik.id/gempa-m-40-guncang-selatan-aceh-singkil",
+      "thumbnail": "https://www.topik.id/wp-content/uploads/2026/09/gempa-bumi.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVplakY0UnpZd1RESk1OVzFyVFJDZkF4ampCU2dLTWdZTmxJak14UVE",
+      "date": "10/10/2026, 12:53 PM, +0000 UTC",
+      "iso_date": "2026-10-10T12:53:03Z"
+    },
+    {
+      "position": 81,
+      "title": "Gempa Hari Ini: Indonesia Diguncang Gempa Magnitudo 5,5, Tak Berpotensi Tsunami",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/ece1e76cdef8fc1/gempa-hari-ini-indonesia-diguncang-gempa-magnitudo-5-5-tak-berpotensi-tsunami",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/231138-gempa-hari-ini-indonesia-diguncang-gempa-magnitudo-5-5-tak-berpotensi-tsunami.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXNVa3h2WjNKWFFrbHVNM0ppVFJEY0FoanNCQ2dLTWdrRkFvaUVrbWxNRkFF",
+      "date": "08/31/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-31T07:00:00Z"
+    },
+    {
+      "position": 82,
+      "title": "Gempa Terkini 5,9 M Guncang Indonesia, Ini Penjelasan BMKG",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/2bea19ed02ebc8d/gempa-terkini-5-9-m-guncang-indonesia-ini-penjelasan-bmkg",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/234836-gempa-terkini-5-9-m-guncang-indonesia-ini-penjelasan-bmkg.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTRiVU5qTTNsMlNFVjNXbXBtVFJDb0FSaXNBaWdCTWdrSkE0S0ZsbWxjRXdF",
+      "date": "09/12/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-12T07:00:00Z"
+    },
+    {
+      "position": 83,
+      "title": "Aktivitas Seismik Indonesia: Rangkaian Gempa Guncang Sejumlah Wilayah",
+      "source": {
+        "name": "TVRI News",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://nasional.tvrinews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://nasional.tvrinews.com/berita/tlrl2yn-aktivitas-seismik-indonesia-rangkaian-gempa-guncang-sejumlah-wilayah",
+      "thumbnail": "https://redaktur.tvrinews.com/storage/images/700x500/e79958c9-55bf-4a25-89a1-247aa978f653.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDBZM3A1WjJsV1l6bENVRVJCVFJDZEF4aThCU2dLTWdhVlE1THVNUWM",
+      "date": "10/04/2026, 02:28 AM, +0000 UTC",
+      "iso_date": "2026-10-04T02:28:00Z"
+    },
+    {
+      "position": 84,
+      "title": "Warning Gempa Besar! RI Dikepung 14 Zona Megathrust, Ini Titiknya",
+      "source": {
+        "name": "CNBC Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbcindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnbcindonesia.com/tech/20260926132249-37-771148/warning-gempa-besar-ri-dikepung-14-zona-megathrust-ini-titiknya",
+      "thumbnail": "https://awsimages.detik.net.id/visual/2026/09/26/zona-megathrust-instagram-bmkg-1790403944586_169.png?w=650&q=80",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHljRVpWYW5jelYwSnRkVVZ2VFJEdEFoaUtCU2dLTWdZQkE0eUpHUVk",
+      "date": "09/26/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-26T07:00:00Z"
+    },
+    {
+      "position": 85,
+      "title": "Gempa M6,6 Guncang Loyalty Islands, BMKG Pastikan tak Berpotensi Tsunami di Indonesia",
+      "source": {
+        "name": "Media Indonesia",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://mediaindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://mediaindonesia.com/humaniora/937811/gempa-m66-guncang-loyalty-islands-bmkg-pastikan-tak-berpotensi-tsunami-di-indonesia",
+      "thumbnail": "https://mediaindonesia.gumlet.io/news/2026/09/26/1790389654_c078f2e1acbd5f2cb0dc.jpg?w=376&dpr=2.6",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWxRM2hqYjNaUVJXRlNZVjlZVFJDckFSaW1BaWdCTWdhbFU1YnV0UWM",
+      "date": "09/26/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-26T07:00:00Z"
+    },
+    {
+      "position": 86,
+      "title": "Gempa NTT: Penyintas erupsi Gunung Lewotobi mesti hadapi dampak gempa",
+      "source": {
+        "name": "BBC",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bbc.com/indonesia/articles/c8d3p5j82jvo",
+      "thumbnail": "https://ichef.bbci.co.uk/news/1024/branded_indonesia/82a7/live/76ca5fb0-a200-11f1-a97e-999c5aae08bf.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTBiVVF0WXpkSVlsUnRkVEp2VFJDZkF4ampCU2dLTWdrQlVJaWxyaVpreVFF",
+      "date": "08/25/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-25T07:00:00Z"
+    },
+    {
+      "position": 87,
+      "title": "BMKG Minta Warga Tak Terpengaruh Video Viral Ramalan Gempa M 9",
+      "source": {
+        "name": "detikNews",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://news.detik.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://news.detik.com/berita/d-8653476/bmkg-minta-warga-tak-terpengaruh-video-viral-ramalan-gempa-m-9",
+      "thumbnail": "https://awsimages.detik.net.id/community/media/visual/2023/02/10/ilustrasi-gempa-bumi-di-indonesia_169.jpeg?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXVMWFEwV0VRNFZHWXlkVzE2VFJDZkF4ampCU2dLTWdZQlFKU2dOd1k",
+      "date": "09/08/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-08T07:00:00Z"
+    },
+    {
+      "position": 88,
+      "title": "Gempa Terkini Gorontalo M5,4, BMKG Sebut Tidak Berpotensi Tsunami",
+      "source": {
+        "name": "Radar Malang",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://radarmalang.jawapos.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://radarmalang.jawapos.com/nasional/2610120017/gempa-terkini-gorontalo-m54-bmkg-sebut-tidak-berpotensi-tsunami",
+      "thumbnail": "https://cdn-jpr.jawapos.com/images/15/2026/10/12/gempa-bumi-m57-8-km-tenggara-pohuwato-gorontalo-bmkg-SIQk0.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHROa0ZwTlZZeVkxQllMVFJ3VFJDZkF4ampCU2dLTWdZcEZZYk90UVE",
+      "date": "10/12/2026, 05:50 AM, +0000 UTC",
+      "iso_date": "2026-10-12T05:50:44Z"
+    },
+    {
+      "position": 89,
+      "title": "Kasus NTT bukti krisis kapasitas negara tangani bencana",
+      "source": {
+        "name": "Amnesty International Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.amnesty.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.amnesty.id/kabar-terbaru/siaran-pers/gempa-ntt-bukti-krisis-kapasitas-negara-tangani-bencana/09/2026/",
+      "thumbnail": "https://www.amnesty.id/wp-content/uploads/2026/09/shutterstock_2838865851-1468x710.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDNaVkJpWm1wRVkyOVZWMjFDVFJDQkF4aWNCaWdLTWdZWm9vWXRQUVE",
+      "date": "09/17/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-17T07:00:00Z"
+    },
+    {
+      "position": 90,
+      "title": "Gempa NTT: Petugas medis berkejaran waktu selamatkan pasien",
+      "source": {
+        "name": "BBC",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Faisal Irfani"
+        ]
+      },
+      "link": "https://www.bbc.com/indonesia/articles/cz055yl2z4jo",
+      "thumbnail": "https://ichef.bbci.co.uk/news/1024/branded_indonesia/61cb/live/0c094b50-9a21-11f1-9a44-e568b7279c37.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNHhhUzFsV0UxRmVFVjRRMkpWVFJDZkF4ampCU2dLTWdrQk1JakRJbWtlNUFJ",
+      "date": "08/17/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-17T07:00:00Z"
+    },
+    {
+      "position": 91,
+      "title": "Gempa Bumi M6,7 – 42 km Tenggara PALU-SULTENG",
+      "source": {
+        "name": "BMKG",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.bmkg.go.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bmkg.go.id/gempabumi/20260616103010",
+      "thumbnail": "https://cdn.bmkg.go.id/20260616103010_rev/intensity_logo.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVdVazVsWDNSWE1XOTJVamx5VFJDVEJSalJBeWdLTWdhaEVvb3V0UVU",
+      "date": "06/16/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-06-16T07:00:00Z"
+    },
+    {
+      "position": 92,
+      "title": "Potensi Hujan Indonesia Sepekan ke Depan Periode 5–11 Juni 2026: Kemarau Datang Bertahap, Potensi Cuaca Ekstrem Belum Sepenuhnya Menurun",
+      "source": {
+        "name": "BMKG",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.bmkg.go.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bmkg.go.id/cuaca/potensi-hujan-sepekan/potensi-hujan-indonesia-sepekan-ke-depan-periode-5-11-juni-2026-kemarau-datang-bertahap-potensi-cuaca-ekstrem-belum-sepenuhnya-menurun",
+      "date": "06/11/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-06-11T07:00:00Z"
+    },
+    {
+      "position": 93,
+      "title": "Muncul Prediksi Gempa Indonesia Magnitudo 7-9 pada Akhir Tahun 2026, Ini Kata BMKG",
+      "source": {
+        "name": "Kompas.com",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.kompas.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.kompas.com/tren/read/2026/09/09/134005965/muncul-prediksi-gempa-indonesia-magnitudo-7-9-pada-akhir-tahun-2026-ini?page=all",
+      "thumbnail": "https://asset.kompas.com/crops/gI4udDcqRH_a5EVedr-qxZiAZ4A=/0x0:1200x800/1200x675/data/photo/2025/12/12/693b9309a9106.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNU1ZVjlITFdSUGJ6UnZXR0psVFJDZkF4ampCU2dLTWdPSmNRdw",
+      "date": "09/09/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-09T07:00:00Z"
+    },
+    {
+      "position": 94,
+      "title": "Sejarah Mencatat Gempa Terbesar di Indonesia yang Terdahsyat",
+      "source": {
+        "name": "Halodoc",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.halodoc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.halodoc.com/artikel/sejarah-mencatat-gempa-terbesar-di-indonesia-yang-terdahsyat",
+      "thumbnail": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2026/09/11084331/Pengetahuan-umum-21.jpg.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTZWMFV3UVc1VFVFbGhiWFJTVFJEREF4aW9CU2dLTWdZVms0eEpNZ2M",
+      "date": "09/10/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-10T07:00:00Z"
+    },
+    {
+      "position": 95,
+      "title": "Gempa Jepang: 30 orang meninggal dan ribuan orang mengungsi",
+      "source": {
+        "name": "BBC",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Gavin Butler",
+          "Chie Kobayashi"
+        ]
+      },
+      "link": "https://www.bbc.com/indonesia/articles/cwy4qx4ydyno",
+      "thumbnail": "https://ichef.bbci.co.uk/news/1024/branded_indonesia/70cd/live/94ba4800-8bdf-11f1-b2ab-0dd01740f9f6.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU9lbE10UzNKdFoxQjBWVkJoVFJDZkF4ampCU2dLTWdZQllJQUc0Z0E",
+      "date": "07/29/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-07-29T07:00:00Z"
+    },
+    {
+      "position": 96,
+      "title": "BMKG Ungkap Indonesia Pernah Diguncang Gempa Swarm, Apa Itu?",
+      "source": {
+        "name": "Kompas.com",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.kompas.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.kompas.com/tren/read/2026/09/29/103000965/bmkg-ungkap-indonesia-pernah-diguncang-gempa-swarm-apa-itu-?page=all",
+      "thumbnail": "https://asset.kompas.com/crops/H1NRS0NSIytRra2nnntwOh57Osk=/0x0:1000x667/1200x675/data/photo/2018/01/24/1865738973.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTRPVkpsWlRCdmJsbFBWM2xpVFJDZkF4ampCU2dLTWdhdFVvaFFzUVU",
+      "date": "09/29/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-29T07:00:00Z"
+    },
+    {
+      "position": 97,
+      "title": "Info Gempa Hari Ini Minggu, 16 Agustus 2026: Gempa M 5,1 Guncang Indonesia",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/7f890d7164fb39c/info-gempa-hari-ini-minggu-16-agustus-2026-gempa-m-5-1-guncang-indonesia",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/236352-info-gempa-hari-ini-minggu-16-agustus-2026-gempa-m-5-1-guncang-indonesia.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU5hVzlLTFdGdFZrcEpVek4zVFJEY0FoanNCQ2dLTWdhRkFvaUZsZ2s",
+      "date": "08/16/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-16T07:00:00Z"
+    },
+    {
+      "position": 98,
+      "title": "Pakar ITB: Gempa Flores M7,7 Perlu Diwaspadai, Kenali Potensi Gempa Susulan dan Risikonya",
+      "source": {
+        "name": "Institut Teknologi Bandung",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://itb.ac.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://itb.ac.id/berita/pakar-itb-gempa-flores-m77-perlu-diwaspadai-kenali-potensi-gempa-susulan-dan-risikonya/63717",
+      "thumbnail": "https://itb.ac.id/files/dokumentasi/Earthquake-pexels.PNG",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDRUMU5TVVdoaGRWcFZiMVJSVFJEV0FoamhCQ2dLTWdhQkVvd09PUVk",
+      "date": "08/15/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-15T07:00:00Z"
+    },
+    {
+      "position": 99,
+      "title": "Gempa Bumi Terkini 5,6 M Guncang Indonesia, Terbesar dalam Sepekan",
+      "source": {
+        "name": "Databoks",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://databoks.katadata.co.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://databoks.katadata.co.id/lingkungan/statistik/3c3e997944296ee/gempa-bumi-terkini-5-6-m-guncang-indonesia-terbesar-dalam-sepekan",
+      "thumbnail": "https://cdn1.katadata.co.id/media/chart_thumbnail_script/232963-gempa-bumi-terkini-5-6-m-guncang-indonesia-terbesar-dalam-sepekan.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNURaWEJETlhFd1dFTlllblZhVFJEY0FoanNCQ2dLTWdtRkFvaUZsaWxrRXdF",
+      "date": "08/05/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-05T07:00:00Z"
+    },
+    {
+      "position": 100,
+      "title": "Megathrust-Tsunami Ancam Jakarta-Jawa? Ini Penjelasan BMKG & Pakar",
+      "source": {
+        "name": "CNBC Indonesia",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cnbcindonesia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.cnbcindonesia.com/news/20260919133957-4-769205/megathrust-tsunami-ancam-jakarta-jawa-ini-penjelasan-bmkg-pakar",
+      "thumbnail": "https://awsimages.detik.net.id/visual/2025/12/30/segmen-zona-megathrust-di-selatan-jawa-dan-sumatra-1767083097655_169.jpeg?w=1200",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNTVTVkppTlVsTWN6QTVZa1JYVFJDZ0F4amhCU2dLTWdNVk1Bdw",
+      "date": "09/19/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-19T07:00:00Z"
+    }
+  ],
+  "menu_links": [
+    {
+      "title": "Indonesia",
+      "topic_token": "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55ZVc0U0FtbGtLQUFQAQ",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=id&topic_token=CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55ZVc0U0FtbGtLQUFQAQ"
+    },
+    {
+      "title": "Dunia",
+      "topic_token": "CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbGtHZ0pKUkNnQVAB",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=id&topic_token=CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbGtHZ0pKUkNnQVAB"
+    },
+    {
+      "title": "Berita lokal Anda",
+      "topic_token": "CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=id&topic_token=CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE"
+    },
+    {
+      "title": "Bisnis",
+      "topic_token": "CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbGtHZ0pKUkNnQVAB",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=id&topic_token=CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbGtHZ0pKUkNnQVAB"
+    },
+    {
+      "title": "Teknologi",
+      "topic_token": "CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtbGtHZ0pKUkNnQVAB",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=id&topic_token=CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtbGtHZ0pKUkNnQVAB"
+    },
+    {
+      "title": "Hiburan",
+      "topic_token": "CAAqJggKIiBDQkFTRWdvSUwyMHZNREpxYW5RU0FtbGtHZ0pKUkNnQVAB",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=id&topic_token=CAAqJggKIiBDQkFTRWdvSUwyMHZNREpxYW5RU0FtbGtHZ0pKUkNnQVAB"
+    },
+    {
+      "title": "Olahraga",
+      "topic_token": "CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtbGtHZ0pKUkNnQVAB",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=id&topic_token=CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtbGtHZ0pKUkNnQVAB"
+    },
+    {
+      "title": "Sains",
+      "topic_token": "CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtbGtHZ0pKUkNnQVAB",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=id&topic_token=CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtbGtHZ0pKUkNnQVAB"
+    },
+    {
+      "title": "Kesehatan",
+      "topic_token": "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbGtLQUFQAQ",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=id&topic_token=CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbGtLQUFQAQ"
     }
   ]
 }

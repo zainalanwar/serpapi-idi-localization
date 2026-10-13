@@ -118,6 +118,8 @@ def print_news(data, keyword, gl, hl):
     for r in news[:10]:
         title = r.get("title") or r.get("name") or ""
         source = r.get("source") or ""
+        if isinstance(source, dict):
+            source = source.get("name", "")
         date = r.get("date") or ""
         print(f"  • {title}")
         if source or date:
