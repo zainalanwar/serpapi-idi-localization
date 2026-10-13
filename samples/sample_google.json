@@ -1,59 +1,499 @@
 {
+  "search_metadata": {
+    "id": "6acde28257be58286048d0f3",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/_kd2AYEVzFTJJ9ER1Gayzo6do3VMhkwrJuHmrnj2zf0/6acde28257be58286048d0f3.json",
+    "markdown_endpoint": "https://serpapi.com/searches/_kd2AYEVzFTJJ9ER1Gayzo6do3VMhkwrJuHmrnj2zf0/6acde28257be58286048d0f3.md",
+    "pixel_position_endpoint": "https://serpapi.com/searches/_kd2AYEVzFTJJ9ER1Gayzo6do3VMhkwrJuHmrnj2zf0/6acde28257be58286048d0f3.json_with_pixel_position",
+    "created_at": "2026-10-13 07:49:22 UTC",
+    "processed_at": "2026-10-13 07:49:22 UTC",
+    "google_url": "https://www.google.co.id/search?q=kafe+terbaik+bogor&oq=kafe+terbaik+bogor&hl=id&gl=id&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/_kd2AYEVzFTJJ9ER1Gayzo6do3VMhkwrJuHmrnj2zf0/6acde28257be58286048d0f3.html",
+    "total_time_taken": 0.69
+  },
   "search_parameters": {
     "engine": "google",
     "q": "kafe terbaik bogor",
-    "gl": "id",
+    "google_domain": "google.co.id",
     "hl": "id",
-    "google_domain": "google.co.id"
+    "gl": "id",
+    "device": "desktop"
   },
-  "organic_results": [
+  "search_information": {
+    "query_displayed": "kafe terbaik bogor",
+    "total_results": 120,
+    "time_taken_displayed": 0.25,
+    "organic_results_state": "Some results for exact spelling but showing fixed spelling",
+    "spelling_fix": "cafe terbaik bogor",
+    "showing_results_for": "cafe terbaik bogor"
+  },
+  "local_map": {
+    "image": "https://www.google.com/maps/vt/data=lc3GI-hjj33lYMv30GxPCjxXwNbOTxC7y_Qtq-WCOBbFdixIKCD5koo74zg6s1NKjqyI1hwszpmh5mqLm4fbMcc2UXLGwbeflcvM0S_sPD4ob7ASpQwV-xKCyUEl0FVORiyUQR5gDKF-8b67FgDtoxe7q_LiYyPP1SQ1-huZrJGanGBLLZY_Gs_hKkfTNqgu4B8mWNxNcz0axputxCjrFTKwjPxlmetNrCMy5_o43RnVR-r6ld9ev-EvujHT-6mVBGPoh5aHkAE2krLUvzG6QSKwvIEPf95ABM9Ij17dxInNnsKg1WK78I7FqNeR377zHlPcBDyV7w5ncTy7vJc4cO4eXGL5VdpQ4z59sGoX5nHg3NEKcu7-OtlNfzrVhJ5PnsEWUnrwxATJHo5FIt44brmAudHn8aCF6D1dkaiG2iZa89eHCz9BhvgyJhrze3gUOyh4jmUi3DQXm88hP0W_6XMz0GW4VWo0UTORXSDb85rzoSGxvY04i1heJ5fk2n4f_KKYxEQ8sM4OQslJvub44kVUk6SWCApRSHVisLH6Nxd5yVg1eXnQCKddvkZ6zfK0uZdnLE1PNvUZMehUrh7UWBw--OFlEngEjYoOAN2mR_yuO4V47ShnOP_F7WABAHyajHIQCeCn0Eic9kCZmDrYQ9eg6YDEF5Yig6uI2Y0NosthzE7iVnF0uKS6lrU2bs2J8KBmdysHgknjJCZ-ot5l5TA55yaatsI3LelYomPboIjDF24DsCjI3kEfBRNyBmSQeM-EuJq5lZfBVgzb63mmcVlreI-HYXmqyEcu0ts0WMO0wcPFOUGjf5ggAsCkZGvwcUXMS8W2z1FQnZ6z8o8aSL7_eu9FbsRf5nV2vFv2alCmbQhnq7CjMIqJDfB0Ue4_qiWIoUCJINc-k1BqHdcoSEh-yTh9eIB7KvxVi25T9RyCk4Zjey8CK4R3OSp7kmw-RJlarRV9Zk9ix9wpN0-AwsfT3W6y095xmkVDR5kuLdwiREURVSA_0fXDF8xTv45wmJ1rnrLlwCuGekCVD7AP2D5oxLT6g-PRvMh9xRxryLN6UPZQY7bn6YTgPAiBnzJyrlFdY2ufelxR2nt8zkNq5_ZKhaHYfHEaro3zoMfYbTNfhTkYxqoxvHLZbQblfGdaFeY4LDDEJQBZBkyXU9sT2qvbtUaoeI4G3QeZ4PfUELfRjWStgeXtiJxmuNdK_pfqJDtU1uOi4JOuqisBnO9fxtuMJeFwo1F4rn4JisfX5DMHKTz0nULakIkUaFsdYXP92CegvbYJ0HZsazM_27LZzRG9sns4QLIQwVsngbvZ6-Oj84xycCqE2nbh6PLNv8-XkzQ_BEWsgrfMca5VLC-9xF7llLdS36rofygXc7EplveneEKUIzg0ffE9B1uCRxVQvaciCFgLpo5hWJaShRgUtg2qUwgFbFj9sF7M",
+    "gps_coordinates": {
+      "latitude": -6.61976365332336,
+      "longitude": 106.83671951293945
+    }
+  },
+  "local_results": {
+    "places": [
+      {
+        "position": 1,
+        "title": "Raindear Coffee & Kitchen Bogor",
+        "type": "Kedai Kopi",
+        "rating": 4.8,
+        "reviews": 7614,
+        "description": "\"Es kopi bogor caramelnya enak sekali 👍, grilled chicken nya mantap jga\"",
+        "thumbnail": "https://serpapi.com/searches/6acde28257be58286048d0f3/images/XaL1GXB3ieHV4eBgk-1Re0gKOZLLUi_U0QvqB8toTX75wGTsI711mAmkSAQGJ2-9.jpeg",
+        "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/AABkmLdUZwKg2d9MSaQYQWF7DHYofvx-PemUUzjgy03zPIT1oi0FYEebmh2_Tvrvw_Cob2NPL7Pm7Yh9onzoRWMrRcv1r2EWv3ZxayLT08YVkc5j6NmUx1NS83cbnBtyDQqi79Sdu86q9bwCPKZX=w1000-h1000-c-n",
+        "links": {
+          "phone": "tel:0821-1178-9089",
+          "website": "https://www.raindearcoffee.com/"
+        },
+        "place_id": "12060731040707741366",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&ludocid=12060731040707741366&q=kafe+terbaik+bogor",
+        "provider_id": "/g/11h7cqvl4c",
+        "gps_coordinates": {
+          "latitude": -6.603433,
+          "longitude": 106.810252
+        },
+        "address": "Jl. Bina Marga No.7, RT.04/RW.11, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
+        "hours": "Buka · Tutup pukul 22.00",
+        "phone": "0821-1178-9089"
+      },
+      {
+        "position": 2,
+        "title": "Roofpark Cafe & Restaurant Bogor",
+        "type": "Kafe",
+        "rating": 4.6,
+        "reviews": 3761,
+        "description": "\"harga affordable, makanan dan minumannya sangat enak.\"",
+        "thumbnail": "https://serpapi.com/searches/6acde28257be58286048d0f3/images/XaL1GXB3ieHV4eBgk-1Re6FNZ0YVZJ2_bJmEUD8F-qTenu5bmJ_j5qkuRymII87t.jpeg",
+        "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/AABkmLfLFDTciXXqyqpaSPpTYpCUpNbZ33IidJTk9peqvXWLiW_vxwnqIc08vNcciqp1gyQuhbyCKva2R14Ib1aJgotYucQ8jVTx8tLp-unCX0h9ro9jO4z6fBqv03yNQqiQu1bfYLpc=w1000-h1000-c-n",
+        "links": {
+          "phone": "tel:(0251) 8576519",
+          "website": "http://roofpark.co.id/info/"
+        },
+        "place_id": "13950420121916916182",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&ludocid=13950420121916916182&q=kafe+terbaik+bogor",
+        "provider_id": "/g/11c2mzx_ds",
+        "gps_coordinates": {
+          "latitude": -6.589329,
+          "longitude": 106.80515
+        },
+        "address": "RAJA FO Bogor, Jl. Raya Pajajaran No.3 Lt.3, RT.02/RW.04, Babakan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16128",
+        "hours": "Buka · Tutup pukul 22.00",
+        "phone": "(0251) 8576519"
+      },
+      {
+        "position": 3,
+        "title": "Ngopi Di Sawah",
+        "type": "Kafe",
+        "rating": 4.5,
+        "reviews": 6418,
+        "description": "\"Ambience TOP banget.. suasanya enak dan banyak ruang terbuka.\"",
+        "thumbnail": "https://serpapi.com/searches/6acde28257be58286048d0f3/images/XaL1GXB3ieHV4eBgk-1RexDma7CdRfBT0VRsyWwQVQdb16QJswNft6I0i8nVk5Lj.jpeg",
+        "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/AABkmLcptUM4PE-sVaNDV-EMs0q_17uXVGisyxy4eAL0GUZdBT8N149J9PN1J8Os3nBNN1sB1pAf7xQGGYiFHvM_lMfh5pnEEkYpE5psr3KKk4aJQdtDDAu5CAj-tLdCJ7pAYS-vpvg=w1000-h1000-c-n",
+        "links": {
+          "phone": "tel:0811-1642-205"
+        },
+        "place_id": "10343429130341761208",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&ludocid=10343429130341761208&q=kafe+terbaik+bogor",
+        "provider_id": "/g/11mq12z13n",
+        "gps_coordinates": {
+          "latitude": -6.655271,
+          "longitude": 106.868364
+        },
+        "address": "Jl. Puri Cemara No.km. 72 no.90, Gadog, Kec. Megamendung, Kabupaten Bogor, Jawa Barat 16770",
+        "hours": "Buka · Tutup pukul 21.00",
+        "phone": "0811-1642-205"
+      }
+    ],
+    "more_locations_link": "https://www.google.co.id/search?q=cafe+terbaik+bogor&sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&udm=local&lsack=guLNas3gKrGcw8cP04qZEQ&sa=X&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQjGp6BAg9EAA"
+  },
+  "inline_videos": [
     {
       "position": 1,
-      "title": "Kafe Terbaik di Bogor 2026: Daftar Lengkap & Tips ...",
-      "link": "https://bogor.tripadvisor.co.id/Restaurants",
-      "snippet": "Temukan daftar kafe dan kopi terbaik di Bogor. Ulasan, foto, harga, dan lokasi terupdate dari pengunjung lokal.",
-      "sitelinks": [
-        {"title": "Kafe Estetik", "link": "https://bogor.tripadvisor.co.id/estetik"}
-      ]
+      "title": "Top 3 Coffee Shop Terenak di Bogor  Rekomendasi ...",
+      "link": "https://www.instagram.com/reel/DS2GWvfkhRF/",
+      "thumbnail": "https://serpapi.com/searches/6acde28257be58286048d0f3/images/66i5lPnGrequ4N4wpdYIzAyl9Hhzrze5TnG6bPxK4ME.jpeg",
+      "channel": "Kuliner on Sunday",
+      "duration": "1:46",
+      "platform": "Instagram",
+      "date": "29 Des 2025"
     },
     {
       "position": 2,
-      "title": "10 Kafe Hits di Bogor yang Wajib Kamu Kunjungi",
-      "link": "https://bogor.kompas.com/kafe-hit-bogor",
-      "snippet": "Dari kafe bertema hutan hingga coffee shop pemandangan sawah, ini kafe paling populer di Kota Bogor."
+      "title": "Seru bangettt, ketemu cafe hits dan aesthetic di Bogor Kota ...",
+      "link": "https://www.instagram.com/reel/DZgszkbyMyF/",
+      "thumbnail": "https://serpapi.com/searches/6acde28257be58286048d0f3/images/vqATsRjIvL1ccDHhoS4gOPH-CaYd3OojDPwbpN8kiwY.jpeg",
+      "channel": "Maya Soesanto🍓#IcipBarengMaya #TravelWithMaya",
+      "duration": "1:25",
+      "platform": "Instagram",
+      "date": "12 Jun 2026"
     },
     {
       "position": 3,
-      "title": "Rekomendasi Kafe Estetik & Cozy di Bogor",
-      "link": "https://kuliner.kaskus.id/rekomendasi-kafe-bogor",
-      "snippet": "Koleksi kafe instagramable di Bogor, lengkap dengan menu, harga, dan alamat."
+      "title": "rekomendasi 8 tempat ngopi kekinian buat kabur ke bogor,ada ...",
+      "link": "https://www.instagram.com/reel/DSOx-KiEWc4/?hl=id",
+      "thumbnail": "https://serpapi.com/searches/6acde28257be58286048d0f3/images/lPEez4_K7MIWfb2Bwn20dTPztawlM8WjSU2BtarClqU.jpeg",
+      "channel": "KULINER & WISATA",
+      "duration": "1:19",
+      "platform": "Instagram",
+      "date": "13 Des 2025"
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "4 Cafe Viral di Bogor, Cocok untuk Nongkrong Bareng ...",
+      "link": "https://labirutour.com/blog/cafe-bogor",
+      "redirect_link": "https://www.google.co.id/url?sa=t&source=web&rct=j&opi=89978449&url=CAESXgHrOzAV8TympqP8AKYkePK2TAmMlRmkjJ0O_-M9z4BqKn8sP91JUfiGLHim8NKxp9Z4ktNGzDSPoWvejWymuiswgMalWGQA4XsFSkyY0E1BIOWxJDmhCefMxdyIn9M&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQFnoECBwQAQ&uoh=1",
+      "displayed_link": "https://labirutour.com › blog › cafe-bogor",
+      "favicon": "https://serpapi.com/images/i/UklGRhgBAABXRUJQVlA4IAwBAADwBQCdASocABwAPtE-tFooIigoFAEAGglsAKwZoCWAN4oRoGz4IV--DqGgM_BiHQKhudjaxEYAAAD-9gL0LEJ_1fgDF40u40XV-9RkH64DXB9_26lqnHIO8US8MoIquS644RxOv9EV7Iri4Jgs3b3nwJ9E4dARARBuWFqpKpxdGboWM1rQT12sKISGxgTMAaabY9vCSoRPQ1xDgyIx1nv9XD5QyN83POpojPSH1zNgN9Pw4Rxrv57Ac-ghNxVuC2COD4VNe--WmXEqghXM5J5oyuND-DrSv-AdujzHYgF5XZvf-rk-H-a8uhMgckZ6y4ctBJNTKgsSuJ05KZOvIIpuz7-osnryPwdAAAAA.webp",
+      "date": "20 Feb 2025",
+      "snippet": "4 Cafe Viral di Bogor, Cocok untuk Nongkrong Bareng Teman · Miru Coffee Shop · Padhi Resto · Anthology Coffee & Tea · POPOLO Coffee.",
+      "snippet_highlighted_words": [
+        "Miru Coffee Shop"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "4 Cafe Viral di Bogor, Cocok untuk Nongkrong Bareng Teman · Miru Coffee Shop · Padhi Resto · Anthology Coffee & Tea · POPOLO Coffee.",
+          "source_info_link": "https://labirutour.com/blog/cafe-bogor",
+          "icon": "https://serpapi.com/images/i/UklGRhgBAABXRUJQVlA4IAwBAADwBQCdASocABwAPtE-tFooIigoFAEAGglsAKwZoCWAN4oRoGz4IV--DqGgM_BiHQKhudjaxEYAAAD-9gL0LEJ_1fgDF40u40XV-9RkH64DXB9_26lqnHIO8US8MoIquS644RxOv9EV7Iri4Jgs3b3nwJ9E4dARARBuWFqpKpxdGboWM1rQT12sKISGxgTMAaabY9vCSoRPQ1xDgyIx1nv9XD5QyN83POpojPSH1zNgN9Pw4Rxrv57Ac-ghNxVuC2COD4VNe--WmXEqghXM5J5oyuND-DrSv-AdujzHYgF5XZvf-rk-H-a8uhMgckZ6y4ctBJNTKgsSuJ05KZOvIIpuz7-osnryPwdAAAAA.webp"
+        },
+        "languages": [
+          "id"
+        ],
+        "regions": [
+          "ID"
+        ]
+      },
+      "about_page_link": "https://www.google.co.id/search/about-this-result?origin=www.google.com&req=Co0BL2dvdG8_dXJsPUNBRVNYZ0hyT3pBVjhUeW1wcVA4QUtZa2VQSzJUQW1NbFJta2pKME9fLU05ejRCcUtuOHNQOTFKVWZpR0xIaW04Tkt4cDlaNGt0Tkd6RFNQb1d2ZWpXeW11aXN3Z01hbFdHUUE0WHNGU2t5WTBFMUJJT1d4SkRtaENlZk14ZHlJbjlNEgQaAggAGucDEgIIABoAIgAqADIGCAESAmlkOgBCBAgBECZKAFoAcgB6AIJAwQMIJhAAGAAgACoSCgRjYWZlFVVruUAaBWNhZsOpKg4KB3RlcmJhaWsVBJUxPyoMCgVib2dvchW46axAMo0BL2dvdG8_dXJsPUNBRVNYZ0hyT3pBVjhUeW1wcVA4QUtZa2VQSzJUQW1NbFJta2pKME9fLU05ejRCcUtuOHNQOTFKVWZpR0xIaW04Tkt4cDlaNGt0Tkd6RFNQb1d2ZWpXeW11aXN3Z01hbFdHUUE0WHNGU2t5WTBFMUJJT1d4SkRtaENlZk14ZHlJbjlNOkc0IDxiPkNhZmU8L2I-IFZpcmFsIGRpIDxiPkJvZ29yPC9iPiwgQ29jb2sgdW50dWsgTm9uZ2tyb25nIEJhcmVuZyBUZW1hbkKrATQgQ2FmZSBWaXJhbCBkaSBCb2dvciwgQ29jb2sgdW50dWsgTm9uZ2tyb25nIEJhcmVuZyBUZW1hbiAmbWlkZG90OyA8Yj5NaXJ1IENvZmZlZSBTaG9wPC9iPiAmbWlkZG90OyBQYWRoaSBSZXN0byAmbWlkZG90OyBBbnRob2xvZ3kgQ29mZmVlICZhbXA7IFRlYSAmbWlkZG90OyBQT1BPTE8gQ29mZmVlLiICEAFIAFgAaAA",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.id&req_token=Co0BL2dvdG8_dXJsPUNBRVNYZ0hyT3pBVjhUeW1wcVA4QUtZa2VQSzJUQW1NbFJta2pKME9fLU05ejRCcUtuOHNQOTFKVWZpR0xIaW04Tkt4cDlaNGt0Tkd6RFNQb1d2ZWpXeW11aXN3Z01hbFdHUUE0WHNGU2t5WTBFMUJJT1d4SkRtaENlZk14ZHlJbjlNEgQaAggAGucDEgIIABoAIgAqADIGCAESAmlkOgBCBAgBECZKAFoAcgB6AIJAwQMIJhAAGAAgACoSCgRjYWZlFVVruUAaBWNhZsOpKg4KB3RlcmJhaWsVBJUxPyoMCgVib2dvchW46axAMo0BL2dvdG8_dXJsPUNBRVNYZ0hyT3pBVjhUeW1wcVA4QUtZa2VQSzJUQW1NbFJta2pKME9fLU05ejRCcUtuOHNQOTFKVWZpR0xIaW04Tkt4cDlaNGt0Tkd6RFNQb1d2ZWpXeW11aXN3Z01hbFdHUUE0WHNGU2t5WTBFMUJJT1d4SkRtaENlZk14ZHlJbjlNOkc0IDxiPkNhZmU8L2I-IFZpcmFsIGRpIDxiPkJvZ29yPC9iPiwgQ29jb2sgdW50dWsgTm9uZ2tyb25nIEJhcmVuZyBUZW1hbkKrATQgQ2FmZSBWaXJhbCBkaSBCb2dvciwgQ29jb2sgdW50dWsgTm9uZ2tyb25nIEJhcmVuZyBUZW1hbiAmbWlkZG90OyA8Yj5NaXJ1IENvZmZlZSBTaG9wPC9iPiAmbWlkZG90OyBQYWRoaSBSZXN0byAmbWlkZG90OyBBbnRob2xvZ3kgQ29mZmVlICZhbXA7IFRlYSAmbWlkZG90OyBQT1BPTE8gQ29mZmVlLiICEAFIAFgAaAA",
+      "source": "Labiru Tour"
+    },
+    {
+      "position": 2,
+      "title": "Rekomendasi Coffee Shop Keren di Bogor untuk Nongkrong",
+      "link": "https://labirutour.com/blog/coffee-shop-bogor",
+      "redirect_link": "https://www.google.co.id/url?sa=t&source=web&rct=j&opi=89978449&url=CAESZQHrOzAVMq8SeJJsqwE6JM7HkRA7Ml9KuHsGByjOY6hOZFslI9OV4_bsM1B7BsEkWGaKiXsR0Hjv7y8OyhUkyUbBzSgsKBxszjAIoeG46K50b5pAUpwBdXjAodSX4Ko3GjfDwBg_&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQFnoECBsQAQ&uoh=1",
+      "displayed_link": "https://labirutour.com › blog › coffee-shop-bogor",
+      "favicon": "https://serpapi.com/images/i/UklGRhgBAABXRUJQVlA4IAwBAADwBQCdASocABwAPtE-tFooIigoFAEAGglsAKwZoCWAN4oRoGz4IV--DqGgM_BiHQKhudjaxEYAAAD-9gL0LEJ_1fgDF40u40XV-9RkH64DXB9_26lqnHIO8US8MoIquS644RxOv9EV7Iri4Jgs3b3nwJ9E4dARARBuWFqpKpxdGboWM1rQT12sKISGxgTMAaabY9vCSoRPQ1xDgyIx1nv9XD5QyN83POpojPSH1zNgN9Pw4Rxrv57Ac-ghNxVuC2COD4VNe--WmXEqghXM5J5oyuND-DrSv-AdujzHYgF5XZvf-rk-H-a8uhMgckZ6y4ctBJNTKgsSuJ05KZOvIIpuz7-osnryPwdAAAAA.webp",
+      "date": "29 Jul 2024",
+      "snippet": "Rekomendasi Coffee Shop Keren di Bogor untuk Nongkrong · Two Stories Cafe · Kedai Kopi Daong · Popolo Coffee · Kopi Tubing · Rumah Kopi Ranin · Lemari ...",
+      "snippet_highlighted_words": [
+        "Two Stories Cafe"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Rekomendasi Coffee Shop Keren di Bogor untuk Nongkrong · Two Stories Cafe · Kedai Kopi Daong · Popolo Coffee · Kopi Tubing · Rumah Kopi Ranin · Lemari ...",
+          "source_info_link": "https://labirutour.com/blog/coffee-shop-bogor",
+          "icon": "https://serpapi.com/images/i/UklGRhgBAABXRUJQVlA4IAwBAADwBQCdASocABwAPtE-tFooIigoFAEAGglsAKwZoCWAN4oRoGz4IV--DqGgM_BiHQKhudjaxEYAAAD-9gL0LEJ_1fgDF40u40XV-9RkH64DXB9_26lqnHIO8US8MoIquS644RxOv9EV7Iri4Jgs3b3nwJ9E4dARARBuWFqpKpxdGboWM1rQT12sKISGxgTMAaabY9vCSoRPQ1xDgyIx1nv9XD5QyN83POpojPSH1zNgN9Pw4Rxrv57Ac-ghNxVuC2COD4VNe--WmXEqghXM5J5oyuND-DrSv-AdujzHYgF5XZvf-rk-H-a8uhMgckZ6y4ctBJNTKgsSuJ05KZOvIIpuz7-osnryPwdAAAAA.webp"
+        },
+        "languages": [
+          "id"
+        ],
+        "regions": [
+          "ID"
+        ]
+      },
+      "about_page_link": "https://www.google.co.id/search/about-this-result?origin=www.google.com&req=CpYBL2dvdG8_dXJsPUNBRVNaUUhyT3pBVk1xOFNlSkpzcXdFNkpNN0hrUkE3TWw5S3VIc0dCeWpPWTZoT1pGc2xJOU9WNF9ic00xQjdCc0VrV0dhS2lYc1IwSGp2N3k4T3loVWt5VWJCelNnc0tCeHN6akFJb2VHNDZLNTBiNXBBVXB3QmRYakFvZFNYNEtvM0dqZkR3QmdfEgQaAggAGokEEgAaACIAKgAyBggBEgJpZDoAQgQIARAmSgBaAHIAegCCQOUDCCYQABgAIAAqEgoEY2FmZRUgIWs_GgVjYWbDqSoOCgd0ZXJiYWlrFSNdRz4qDAoFYm9nb3IV52GEQDKWAS9nb3RvP3VybD1DQUVTWlFIck96QVZNcThTZUpKc3F3RTZKTTdIa1JBN01sOUt1SHNHQnlqT1k2aE9aRnNsSTlPVjRfYnNNMUI3QnNFa1dHYUtpWHNSMEhqdjd5OE95aFVreVViQnpTZ3NLQnhzempBSW9lRzQ2SzUwYjVwQVVwd0JkWGpBb2RTWDRLbzNHamZEd0JnXzo9UmVrb21lbmRhc2kgQ29mZmVlIFNob3AgS2VyZW4gZGkgPGI-Qm9nb3I8L2I-IHVudHVrIE5vbmdrcm9uZ0LQAVJla29tZW5kYXNpIENvZmZlZSBTaG9wIEtlcmVuIGRpIEJvZ29yIHVudHVrIE5vbmdrcm9uZyAmbWlkZG90OyA8Yj5Ud28gU3RvcmllcyBDYWZlPC9iPiAmbWlkZG90OyBLZWRhaSBLb3BpIERhb25nICZtaWRkb3Q7IFBvcG9sbyBDb2ZmZWUgJm1pZGRvdDsgS29waSBUdWJpbmcgJm1pZGRvdDsgUnVtYWggS29waSBSYW5pbiAmbWlkZG90OyBMZW1hcmkmbmJzcDsuLi4iAhABSABYAGgA",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.id&req_token=CpYBL2dvdG8_dXJsPUNBRVNaUUhyT3pBVk1xOFNlSkpzcXdFNkpNN0hrUkE3TWw5S3VIc0dCeWpPWTZoT1pGc2xJOU9WNF9ic00xQjdCc0VrV0dhS2lYc1IwSGp2N3k4T3loVWt5VWJCelNnc0tCeHN6akFJb2VHNDZLNTBiNXBBVXB3QmRYakFvZFNYNEtvM0dqZkR3QmdfEgQaAggAGokEEgAaACIAKgAyBggBEgJpZDoAQgQIARAmSgBaAHIAegCCQOUDCCYQABgAIAAqEgoEY2FmZRUgIWs_GgVjYWbDqSoOCgd0ZXJiYWlrFSNdRz4qDAoFYm9nb3IV52GEQDKWAS9nb3RvP3VybD1DQUVTWlFIck96QVZNcThTZUpKc3F3RTZKTTdIa1JBN01sOUt1SHNHQnlqT1k2aE9aRnNsSTlPVjRfYnNNMUI3QnNFa1dHYUtpWHNSMEhqdjd5OE95aFVreVViQnpTZ3NLQnhzempBSW9lRzQ2SzUwYjVwQVVwd0JkWGpBb2RTWDRLbzNHamZEd0JnXzo9UmVrb21lbmRhc2kgQ29mZmVlIFNob3AgS2VyZW4gZGkgPGI-Qm9nb3I8L2I-IHVudHVrIE5vbmdrcm9uZ0LQAVJla29tZW5kYXNpIENvZmZlZSBTaG9wIEtlcmVuIGRpIEJvZ29yIHVudHVrIE5vbmdrcm9uZyAmbWlkZG90OyA8Yj5Ud28gU3RvcmllcyBDYWZlPC9iPiAmbWlkZG90OyBLZWRhaSBLb3BpIERhb25nICZtaWRkb3Q7IFBvcG9sbyBDb2ZmZWUgJm1pZGRvdDsgS29waSBUdWJpbmcgJm1pZGRvdDsgUnVtYWggS29waSBSYW5pbiAmbWlkZG90OyBMZW1hcmkmbmJzcDsuLi4iAhABSABYAGgA",
+      "source": "Labiru Tour"
+    },
+    {
+      "position": 3,
+      "title": "☕ Cafe di Bogor Hits, Cocok untuk Lepaskan Penat",
+      "link": "https://www.rumah123.com/explore/kota-bogor/cafe-di-bogor/",
+      "redirect_link": "https://www.google.co.id/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScgHrOzAV8cEElSwF4ZzfzmFwYmQoTcXCP4jUdFJhvu69ORpBrhTnX0oXU_8Vx-hADCLIGaNwsZZxcXvAcGiDhTkuchht8jRof6w8KuRJSIgYNJu_bOEq-cRvnM-fjI9csBCzt-q8G-U68868ETcG5XQD2Q&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQFnoECBoQAQ&uoh=1",
+      "displayed_link": "https://www.rumah123.com › Explore › Bogor",
+      "favicon": "https://serpapi.com/images/i/UklGRi4BAABXRUJQVlA4ICIBAADQBgCdASocABwAPtE-tFooIigoFAEAGglsAJ0vobzYy-7ACPo9xQ__-Vh-HEx6DTFpaV_CsThIEtsN-P5rAAAA_vYTRMkr0Hu5qS5fES5NUWRygdOHE3MLzWNVesSGNqukymrXHqRfBbWqYDVx-Q8W5fLWfCSVG9LtBYVv6QGXKFbki4GcTCLa0j8lf0LEneTPV9lRbX4Z-J_T2gEK6pRz-KGsFwITXl_qLXad40LABkuwQsDyg3sYYMW8E7iVZCgnXoexTPSGcD_73pCj2u9zsrXZ8TueqySskYZWCEzL6GjNq_OL602fIH6LQawH9sIbXuy3pd4ChnuDOxzV1npahJ-kOXmnyi9hmFvDapC7kZQONKwls91NGLNiue7jAQAAAA.webp",
+      "snippet": "☕ Cafe di Bogor Hits, Cocok untuk Lepaskan Penat · Anthology Coffee & Tea · Raindear Coffee & Kitchen · Culinaire Van Bogor · Hancock Resto And Cafe · Kafe Tubing.",
+      "snippet_highlighted_words": [
+        "Anthology Coffee & Tea"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "☕ Cafe di Bogor Hits, Cocok untuk Lepaskan Penat · Anthology Coffee & Tea · Raindear Coffee & Kitchen · Culinaire Van Bogor · Hancock Resto And Cafe · Kafe Tubing.",
+          "source_info_link": "https://www.rumah123.com/explore/kota-bogor/cafe-di-bogor/",
+          "icon": "https://serpapi.com/images/i/UklGRi4BAABXRUJQVlA4ICIBAADQBgCdASocABwAPtE-tFooIigoFAEAGglsAJ0vobzYy-7ACPo9xQ__-Vh-HEx6DTFpaV_CsThIEtsN-P5rAAAA_vYTRMkr0Hu5qS5fES5NUWRygdOHE3MLzWNVesSGNqukymrXHqRfBbWqYDVx-Q8W5fLWfCSVG9LtBYVv6QGXKFbki4GcTCLa0j8lf0LEneTPV9lRbX4Z-J_T2gEK6pRz-KGsFwITXl_qLXad40LABkuwQsDyg3sYYMW8E7iVZCgnXoexTPSGcD_73pCj2u9zsrXZ8TueqySskYZWCEzL6GjNq_OL602fIH6LQawH9sIbXuy3pd4ChnuDOxzV1npahJ-kOXmnyi9hmFvDapC7kZQONKwls91NGLNiue7jAQAAAA.webp"
+        },
+        "languages": [
+          "id"
+        ],
+        "regions": [
+          "ID"
+        ]
+      },
+      "about_page_link": "https://www.google.co.id/search/about-this-result?origin=www.google.com&req=CqgBL2dvdG8_dXJsPUNBRVNjZ0hyT3pBVjhjRUVsU3dGNFp6ZnptRndZbVFvVGNYQ1A0alVkRkpodnU2OU9ScEJyaFRuWDBvWFVfOFZ4LWhBRENMSUdhTndzWlp4Y1h2QWNHaURoVGt1Y2hodDhqUm9mNnc4S3VSSlNJZ1lOSnVfYk9FcS1jUnZuTS1makk5Y3NCQ3p0LXE4Ry1VNjg4NjhFVGNHNVhRRDJREgQaAggAGqwEEgAaACIAKgAyBggBEgJpZDoAQgQIARAmSgBaAHIAegCCQIgECCYQABgAIAAqEgoEY2FmZRXINohAGgVjYWbDqSoOCgd0ZXJiYWlrFeEpGj8qDAoFYm9nb3IVTNqbQDKoAS9nb3RvP3VybD1DQUVTY2dIck96QVY4Y0VFbFN3RjRaemZ6bUZ3WW1Rb1RjWENQNGpVZEZKaHZ1NjlPUnBCcmhUblgwb1hVXzhWeC1oQURDTElHYU53c1paeGNYdkFjR2lEaFRrdWNoaHQ4alJvZjZ3OEt1UkpTSWdZTkp1X2JPRXEtY1J2bk0tZmpJOWNzQkN6dC1xOEctVTY4ODY4RVRjRzVYUUQyUTpHPGI-Q2FmZTwvYj4gZGkgPGI-Qm9nb3I8L2I-IEhpdHMsIENvY29rIHVudHVrIExlcGFza2FuIFBlbmF0IC0gUnVtYWgxMjNC1wHimJUgQ2FmZSBkaSBCb2dvciBIaXRzLCBDb2NvayB1bnR1ayBMZXBhc2thbiBQZW5hdCAmbWlkZG90OyA8Yj5BbnRob2xvZ3kgQ29mZmVlICZhbXA7IFRlYTwvYj4gJm1pZGRvdDsgUmFpbmRlYXIgQ29mZmVlICZhbXA7IEtpdGNoZW4gJm1pZGRvdDsgQ3VsaW5haXJlIFZhbiBCb2dvciAmbWlkZG90OyBIYW5jb2NrIFJlc3RvIEFuZCBDYWZlICZtaWRkb3Q7IEthZmUgVHViaW5nLiICEAFIAFgAaAA",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.id&req_token=CqgBL2dvdG8_dXJsPUNBRVNjZ0hyT3pBVjhjRUVsU3dGNFp6ZnptRndZbVFvVGNYQ1A0alVkRkpodnU2OU9ScEJyaFRuWDBvWFVfOFZ4LWhBRENMSUdhTndzWlp4Y1h2QWNHaURoVGt1Y2hodDhqUm9mNnc4S3VSSlNJZ1lOSnVfYk9FcS1jUnZuTS1makk5Y3NCQ3p0LXE4Ry1VNjg4NjhFVGNHNVhRRDJREgQaAggAGqwEEgAaACIAKgAyBggBEgJpZDoAQgQIARAmSgBaAHIAegCCQIgECCYQABgAIAAqEgoEY2FmZRXINohAGgVjYWbDqSoOCgd0ZXJiYWlrFeEpGj8qDAoFYm9nb3IVTNqbQDKoAS9nb3RvP3VybD1DQUVTY2dIck96QVY4Y0VFbFN3RjRaemZ6bUZ3WW1Rb1RjWENQNGpVZEZKaHZ1NjlPUnBCcmhUblgwb1hVXzhWeC1oQURDTElHYU53c1paeGNYdkFjR2lEaFRrdWNoaHQ4alJvZjZ3OEt1UkpTSWdZTkp1X2JPRXEtY1J2bk0tZmpJOWNzQkN6dC1xOEctVTY4ODY4RVRjRzVYUUQyUTpHPGI-Q2FmZTwvYj4gZGkgPGI-Qm9nb3I8L2I-IEhpdHMsIENvY29rIHVudHVrIExlcGFza2FuIFBlbmF0IC0gUnVtYWgxMjNC1wHimJUgQ2FmZSBkaSBCb2dvciBIaXRzLCBDb2NvayB1bnR1ayBMZXBhc2thbiBQZW5hdCAmbWlkZG90OyA8Yj5BbnRob2xvZ3kgQ29mZmVlICZhbXA7IFRlYTwvYj4gJm1pZGRvdDsgUmFpbmRlYXIgQ29mZmVlICZhbXA7IEtpdGNoZW4gJm1pZGRvdDsgQ3VsaW5haXJlIFZhbiBCb2dvciAmbWlkZG90OyBIYW5jb2NrIFJlc3RvIEFuZCBDYWZlICZtaWRkb3Q7IEthZmUgVHViaW5nLiICEAFIAFgAaAA",
+      "source": "Rumah123"
     },
     {
       "position": 4,
-      "title": "Kopi Lokal Bogor: 7 Kedai Favorit Warga",
-      "link": "https://local.bogor.id/kopi-lokal",
-      "snippet": "Rekomendasi kedai kopi yang menyajikan biji lokal dan atmosphere nyaman."
+      "title": "BogorCoffeePlace",
+      "link": "https://www.instagram.com/bogorcoffeeplace/",
+      "redirect_link": "https://www.google.co.id/url?sa=t&source=web&rct=j&opi=89978449&url=CAESYwHrOzAVTdq_oZyDfzHT6xqOe2W0Tz12bvUhtojrZ6ViwffuYssLVhc9JTFG8NXM-2HxEKnwIOYecU1ujCoIj-cc5bZdHWBUHHirukCxMk1E_HR0JFA8ItGEKAn5hUaVjj9qgQ&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQFnoECB8QAQ&uoh=1",
+      "displayed_link": "24,7 rb+ pengikut",
+      "favicon": "https://serpapi.com/images/i/UklGRs4BAABXRUJQVlA4IMIBAACwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHXnqv4q8gZxcYcQlttR3oGAAfrN6ZPsZeUqUy7yrvQBaXZxUNd6xeyZ_zpu3z7vEbG_rI9uLR3JAAD-bPWFChRsYA73DNfFBGB39AY4cc2rgYfPUbTnZSkmPIT9f5LwLGh1tr6GbI8_Wg5YyMLqPP_I5v8_74-PGNsMjg_WUbMOAh-IjBPzRGbszqR7w-L8gERR1HCDCy9n1undGs3qkDheeBATd9L9I-Aoo9FTSOQx_H8nQUHIFM6kvout0x-QCvYDa5PYNlH6Q0wXP9J5qEyzdAEM65Q3dTRjK18i8klikng6N72k76S7vLx-v9Mv8y6H-iwfMsRMuFs27Yye-WnY5LGgqhsZeH8167oiT3hIlNwprV8Gv8bjmAvv3_4d59fmIOOf_PXX3B5Q_PPQprbEq6U97aH_XlCEDWm5v9GJuV7HyOamOUMgseUuj_-piTqcRYQhGxTGIPcM4c15P3Imbj7QTHY5HyOiSVI1eHnj9YtD1bBIugmEKf-KfDkltWl0LUiTqQwVPaxvhDKQ1Wf35o_kqQp7rNwi0ci1WW30iEwAAAA.webp",
+      "snippet": "Di Bogor ada tempat yang siap bikin kamu serasa lagi escape ke pulau tropis. Welcome to @tropicaldeck.id Bali-inspired tropical dining & hangout spot yang ...",
+      "snippet_highlighted_words": [
+        "Bogor"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Di Bogor ada tempat yang siap bikin kamu serasa lagi escape ke pulau tropis. Welcome to @tropicaldeck.id Bali-inspired tropical dining & hangout spot yang ...",
+          "source_info_link": "https://www.instagram.com/bogorcoffeeplace/",
+          "icon": "https://serpapi.com/images/i/UklGRs4BAABXRUJQVlA4IMIBAACwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHXnqv4q8gZxcYcQlttR3oGAAfrN6ZPsZeUqUy7yrvQBaXZxUNd6xeyZ_zpu3z7vEbG_rI9uLR3JAAD-bPWFChRsYA73DNfFBGB39AY4cc2rgYfPUbTnZSkmPIT9f5LwLGh1tr6GbI8_Wg5YyMLqPP_I5v8_74-PGNsMjg_WUbMOAh-IjBPzRGbszqR7w-L8gERR1HCDCy9n1undGs3qkDheeBATd9L9I-Aoo9FTSOQx_H8nQUHIFM6kvout0x-QCvYDa5PYNlH6Q0wXP9J5qEyzdAEM65Q3dTRjK18i8klikng6N72k76S7vLx-v9Mv8y6H-iwfMsRMuFs27Yye-WnY5LGgqhsZeH8167oiT3hIlNwprV8Gv8bjmAvv3_4d59fmIOOf_PXX3B5Q_PPQprbEq6U97aH_XlCEDWm5v9GJuV7HyOamOUMgseUuj_-piTqcRYQhGxTGIPcM4c15P3Imbj7QTHY5HyOiSVI1eHnj9YtD1bBIugmEKf-KfDkltWl0LUiTqQwVPaxvhDKQ1Wf35o_kqQp7rNwi0ci1WW30iEwAAAA.webp"
+        },
+        "languages": [
+          "id"
+        ],
+        "regions": [
+          "ID"
+        ]
+      },
+      "about_page_link": "https://www.google.co.id/search/about-this-result?origin=www.google.com&req=CpQBL2dvdG8_dXJsPUNBRVNZd0hyT3pBVlRkcV9vWnlEZnpIVDZ4cU9lMlcwVHoxMmJ2VWh0b2pyWjZWaXdmZnVZc3NMVmhjOUpURkc4TlhNLTJIeEVLbndJT1llY1UxdWpDb0lqLWNjNWJaZEhXQlVISGlydWtDeE1rMUVfSFIwSkZBOEl0R0VLQW41aFVhVmpqOXFnURIEGgIIABrGAxICCAAaACIAKgAyBggBEgJpZDoAQgQIARAmSgBaAHIAegCCQKADCCYQABgAIAAqEgoEY2FmZRUAAAAAGgVjYWbDqSoOCgd0ZXJiYWlrFQAAAAAqDAoFYm9nb3IVNPFrPzKUAS9nb3RvP3VybD1DQUVTWXdIck96QVZUZHFfb1p5RGZ6SFQ2eHFPZTJXMFR6MTJidlVodG9qclo2Vml3ZmZ1WXNzTFZoYzlKVEZHOE5YTS0ySHhFS253SU9ZZWNVMXVqQ29Jai1jYzViWmRIV0JVSEhpcnVrQ3hNazFFX0hSMEpGQThJdEdFS0FuNWhVYVZqajlxZ1E6HEJvZ29yQ29mZmVlUGxhY2UgLSBJbnN0YWdyYW1CrgFEaSA8Yj5Cb2dvcjwvYj4gYWRhIHRlbXBhdCB5YW5nIHNpYXAgYmlraW4ga2FtdSBzZXJhc2EgbGFnaSBlc2NhcGUga2UgcHVsYXUgdHJvcGlzLiBXZWxjb21lIHRvIEB0cm9waWNhbGRlY2suaWQgQmFsaS1pbnNwaXJlZCB0cm9waWNhbCBkaW5pbmcgJmFtcDsgaGFuZ291dCBzcG90IHlhbmcmbmJzcDsuLi4iAhABSABYAGgA",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.id&req_token=CpQBL2dvdG8_dXJsPUNBRVNZd0hyT3pBVlRkcV9vWnlEZnpIVDZ4cU9lMlcwVHoxMmJ2VWh0b2pyWjZWaXdmZnVZc3NMVmhjOUpURkc4TlhNLTJIeEVLbndJT1llY1UxdWpDb0lqLWNjNWJaZEhXQlVISGlydWtDeE1rMUVfSFIwSkZBOEl0R0VLQW41aFVhVmpqOXFnURIEGgIIABrGAxICCAAaACIAKgAyBggBEgJpZDoAQgQIARAmSgBaAHIAegCCQKADCCYQABgAIAAqEgoEY2FmZRUAAAAAGgVjYWbDqSoOCgd0ZXJiYWlrFQAAAAAqDAoFYm9nb3IVNPFrPzKUAS9nb3RvP3VybD1DQUVTWXdIck96QVZUZHFfb1p5RGZ6SFQ2eHFPZTJXMFR6MTJidlVodG9qclo2Vml3ZmZ1WXNzTFZoYzlKVEZHOE5YTS0ySHhFS253SU9ZZWNVMXVqQ29Jai1jYzViWmRIV0JVSEhpcnVrQ3hNazFFX0hSMEpGQThJdEdFS0FuNWhVYVZqajlxZ1E6HEJvZ29yQ29mZmVlUGxhY2UgLSBJbnN0YWdyYW1CrgFEaSA8Yj5Cb2dvcjwvYj4gYWRhIHRlbXBhdCB5YW5nIHNpYXAgYmlraW4ga2FtdSBzZXJhc2EgbGFnaSBlc2NhcGUga2UgcHVsYXUgdHJvcGlzLiBXZWxjb21lIHRvIEB0cm9waWNhbGRlY2suaWQgQmFsaS1pbnNwaXJlZCB0cm9waWNhbCBkaW5pbmcgJmFtcDsgaGFuZ291dCBzcG90IHlhbmcmbmJzcDsuLi4iAhABSABYAGgA",
+      "source": "Instagram · bogorcoffeeplace"
     },
     {
       "position": 5,
-      "title": "Kafe Pemandangan Gunung di Bogor - Guide Lengkap",
-      "link": "https://travel.disway.id/kafe-pemandangan-bogor",
-      "snippet": "Spot nongkrong dengan view Gunung Salak, cocok untuk hangout sore hari."
+      "title": "7 Cafe Hits untuk Nongkrong di Bogor | PDF",
+      "link": "https://id.scribd.com/document/500502008/Cafe-Bogor",
+      "redirect_link": "https://www.google.co.id/url?sa=t&source=web&rct=j&opi=89978449&url=CAESawHrOzAV6r4zYx4129HlazfXI7vJLOzrs5Q6TB6dB12XlrsVElno8R-wJb1-F7Haiej3KX5QjejpOr8loDqFkHnYWpJhzMIITiicnBR17w5DltoaCpKn0zm3rDRTeYzddC3icsNX12YKphvZ&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQFnoECEkQAQ&uoh=1",
+      "displayed_link": "https://id.scribd.com › document › Cafe-Bogor",
+      "favicon": "https://serpapi.com/images/i/UklGRigBAABXRUJQVlA4IBwBAAAwBgCdASocABwAPrUurVanIacnG_DgFolsALsNcA6TAiSRiU0ciNsNw4-ckvZckbI8Q0Lri0nWvPTAAP6fWoc5hI1waVpH4HPI-z3W07wkXNBNlhQO9hAKmOv8njeniRb9FCg1c1JmF3efXUUmw2bU_zMmv4y8p_nL016PcG2_Kkra3QUXk6GbHsoOEa89zFXoAnXirQsiNRzPXeKrniAu0unVpGtsEeMjevYRjJ48Bp-DMJ4D_R_y1f316ypJ0S_9mXgcgm8VoTywUh86jiUV9Al4I6yaumsUkda-7a6L12tg8hgBlh0gWv0-rnf3aeCVRG6cfsuzLtT0ruwHdbHm1C0wW2RxRakx4lXvH-JOfzi7UEbqOQ5wVHgAAA.webp",
+      "snippet": "rekomended banget buat ngopi atau nongkrong bersama keluarga ataupun kawan. 1. Cetroo Coffee Bogor. Bisnis Cafe yang sudah berusia satu dekade ini akhirnya ...",
+      "snippet_highlighted_words": [
+        "Cetroo Coffee Bogor"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "rekomended banget buat ngopi atau nongkrong bersama keluarga ataupun kawan. 1. Cetroo Coffee Bogor. Bisnis Cafe yang sudah berusia satu dekade ini akhirnya ...",
+          "source_info_link": "https://id.scribd.com/document/500502008/Cafe-Bogor",
+          "icon": "https://serpapi.com/images/i/UklGRigBAABXRUJQVlA4IBwBAAAwBgCdASocABwAPrUurVanIacnG_DgFolsALsNcA6TAiSRiU0ciNsNw4-ckvZckbI8Q0Lri0nWvPTAAP6fWoc5hI1waVpH4HPI-z3W07wkXNBNlhQO9hAKmOv8njeniRb9FCg1c1JmF3efXUUmw2bU_zMmv4y8p_nL016PcG2_Kkra3QUXk6GbHsoOEa89zFXoAnXirQsiNRzPXeKrniAu0unVpGtsEeMjevYRjJ48Bp-DMJ4D_R_y1f316ypJ0S_9mXgcgm8VoTywUh86jiUV9Al4I6yaumsUkda-7a6L12tg8hgBlh0gWv0-rnf3aeCVRG6cfsuzLtT0ruwHdbHm1C0wW2RxRakx4lXvH-JOfzi7UEbqOQ5wVHgAAA.webp"
+        },
+        "languages": [
+          "id"
+        ],
+        "regions": [
+          "ID"
+        ]
+      },
+      "about_page_link": "https://www.google.co.id/search/about-this-result?origin=www.google.com&req=Cp4BL2dvdG8_dXJsPUNBRVNhd0hyT3pBVjZyNHpZeDQxMjlIbGF6ZlhJN3ZKTE96cnM1UTZUQjZkQjEyWGxyc1ZFbG5vOFItd0piMS1GN0hhaWVqM0tYNVFqZWpwT3I4bG9EcUZrSG5ZV3BKaHpNSUlUaWljbkJSMTd3NURsdG9hQ3BLbjB6bTNyRFJUZVl6ZGRDM2ljc05YMTJZS3BodloSBBoCCAAa8gMSAggAGgAiACoAMgYIARICaWQ6AEIECAEQJkoAWgByAHoAgkDMAwgmEAAYACAAKhIKBGNhZmUVpmqLQBoFY2Fmw6kqDgoHdGVyYmFpaxWQ5EY_KgwKBWJvZ29yFeAdjkAyngEvZ290bz91cmw9Q0FFU2F3SHJPekFWNnI0ell4NDEyOUhsYXpmWEk3dkpMT3pyczVRNlRCNmRCMTJYbHJzVkVsbm84Ui13SmIxLUY3SGFpZWozS1g1UWplanBPcjhsb0RxRmtIbllXcEpoek1JSVRpaWNuQlIxN3c1RGx0b2FDcEtuMHptM3JEUlRlWXpkZEMzaWNzTlgxMllLcGh2WjpBNyA8Yj5DYWZlPC9iPiBIaXRzIHVudHVrIE5vbmdrcm9uZyBkaSA8Yj5Cb2dvcjwvYj4gfCBQREYgLSBTY3JpYmRCqwFyZWtvbWVuZGVkIGJhbmdldCBidWF0IG5nb3BpIGF0YXUgbm9uZ2tyb25nIGJlcnNhbWEga2VsdWFyZ2EgYXRhdXB1biBrYXdhbi4gMS4gPGI-Q2V0cm9vIENvZmZlZSBCb2dvcjwvYj4uIEJpc25pcyBDYWZlIHlhbmcgc3VkYWggYmVydXNpYSBzYXR1IGRla2FkZSBpbmkgYWtoaXJueWEmbmJzcDsuLi4iAhABSABYAGgA",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.id&req_token=Cp4BL2dvdG8_dXJsPUNBRVNhd0hyT3pBVjZyNHpZeDQxMjlIbGF6ZlhJN3ZKTE96cnM1UTZUQjZkQjEyWGxyc1ZFbG5vOFItd0piMS1GN0hhaWVqM0tYNVFqZWpwT3I4bG9EcUZrSG5ZV3BKaHpNSUlUaWljbkJSMTd3NURsdG9hQ3BLbjB6bTNyRFJUZVl6ZGRDM2ljc05YMTJZS3BodloSBBoCCAAa8gMSAggAGgAiACoAMgYIARICaWQ6AEIECAEQJkoAWgByAHoAgkDMAwgmEAAYACAAKhIKBGNhZmUVpmqLQBoFY2Fmw6kqDgoHdGVyYmFpaxWQ5EY_KgwKBWJvZ29yFeAdjkAyngEvZ290bz91cmw9Q0FFU2F3SHJPekFWNnI0ell4NDEyOUhsYXpmWEk3dkpMT3pyczVRNlRCNmRCMTJYbHJzVkVsbm84Ui13SmIxLUY3SGFpZWozS1g1UWplanBPcjhsb0RxRmtIbllXcEpoek1JSVRpaWNuQlIxN3c1RGx0b2FDcEtuMHptM3JEUlRlWXpkZEMzaWNzTlgxMllLcGh2WjpBNyA8Yj5DYWZlPC9iPiBIaXRzIHVudHVrIE5vbmdrcm9uZyBkaSA8Yj5Cb2dvcjwvYj4gfCBQREYgLSBTY3JpYmRCqwFyZWtvbWVuZGVkIGJhbmdldCBidWF0IG5nb3BpIGF0YXUgbm9uZ2tyb25nIGJlcnNhbWEga2VsdWFyZ2EgYXRhdXB1biBrYXdhbi4gMS4gPGI-Q2V0cm9vIENvZmZlZSBCb2dvcjwvYj4uIEJpc25pcyBDYWZlIHlhbmcgc3VkYWggYmVydXNpYSBzYXR1IGRla2FkZSBpbmkgYWtoaXJueWEmbmJzcDsuLi4iAhABSABYAGgA",
+      "source": "Scribd"
+    },
+    {
+      "position": 6,
+      "title": "25 Rekomendasi Cafe di Bogor Nuansa Alam",
+      "link": "https://bobobox.com/blog/id/cafe-di-bogor-nuansa-alam/",
+      "redirect_link": "https://www.google.co.id/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbgHrOzAViR-lfUgzZmMoZVzQLT5ofQ0GvAzjDpTB4RivNTM8sM2yDP4O7B-oHvmy8xW6KyHHKSLJo36IAjujJ1vQZzG9mxPJ3CKE1AEVKFDRKoo3HgMfCFd3aShUjVL21RhvXaRvCQV_hfupNUYy&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQFnoECEwQAQ&uoh=1",
+      "displayed_link": "https://bobobox.com › blog › cafe-di-bogor-nuansa-alam",
+      "favicon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAADwCACdASogACAAPtEutFooIagoGAEAGglsAHgeKEgAliveRrNA2w1wVrcsDSxMzbwdVH-iDDBNajish8zs-ZqfPmmbcypXBf_YtO0_5igYAAD-_vcb-xG-xME5YKno-x8u3GB2w7GRhsdxosTLq6kli330qyqrpR4DtQjT3h5bhV5cE5zc70z_HtLHuSo5dnmlRZCokuAc2De1jprXSdGan2XkavMLWopJtHp5_-9iZxrX94w0T_E1Rn9XiVfIL__GxpYfr38Q6Cn5Uhq4OR9ukKDyoRP2f38QakhhKjgL3LnooBijGGp_gNa9PlgYMWjpbe4VMc37T1UX69-Yc8O9XrOcU2RyZA04SCnIMzaUDL-JLnrsyhnluex4_Guqo3_p9XrlpY6YOn-P-__H_y8JoQwd1o4-4MaBPWIXxtvdKtyJ_Rl_J5diDjH54Ww2ej087uNxsOwDNZxcwqmN9ETqRtutk5SV3dkX2sLp8aKfu5yqvCglWszDodjrHmFTXahYBEtQvpBLxzxt_oV9-41yBJpsiCwZ65wbd-MaSrpP37cJwH9Bg9nhUJI0ayqCvkjlaxTQrHUXX-ZzGgA.webp",
+      "date": "19 Jul 2026",
+      "snippet": "1. Nilagiri · 2. Ngopi di Sawah · 3. Amani Cafe · 4. Verdant Coffee · 5. Kedai Kopi Rumasa · 6. Rumah Air · 7. Kopi Tepi Hutan · 8. Teras Leuweung Awi ...",
+      "snippet_highlighted_words": [
+        "1. Nilagiri"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "1. Nilagiri · 2. Ngopi di Sawah · 3. Amani Cafe · 4. Verdant Coffee · 5. Kedai Kopi Rumasa · 6. Rumah Air · 7. Kopi Tepi Hutan · 8. Teras Leuweung Awi ...",
+          "source_info_link": "https://bobobox.com/blog/id/cafe-di-bogor-nuansa-alam/",
+          "icon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAADwCACdASogACAAPtEutFooIagoGAEAGglsAHgeKEgAliveRrNA2w1wVrcsDSxMzbwdVH-iDDBNajish8zs-ZqfPmmbcypXBf_YtO0_5igYAAD-_vcb-xG-xME5YKno-x8u3GB2w7GRhsdxosTLq6kli330qyqrpR4DtQjT3h5bhV5cE5zc70z_HtLHuSo5dnmlRZCokuAc2De1jprXSdGan2XkavMLWopJtHp5_-9iZxrX94w0T_E1Rn9XiVfIL__GxpYfr38Q6Cn5Uhq4OR9ukKDyoRP2f38QakhhKjgL3LnooBijGGp_gNa9PlgYMWjpbe4VMc37T1UX69-Yc8O9XrOcU2RyZA04SCnIMzaUDL-JLnrsyhnluex4_Guqo3_p9XrlpY6YOn-P-__H_y8JoQwd1o4-4MaBPWIXxtvdKtyJ_Rl_J5diDjH54Ww2ej087uNxsOwDNZxcwqmN9ETqRtutk5SV3dkX2sLp8aKfu5yqvCglWszDodjrHmFTXahYBEtQvpBLxzxt_oV9-41yBJpsiCwZ65wbd-MaSrpP37cJwH9Bg9nhUJI0ayqCvkjlaxTQrHUXX-ZzGgA.webp"
+        },
+        "languages": [
+          "id"
+        ],
+        "regions": [
+          "ID"
+        ]
+      },
+      "about_page_link": "https://www.google.co.id/search/about-this-result?origin=www.google.com&req=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVmlSLWxmVWd6Wm1Nb1pWelFMVDVvZlEwR3ZBempEcFRCNFJpdk5UTThzTTJ5RFA0TzdCLW9Idm15OHhXNkt5SEhLU0xKbzM2SUFqdWpKMXZRWnpHOW14UEozQ0tFMUFFVktGRFJLb28zSGdNZkNGZDNhU2hValZMMjFSaHZYYVJ2Q1FWX2hmdXBOVVl5EgQaAggAGp8EEgAaACIAKgAyBggBEgJpZDoAQgQIARAmSgBaAHIAegCCQPsDCCYQABgAIAAqEgoEY2FmZRX9gYZAGgVjYWbDqSoOCgd0ZXJiYWlrFWN34jwqDAoFYm9nb3IV1j6FQDKiAS9nb3RvP3VybD1DQUVTYmdIck96QVZpUi1sZlVnelptTW9aVnpRTFQ1b2ZRMEd2QXpqRHBUQjRSaXZOVE04c00yeURQNE83Qi1vSHZteTh4VzZLeUhIS1NMSm8zNklBanVqSjF2UVp6RzlteFBKM0NLRTFBRVZLRkRSS29vM0hnTWZDRmQzYVNoVWpWTDIxUmh2WGFSdkNRVl9oZnVwTlVZeTpAMjUgUmVrb21lbmRhc2kgPGI-Q2FmZTwvYj4gZGkgPGI-Qm9nb3I8L2I-IE51YW5zYSBBbGFtIC0gQm9ib2JveELXATxiPjEuIE5pbGFnaXJpPC9iPiAmbWlkZG90OyAyLiBOZ29waSBkaSBTYXdhaCAmbWlkZG90OyAzLiBBbWFuaSBDYWZlICZtaWRkb3Q7IDQuIFZlcmRhbnQgQ29mZmVlICZtaWRkb3Q7IDUuIEtlZGFpIEtvcGkgUnVtYXNhICZtaWRkb3Q7IDYuIFJ1bWFoIEFpciAmbWlkZG90OyA3LiBLb3BpIFRlcGkgSHV0YW4gJm1pZGRvdDsgOC4gVGVyYXMgTGV1d2V1bmcgQXdpJm5ic3A7Li4uIgIQAUgAWABoAA",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.id&req_token=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVmlSLWxmVWd6Wm1Nb1pWelFMVDVvZlEwR3ZBempEcFRCNFJpdk5UTThzTTJ5RFA0TzdCLW9Idm15OHhXNkt5SEhLU0xKbzM2SUFqdWpKMXZRWnpHOW14UEozQ0tFMUFFVktGRFJLb28zSGdNZkNGZDNhU2hValZMMjFSaHZYYVJ2Q1FWX2hmdXBOVVl5EgQaAggAGp8EEgAaACIAKgAyBggBEgJpZDoAQgQIARAmSgBaAHIAegCCQPsDCCYQABgAIAAqEgoEY2FmZRX9gYZAGgVjYWbDqSoOCgd0ZXJiYWlrFWN34jwqDAoFYm9nb3IV1j6FQDKiAS9nb3RvP3VybD1DQUVTYmdIck96QVZpUi1sZlVnelptTW9aVnpRTFQ1b2ZRMEd2QXpqRHBUQjRSaXZOVE04c00yeURQNE83Qi1vSHZteTh4VzZLeUhIS1NMSm8zNklBanVqSjF2UVp6RzlteFBKM0NLRTFBRVZLRkRSS29vM0hnTWZDRmQzYVNoVWpWTDIxUmh2WGFSdkNRVl9oZnVwTlVZeTpAMjUgUmVrb21lbmRhc2kgPGI-Q2FmZTwvYj4gZGkgPGI-Qm9nb3I8L2I-IE51YW5zYSBBbGFtIC0gQm9ib2JveELXATxiPjEuIE5pbGFnaXJpPC9iPiAmbWlkZG90OyAyLiBOZ29waSBkaSBTYXdhaCAmbWlkZG90OyAzLiBBbWFuaSBDYWZlICZtaWRkb3Q7IDQuIFZlcmRhbnQgQ29mZmVlICZtaWRkb3Q7IDUuIEtlZGFpIEtvcGkgUnVtYXNhICZtaWRkb3Q7IDYuIFJ1bWFoIEFpciAmbWlkZG90OyA3LiBLb3BpIFRlcGkgSHV0YW4gJm1pZGRvdDsgOC4gVGVyYXMgTGV1d2V1bmcgQXdpJm5ic3A7Li4uIgIQAUgAWABoAA",
+      "source": "Bobobox"
+    },
+    {
+      "position": 7,
+      "title": "35 Coffee Shop Puncak Bogor View Bagus & 24 Jam",
+      "link": "https://dealls.com/pengembangan-karir/coffee-shop-puncak",
+      "redirect_link": "https://www.google.co.id/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScAHrOzAVEx3KUAspg0CMxZ8Y2GxdJA0x-YkrSrHde--t-X5vpRmE4vJOpqs5VnesMZECQxj-JTFyHmyhKhqCYTKUauf0IHKXVghvPWvBUVo-JVuHlgBduWMZvVaLBIrIqeUh4UTKbuyRY9EDOnDy5xg&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQFnoECE4QAQ&uoh=1",
+      "displayed_link": "https://dealls.com › pengembangan-karir › coffee-shop-...",
+      "favicon": "https://serpapi.com/images/i/UklGRkABAABXRUJQVlA4IDQBAACwBgCdASocABwAPtEutFooIagoGAEAGglsAJ0zVxYBz0nsqkkNef5BwADoTDfqGj9uqDeJGs3Su9X70px14AD-rNIbHlDsvWihkryJt_Ev8uOm9fc67SfG2zXVRlm-L_xFSrKcv_4h8Xn7d_m_YwAEgilVd0bTuvSGVG8Bfpzp0l8ocXKQ6n0uHV_kBm75MMmMaSKGmnDXgw76XCoPh5qutrbYgMb5N0x2g9_vAkLNX-ynq23VkGe__VvZH_2EhEifFRHLnL8uCL1oYS7uX0V5kE2I-xKXDBaMiSTiTDgy9q71cJdeij97_h1V9w8xzwhndF8_xcf-cAWSRA33aH-qctyP4NNa5UoUUF2Jo2-XL8m2fmcCLoQ26EKB7lKWeFYXn_-P63-aom18GtbD75cS_SAAAA.webp",
+      "date": "10 Mei 2026",
+      "snippet": "1. The Lake House · 2. Tropical Deck · 3. Kopi Nako Kebon Jati · 4. Roofpark Cafe & Resto · 5. Kembali Ke Alam · 6. Breeve Hills Resto & Cafe · 7.",
+      "snippet_highlighted_words": [
+        "1. The Lake House"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "1. The Lake House · 2. Tropical Deck · 3. Kopi Nako Kebon Jati · 4. Roofpark Cafe & Resto · 5. Kembali Ke Alam · 6. Breeve Hills Resto & Cafe · 7.",
+          "source_info_link": "https://dealls.com/pengembangan-karir/coffee-shop-puncak",
+          "icon": "https://serpapi.com/images/i/UklGRkABAABXRUJQVlA4IDQBAACwBgCdASocABwAPtEutFooIagoGAEAGglsAJ0zVxYBz0nsqkkNef5BwADoTDfqGj9uqDeJGs3Su9X70px14AD-rNIbHlDsvWihkryJt_Ev8uOm9fc67SfG2zXVRlm-L_xFSrKcv_4h8Xn7d_m_YwAEgilVd0bTuvSGVG8Bfpzp0l8ocXKQ6n0uHV_kBm75MMmMaSKGmnDXgw76XCoPh5qutrbYgMb5N0x2g9_vAkLNX-ynq23VkGe__VvZH_2EhEifFRHLnL8uCL1oYS7uX0V5kE2I-xKXDBaMiSTiTDgy9q71cJdeij97_h1V9w8xzwhndF8_xcf-cAWSRA33aH-qctyP4NNa5UoUUF2Jo2-XL8m2fmcCLoQ26EKB7lKWeFYXn_-P63-aom18GtbD75cS_SAAAA.webp"
+        },
+        "languages": [
+          "id"
+        ],
+        "regions": [
+          "ID"
+        ]
+      },
+      "about_page_link": "https://www.google.co.id/search/about-this-result?origin=www.google.com&req=CqUBL2dvdG8_dXJsPUNBRVNjQUhyT3pBVkV4M0tVQXNwZzBDTXhaOFkyR3hkSkEweC1Za3JTckhkZS0tdC1YNXZwUm1FNHZKT3BxczVWbmVzTVpFQ1F4ai1KVEZ5SG15aEtocUNZVEtVYXVmMElIS1hWZ2h2UFd2QlVWby1KVnVIbGdCZHVXTVp2VmFMQklySXFlVWg0VVRLYnV5Ulk5RURPbkR5NXhnEgQaAggAGpkEEgAaACIAKgAyBggBEgJpZDoAQgQIARAmSgBaAHIAegCCQPUDCCYQABgAIAAqEgoEY2FmZRVieOM_GgVjYWbDqSoOCgd0ZXJiYWlrFfMHSj8qDAoFYm9nb3IVfP5sQDKlAS9nb3RvP3VybD1DQUVTY0FIck96QVZFeDNLVUFzcGcwQ014WjhZMkd4ZEpBMHgtWWtyU3JIZGUtLXQtWDV2cFJtRTR2Sk9wcXM1Vm5lc01aRUNReGotSlRGeUhteWhLaHFDWVRLVWF1ZjBJSEtYVmdodlBXdkJVVm8tSlZ1SGxnQmR1V01adlZhTEJJcklxZVVoNFVUS2J1eVJZOUVET25EeTV4ZzpDMzUgQ29mZmVlIFNob3AgUHVuY2FrIDxiPkJvZ29yPC9iPiBWaWV3IEJhZ3VzICZhbXA7IDI0IEphbSB8IERlYWxsc0LLATxiPjEuIFRoZSBMYWtlIEhvdXNlPC9iPiAmbWlkZG90OyAyLiBUcm9waWNhbCBEZWNrICZtaWRkb3Q7IDMuIEtvcGkgTmFrbyBLZWJvbiBKYXRpICZtaWRkb3Q7IDQuIFJvb2ZwYXJrIENhZmUgJmFtcDsgUmVzdG8gJm1pZGRvdDsgNS4gS2VtYmFsaSBLZSBBbGFtICZtaWRkb3Q7IDYuIEJyZWV2ZSBIaWxscyBSZXN0byAmYW1wOyBDYWZlICZtaWRkb3Q7IDcuIgIQAUgAWABoAA",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.id&req_token=CqUBL2dvdG8_dXJsPUNBRVNjQUhyT3pBVkV4M0tVQXNwZzBDTXhaOFkyR3hkSkEweC1Za3JTckhkZS0tdC1YNXZwUm1FNHZKT3BxczVWbmVzTVpFQ1F4ai1KVEZ5SG15aEtocUNZVEtVYXVmMElIS1hWZ2h2UFd2QlVWby1KVnVIbGdCZHVXTVp2VmFMQklySXFlVWg0VVRLYnV5Ulk5RURPbkR5NXhnEgQaAggAGpkEEgAaACIAKgAyBggBEgJpZDoAQgQIARAmSgBaAHIAegCCQPUDCCYQABgAIAAqEgoEY2FmZRVieOM_GgVjYWbDqSoOCgd0ZXJiYWlrFfMHSj8qDAoFYm9nb3IVfP5sQDKlAS9nb3RvP3VybD1DQUVTY0FIck96QVZFeDNLVUFzcGcwQ014WjhZMkd4ZEpBMHgtWWtyU3JIZGUtLXQtWDV2cFJtRTR2Sk9wcXM1Vm5lc01aRUNReGotSlRGeUhteWhLaHFDWVRLVWF1ZjBJSEtYVmdodlBXdkJVVm8tSlZ1SGxnQmR1V01adlZhTEJJcklxZVVoNFVUS2J1eVJZOUVET25EeTV4ZzpDMzUgQ29mZmVlIFNob3AgUHVuY2FrIDxiPkJvZ29yPC9iPiBWaWV3IEJhZ3VzICZhbXA7IDI0IEphbSB8IERlYWxsc0LLATxiPjEuIFRoZSBMYWtlIEhvdXNlPC9iPiAmbWlkZG90OyAyLiBUcm9waWNhbCBEZWNrICZtaWRkb3Q7IDMuIEtvcGkgTmFrbyBLZWJvbiBKYXRpICZtaWRkb3Q7IDQuIFJvb2ZwYXJrIENhZmUgJmFtcDsgUmVzdG8gJm1pZGRvdDsgNS4gS2VtYmFsaSBLZSBBbGFtICZtaWRkb3Q7IDYuIEJyZWV2ZSBIaWxscyBSZXN0byAmYW1wOyBDYWZlICZtaWRkb3Q7IDcuIgIQAUgAWABoAA",
+      "source": "Dealls"
+    },
+    {
+      "position": 8,
+      "title": "7 Cafe Di Bogor Dengan Tampilan Estetik",
+      "link": "https://travelspromo.com/wisata-kuliner/cafe-di-bogor/",
+      "redirect_link": "https://www.google.co.id/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbgHrOzAVuMQTG9mEQNg1Tstu59kVzaKhZePjrLO5P_9Qt98T_Dlho5RfnojHCVM7QkgsBuRHXhlHIExWIxxyPovAJXZQdX9Nfhs6rhf2_Sqw94KSEpbu9vWODmWS-83Q4_pVMwGhXEgn2HXaYsv8&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQFnoECEsQAQ&uoh=1",
+      "displayed_link": "https://travelspromo.com › Wisata Kuliner",
+      "favicon": "https://serpapi.com/images/i/UklGRswAAABXRUJQVlA4IMAAAABwBgCdASocABwAPrkurlcnIacnG_DgFwlsALjhAC0AfACLAN5S__4WrQkHBJQ-EmoIsJEuJdWRqP8xAAAA_v7CIkPW7VSGS5drHrm3_wHWXaaEfIsqXQxTlhHstTl8LXg2TYOTE4ztexDi4_mQv-kFq4QIvd_mVtasAt0o9iz3Ugh-fzQHAaFKxG9mZ84EMRr2b_N7F94hSh9r7yTSVquKnkIll5cpID0sxEyqsQsQVGYCXG9twny5cpxTFaCAAAA.webp",
+      "date": "25 Jun 2024",
+      "snippet": "1. Roofpark Cafe Bogor · 2. Cyrano Cafe and Tea Bar Bogor · 3. De Cafe Rooftop Garden Bogor · 4. District Garden · 5. Warung Nako dan Kopi Nako ...",
+      "snippet_highlighted_words": [
+        "1. Roofpark Cafe Bogor"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "1. Roofpark Cafe Bogor · 2. Cyrano Cafe and Tea Bar Bogor · 3. De Cafe Rooftop Garden Bogor · 4. District Garden · 5. Warung Nako dan Kopi Nako ...",
+          "source_info_link": "https://travelspromo.com/wisata-kuliner/cafe-di-bogor/",
+          "icon": "https://serpapi.com/images/i/UklGRswAAABXRUJQVlA4IMAAAABwBgCdASocABwAPrkurlcnIacnG_DgFwlsALjhAC0AfACLAN5S__4WrQkHBJQ-EmoIsJEuJdWRqP8xAAAA_v7CIkPW7VSGS5drHrm3_wHWXaaEfIsqXQxTlhHstTl8LXg2TYOTE4ztexDi4_mQv-kFq4QIvd_mVtasAt0o9iz3Ugh-fzQHAaFKxG9mZ84EMRr2b_N7F94hSh9r7yTSVquKnkIll5cpID0sxEyqsQsQVGYCXG9twny5cpxTFaCAAAA.webp"
+        },
+        "languages": [
+          "id"
+        ],
+        "regions": [
+          "ID"
+        ]
+      },
+      "about_page_link": "https://www.google.co.id/search/about-this-result?origin=www.google.com&req=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVnVNUVRHOW1FUU5nMVRzdHU1OWtWemFLaFplUGpyTE81UF85UXQ5OFRfRGxobzVSZm5vakhDVk03UWtnc0J1UkhYaGxISUV4V0l4eHlQb3ZBSlhaUWRYOU5maHM2cmhmMl9TcXc5NEtTRXBidTl2V09EbVdTLTgzUTRfcFZNd0doWEVnbjJIWGFZc3Y4EgQaAggAGocEEgAaACIAKgAyBggBEgJpZDoAQgQIARAmSgBaAHIAegCCQOMDCCYQABgAIAAqEgoEY2FmZRVeO59AGgVjYWbDqSoOCgd0ZXJiYWlrFQAAAAAqDAoFYm9nb3IVvSuPQDKiAS9nb3RvP3VybD1DQUVTYmdIck96QVZ1TVFURzltRVFOZzFUc3R1NTlrVnphS2haZVBqckxPNVBfOVF0OThUX0RsaG81UmZub2pIQ1ZNN1FrZ3NCdVJIWGhsSElFeFdJeHh5UG92QUpYWlFkWDlOZmhzNnJoZjJfU3F3OTRLU0VwYnU5dldPRG1XUy04M1E0X3BWTXdHaFhFZ24ySFhhWXN2ODpENyA8Yj5DYWZlPC9iPiBEaSA8Yj5Cb2dvcjwvYj4gRGVuZ2FuIFRhbXBpbGFuIEVzdGV0aWsgLSBUcmF2ZWxzUHJvbW9CuwE8Yj4xLiBSb29mcGFyayBDYWZlIEJvZ29yPC9iPiAmbWlkZG90OyAyLiBDeXJhbm8gQ2FmZSBhbmQgVGVhIEJhciBCb2dvciAmbWlkZG90OyAzLiBEZSBDYWZlIFJvb2Z0b3AgR2FyZGVuIEJvZ29yICZtaWRkb3Q7IDQuIERpc3RyaWN0IEdhcmRlbiAmbWlkZG90OyA1LiBXYXJ1bmcgTmFrbyBkYW4gS29waSBOYWtvJm5ic3A7Li4uIgIQAUgAWABoAA",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.id&req_token=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVnVNUVRHOW1FUU5nMVRzdHU1OWtWemFLaFplUGpyTE81UF85UXQ5OFRfRGxobzVSZm5vakhDVk03UWtnc0J1UkhYaGxISUV4V0l4eHlQb3ZBSlhaUWRYOU5maHM2cmhmMl9TcXc5NEtTRXBidTl2V09EbVdTLTgzUTRfcFZNd0doWEVnbjJIWGFZc3Y4EgQaAggAGocEEgAaACIAKgAyBggBEgJpZDoAQgQIARAmSgBaAHIAegCCQOMDCCYQABgAIAAqEgoEY2FmZRVeO59AGgVjYWbDqSoOCgd0ZXJiYWlrFQAAAAAqDAoFYm9nb3IVvSuPQDKiAS9nb3RvP3VybD1DQUVTYmdIck96QVZ1TVFURzltRVFOZzFUc3R1NTlrVnphS2haZVBqckxPNVBfOVF0OThUX0RsaG81UmZub2pIQ1ZNN1FrZ3NCdVJIWGhsSElFeFdJeHh5UG92QUpYWlFkWDlOZmhzNnJoZjJfU3F3OTRLU0VwYnU5dldPRG1XUy04M1E0X3BWTXdHaFhFZ24ySFhhWXN2ODpENyA8Yj5DYWZlPC9iPiBEaSA8Yj5Cb2dvcjwvYj4gRGVuZ2FuIFRhbXBpbGFuIEVzdGV0aWsgLSBUcmF2ZWxzUHJvbW9CuwE8Yj4xLiBSb29mcGFyayBDYWZlIEJvZ29yPC9iPiAmbWlkZG90OyAyLiBDeXJhbm8gQ2FmZSBhbmQgVGVhIEJhciBCb2dvciAmbWlkZG90OyAzLiBEZSBDYWZlIFJvb2Z0b3AgR2FyZGVuIEJvZ29yICZtaWRkb3Q7IDQuIERpc3RyaWN0IEdhcmRlbiAmbWlkZG90OyA1LiBXYXJ1bmcgTmFrbyBkYW4gS29waSBOYWtvJm5ic3A7Li4uIgIQAUgAWABoAA",
+      "source": "TravelsPromo"
     }
   ],
-  "people_also_ask": [
-    {"question": "Kafe mana yang paling estetik di Bogor?", "answer": "..."},
-    {"question": "Kafe mana yang buka 24 jam di Bogor?", "answer": "..."},
-    {"question": "Kopi lokal khas Bogor bisa dibeli di mana?", "answer": "..."}
+  "filters": [
+    {
+      "name": "Buka sekarang",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r27E1_7Ryeiuc3CNVRbfYUW-5BF6jhzpO5JR9zKnghBqX6Q6Yt9BSjMWXCrJ0x-wIhmDxvJBDibAZgO91WAQNMtRYSi-wJBm6bL1J9BhOpfHUzWzsV-DgYdRnXZ9Ry4saJ6eyUUdkyNwVnqlVxOFh7Jz_23ha8Qfz-kG1QwW1tIoL9MB-9HcbSBWp0Nr0UqG9Gr4GYw",
+        "q": "cafe terbaik bogor buka sekarang"
+      },
+      "link": "https://www.google.co.id/search?sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&q=cafe+terbaik+bogor+buka+sekarang&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r27E1_7Ryeiuc3CNVRbfYUW-5BF6jhzpO5JR9zKnghBqX6Q6Yt9BSjMWXCrJ0x-wIhmDxvJBDibAZgO91WAQNMtRYSi-wJBm6bL1J9BhOpfHUzWzsV-DgYdRnXZ9Ry4saJ6eyUUdkyNwVnqlVxOFh7Jz_23ha8Qfz-kG1QwW1tIoL9MB-9HcbSBWp0Nr0UqG9Gr4GYw&sa=X&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQxKsJKAB6BAgjEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor+buka+sekarang&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r27E1_7Ryeiuc3CNVRbfYUW-5BF6jhzpO5JR9zKnghBqX6Q6Yt9BSjMWXCrJ0x-wIhmDxvJBDibAZgO91WAQNMtRYSi-wJBm6bL1J9BhOpfHUzWzsV-DgYdRnXZ9Ry4saJ6eyUUdkyNwVnqlVxOFh7Jz_23ha8Qfz-kG1QwW1tIoL9MB-9HcbSBWp0Nr0UqG9Gr4GYw"
+    },
+    {
+      "name": "Rating tertinggi",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rZcRmNRsmD3AQt8nqY335QS2I5WtyDj3CaHNSD0G0gxwRpRDm-b_au-KurVxzR2TkQ9UZRJuOTUKEUmcsZXwOWZf2kTQgZVKpRyWd7qte6YXtoDIwsTQzmwmuLpOMOsgqW9R3Z_x8ECuwlu86VV7HC2DniW0h3uLjuLFOyJd1-bYpYq6AUlEldafiqmAxZl9ZwR_u-Q",
+        "q": "cafe terbaik bogor rating tertinggi"
+      },
+      "link": "https://www.google.co.id/search?sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&q=cafe+terbaik+bogor+rating+tertinggi&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rZcRmNRsmD3AQt8nqY335QS2I5WtyDj3CaHNSD0G0gxwRpRDm-b_au-KurVxzR2TkQ9UZRJuOTUKEUmcsZXwOWZf2kTQgZVKpRyWd7qte6YXtoDIwsTQzmwmuLpOMOsgqW9R3Z_x8ECuwlu86VV7HC2DniW0h3uLjuLFOyJd1-bYpYq6AUlEldafiqmAxZl9ZwR_u-Q&sa=X&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQxKsJKAF6BAgdEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor+rating+tertinggi&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rZcRmNRsmD3AQt8nqY335QS2I5WtyDj3CaHNSD0G0gxwRpRDm-b_au-KurVxzR2TkQ9UZRJuOTUKEUmcsZXwOWZf2kTQgZVKpRyWd7qte6YXtoDIwsTQzmwmuLpOMOsgqW9R3Z_x8ECuwlu86VV7HC2DniW0h3uLjuLFOyJd1-bYpYq6AUlEldafiqmAxZl9ZwR_u-Q"
+    },
+    {
+      "name": "Murah",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r9o8EtIr7w4auRdy15uM4ZyGSSj09dFLN5chYmmAw1N8DzD00ptfjSnn00UKTWnkI5xBB_rLEI_OtiMGHETZTWm3DLd51pqIpKisHopAesJS3-TRK7YlhWMrdScqAI-gKhAW9fUTE_bqaMznyKISovVSfWH3XZQXBbiZdbfS7oguvnRTF",
+        "q": "cafe terbaik bogor murah"
+      },
+      "link": "https://www.google.co.id/search?sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&q=cafe+terbaik+bogor+murah&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r9o8EtIr7w4auRdy15uM4ZyGSSj09dFLN5chYmmAw1N8DzD00ptfjSnn00UKTWnkI5xBB_rLEI_OtiMGHETZTWm3DLd51pqIpKisHopAesJS3-TRK7YlhWMrdScqAI-gKhAW9fUTE_bqaMznyKISovVSfWH3XZQXBbiZdbfS7oguvnRTF&sa=X&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQxKsJKAJ6BAglEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor+murah&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r9o8EtIr7w4auRdy15uM4ZyGSSj09dFLN5chYmmAw1N8DzD00ptfjSnn00UKTWnkI5xBB_rLEI_OtiMGHETZTWm3DLd51pqIpKisHopAesJS3-TRK7YlhWMrdScqAI-gKhAW9fUTE_bqaMznyKISovVSfWH3XZQXBbiZdbfS7oguvnRTF"
+    },
+    {
+      "name": "Kelas atas",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rnz0cfJVzG3l0uEtLclCSjYQ_8WtZB8uSEx_O1osTCKfbtYwIclL4rtkcz6CNfd9XxzRl5S6VcJ8aS2jYKml6kkBN9cozIAgu1upfT_hPgW6fJZCpA2m9G4P2JlYlM83ORFocsLQR5ttHtdgcx7ie4yjydo4KsePlwReQtDpzh93lcipzgYwfdbuATkwV2tywO1GEdw",
+        "q": "cafe terbaik bogor kelas atas"
+      },
+      "link": "https://www.google.co.id/search?sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&q=cafe+terbaik+bogor+kelas+atas&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rnz0cfJVzG3l0uEtLclCSjYQ_8WtZB8uSEx_O1osTCKfbtYwIclL4rtkcz6CNfd9XxzRl5S6VcJ8aS2jYKml6kkBN9cozIAgu1upfT_hPgW6fJZCpA2m9G4P2JlYlM83ORFocsLQR5ttHtdgcx7ie4yjydo4KsePlwReQtDpzh93lcipzgYwfdbuATkwV2tywO1GEdw&sa=X&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQxKsJKAN6BAgkEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor+kelas+atas&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rnz0cfJVzG3l0uEtLclCSjYQ_8WtZB8uSEx_O1osTCKfbtYwIclL4rtkcz6CNfd9XxzRl5S6VcJ8aS2jYKml6kkBN9cozIAgu1upfT_hPgW6fJZCpA2m9G4P2JlYlM83ORFocsLQR5ttHtdgcx7ie4yjydo4KsePlwReQtDpzh93lcipzgYwfdbuATkwV2tywO1GEdw"
+    },
+    {
+      "name": "Harga",
+      "options": []
+    }
   ],
   "related_searches": [
-    {"query": "kafe estetik bogor"},
-    {"query": "kafe pemandangan sawah bogor"},
-    {"query": "harga kopi di kafe bogor"}
+    {
+      "block_position": 1,
+      "query": "Cafe di Bogor view bagus dan murah",
+      "link": "https://www.google.co.id/search?sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&q=Cafe+di+Bogor+view+bagus+dan+murah&sa=X&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ1QJ6BAhDEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=Cafe+di+Bogor+view+bagus+dan+murah"
+    },
+    {
+      "block_position": 1,
+      "query": "Cafe Bogor",
+      "link": "https://www.google.co.id/search?sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&q=Cafe+Bogor&sa=X&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ1QJ6BAhIEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=Cafe+Bogor"
+    },
+    {
+      "block_position": 1,
+      "query": "Cafe di Kota Bogor view bagus",
+      "link": "https://www.google.co.id/search?sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&q=Cafe+di+Kota+Bogor+view+bagus&sa=X&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ1QJ6BAhGEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=Cafe+di+Kota+Bogor+view+bagus"
+    },
+    {
+      "block_position": 1,
+      "query": "Cafe di Bogor view gunung",
+      "link": "https://www.google.co.id/search?sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&q=Cafe+di+Bogor+view+gunung&sa=X&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ1QJ6BAhHEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=Cafe+di+Bogor+view+gunung"
+    },
+    {
+      "block_position": 1,
+      "query": "Coffee shop Bogor Instagramable",
+      "link": "https://www.google.co.id/search?sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&q=Coffee+shop+Bogor+Instagramable&sa=X&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ1QJ6BAhFEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=Coffee+shop+Bogor+Instagramable"
+    },
+    {
+      "block_position": 1,
+      "query": "Cafe Alam Pancawati Bogor",
+      "link": "https://www.google.co.id/search?sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&q=Cafe+Alam+Pancawati+Bogor&sa=X&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ1QJ6BAhEEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=Cafe+Alam+Pancawati+Bogor"
+    },
+    {
+      "block_position": 1,
+      "query": "Cafe alam di Bogor",
+      "link": "https://www.google.co.id/search?sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&q=Cafe+alam+di+Bogor&sa=X&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ1QJ6BAhCEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=Cafe+alam+di+Bogor"
+    },
+    {
+      "block_position": 1,
+      "query": "Cafe di Bogor 24 jam",
+      "link": "https://www.google.co.id/search?sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&q=Cafe+di+Bogor+24+jam&sa=X&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ1QJ6BAhBEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=Cafe+di+Bogor+24+jam"
+    }
   ],
-  "search_information": {
-    "total_results": 1830000,
-    "time_taken_displayed": 0.42,
-    "time_taken_decimal": 0.42
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.co.id/search?q=cafe+terbaik+bogor&sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&ei=guLNas3gKrGcw8cP04qZEQ&start=10&sa=N&sstk=AS6-VmJ7M3HdgecgtnXmWX0qA-GWP_wn5LslF0INbrmvrUOhj9X3_khVH6FbW6Yu2XBL6dGC5EMPL65DfnfdH4VB7HCeiJRYU3ZhSA&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ8NMDegQIPhAW",
+    "other_pages": {
+      "2": "https://www.google.co.id/search?q=cafe+terbaik+bogor&sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&ei=guLNas3gKrGcw8cP04qZEQ&start=10&sa=N&sstk=AS6-VmJ7M3HdgecgtnXmWX0qA-GWP_wn5LslF0INbrmvrUOhj9X3_khVH6FbW6Yu2XBL6dGC5EMPL65DfnfdH4VB7HCeiJRYU3ZhSA&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ8tMDegQIPhAE",
+      "3": "https://www.google.co.id/search?q=cafe+terbaik+bogor&sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&ei=guLNas3gKrGcw8cP04qZEQ&start=20&sa=N&sstk=AS6-VmJ7M3HdgecgtnXmWX0qA-GWP_wn5LslF0INbrmvrUOhj9X3_khVH6FbW6Yu2XBL6dGC5EMPL65DfnfdH4VB7HCeiJRYU3ZhSA&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ8tMDegQIPhAG",
+      "4": "https://www.google.co.id/search?q=cafe+terbaik+bogor&sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&ei=guLNas3gKrGcw8cP04qZEQ&start=30&sa=N&sstk=AS6-VmJ7M3HdgecgtnXmWX0qA-GWP_wn5LslF0INbrmvrUOhj9X3_khVH6FbW6Yu2XBL6dGC5EMPL65DfnfdH4VB7HCeiJRYU3ZhSA&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ8tMDegQIPhAI",
+      "5": "https://www.google.co.id/search?q=cafe+terbaik+bogor&sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&ei=guLNas3gKrGcw8cP04qZEQ&start=40&sa=N&sstk=AS6-VmJ7M3HdgecgtnXmWX0qA-GWP_wn5LslF0INbrmvrUOhj9X3_khVH6FbW6Yu2XBL6dGC5EMPL65DfnfdH4VB7HCeiJRYU3ZhSA&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ8tMDegQIPhAK",
+      "6": "https://www.google.co.id/search?q=cafe+terbaik+bogor&sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&ei=guLNas3gKrGcw8cP04qZEQ&start=50&sa=N&sstk=AS6-VmJ7M3HdgecgtnXmWX0qA-GWP_wn5LslF0INbrmvrUOhj9X3_khVH6FbW6Yu2XBL6dGC5EMPL65DfnfdH4VB7HCeiJRYU3ZhSA&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ8tMDegQIPhAM",
+      "7": "https://www.google.co.id/search?q=cafe+terbaik+bogor&sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&ei=guLNas3gKrGcw8cP04qZEQ&start=60&sa=N&sstk=AS6-VmJ7M3HdgecgtnXmWX0qA-GWP_wn5LslF0INbrmvrUOhj9X3_khVH6FbW6Yu2XBL6dGC5EMPL65DfnfdH4VB7HCeiJRYU3ZhSA&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ8tMDegQIPhAO",
+      "8": "https://www.google.co.id/search?q=cafe+terbaik+bogor&sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&ei=guLNas3gKrGcw8cP04qZEQ&start=70&sa=N&sstk=AS6-VmJ7M3HdgecgtnXmWX0qA-GWP_wn5LslF0INbrmvrUOhj9X3_khVH6FbW6Yu2XBL6dGC5EMPL65DfnfdH4VB7HCeiJRYU3ZhSA&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ8tMDegQIPhAQ",
+      "9": "https://www.google.co.id/search?q=cafe+terbaik+bogor&sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&ei=guLNas3gKrGcw8cP04qZEQ&start=80&sa=N&sstk=AS6-VmJ7M3HdgecgtnXmWX0qA-GWP_wn5LslF0INbrmvrUOhj9X3_khVH6FbW6Yu2XBL6dGC5EMPL65DfnfdH4VB7HCeiJRYU3ZhSA&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ8tMDegQIPhAS",
+      "10": "https://www.google.co.id/search?q=cafe+terbaik+bogor&sca_esv=95a3924c91beb42b&gl=id&hl=id&sxsrf=APpeQnuFe-EnLDyUVb2bp7zp_sIanDr7vw:1791877762706&ei=guLNas3gKrGcw8cP04qZEQ&start=90&sa=N&sstk=AS6-VmJ7M3HdgecgtnXmWX0qA-GWP_wn5LslF0INbrmvrUOhj9X3_khVH6FbW6Yu2XBL6dGC5EMPL65DfnfdH4VB7HCeiJRYU3ZhSA&ved=2ahUKEwjNqZvswLaXAxUxzvACHVNFJgIQ8tMDegQIPhAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=id&google_domain=google.co.id&hl=id&q=cafe+terbaik+bogor&start=90"
+    }
   }
 }
