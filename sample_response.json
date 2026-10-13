@@ -1,0 +1,59 @@
+{
+  "search_parameters": {
+    "engine": "google",
+    "q": "kafe terbaik bogor",
+    "gl": "id",
+    "hl": "id",
+    "google_domain": "google.co.id"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Kafe Terbaik di Bogor 2026: Daftar Lengkap & Tips ...",
+      "link": "https://bogor.tripadvisor.co.id/Restaurants",
+      "snippet": "Temukan daftar kafe dan kopi terbaik di Bogor. Ulasan, foto, harga, dan lokasi terupdate dari pengunjung lokal.",
+      "sitelinks": [
+        {"title": "Kafe Estetik", "link": "https://bogor.tripadvisor.co.id/estetik"}
+      ]
+    },
+    {
+      "position": 2,
+      "title": "10 Kafe Hits di Bogor yang Wajib Kamu Kunjungi",
+      "link": "https://bogor.kompas.com/kafe-hit-bogor",
+      "snippet": "Dari kafe bertema hutan hingga coffee shop pemandangan sawah, ini kafe paling populer di Kota Bogor."
+    },
+    {
+      "position": 3,
+      "title": "Rekomendasi Kafe Estetik & Cozy di Bogor",
+      "link": "https://kuliner.kaskus.id/rekomendasi-kafe-bogor",
+      "snippet": "Koleksi kafe instagramable di Bogor, lengkap dengan menu, harga, dan alamat."
+    },
+    {
+      "position": 4,
+      "title": "Kopi Lokal Bogor: 7 Kedai Favorit Warga",
+      "link": "https://local.bogor.id/kopi-lokal",
+      "snippet": "Rekomendasi kedai kopi yang menyajikan biji lokal dan atmosphere nyaman."
+    },
+    {
+      "position": 5,
+      "title": "Kafe Pemandangan Gunung di Bogor - Guide Lengkap",
+      "link": "https://travel.disway.id/kafe-pemandangan-bogor",
+      "snippet": "Spot nongkrong dengan view Gunung Salak, cocok untuk hangout sore hari."
+    }
+  ],
+  "people_also_ask": [
+    {"question": "Kafe mana yang paling estetik di Bogor?", "answer": "..."},
+    {"question": "Kafe mana yang buka 24 jam di Bogor?", "answer": "..."},
+    {"question": "Kopi lokal khas Bogor bisa dibeli di mana?", "answer": "..."}
+  ],
+  "related_searches": [
+    {"query": "kafe estetik bogor"},
+    {"query": "kafe pemandangan sawah bogor"},
+    {"query": "harga kopi di kafe bogor"}
+  ],
+  "search_information": {
+    "total_results": 1830000,
+    "time_taken_displayed": 0.42,
+    "time_taken_decimal": 0.42
+  }
+}
