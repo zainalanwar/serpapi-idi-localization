@@ -1,207 +1,193 @@
 #!/usr/bin/env python3
+"""Explore SerpApi responses with Indonesian examples. Python standard library only.
+
+AI-assisted educational sample. Offline replay is not a live request or a
+measurement of ranking changes. See VERIFICATION.md for validation limits.
 """
-serp_idi_tracker.py — Lacak & jelajahi hasil pencarian untuk pasar Indonesia.
-
-Standalone: hanya Python standard library (urllib + json).
-Tidak butuh `pip install`.
-
-Support engine:
-  google                 → hasil web + peringkat (default)
-  google_news            → berita, parameter berita_date
-  google_maps            → bisnis/tempat (maps_results)
-  google_autocomplete    → saran pencarian (autocomplete_results)
-
-Mode:
-  live     → panggil SerpApi (butuh SERP_API_KEY)
-  offline  → baca samples/sample_<engine>.json (tanpa API key)
-
-Contoh:
-  export SERP_API_KEY="..."
-  python3 serp_idi_tracker.py --keyword "kafe terbaik bogor" --pages 5
-  python3 serp_idi_tracker.py --engine google_news --keyword "gempa surabaya"
-  python3 serp_idi_tracker.py --engine google_maps --keyword "kafe bogor" --offline
-  python3 serp_idi_tracker.py --engine google_autocomplete --keyword "cara membuat" --offline
-"""
-
 import argparse
 import json
 import os
+from pathlib import Path
 import sys
 import urllib.error
 import urllib.parse
 import urllib.request
 
 API_ENDPOINT = "https://serpapi.com/search"
-DEFAULT_GL = "id"          # locale: Indonesia
-DEFAULT_HL = "id"          # language: Indonesian
-DEFAULT_DOMAIN = "google.co.id"
-
 ENGINES = ("google", "google_news", "google_maps", "google_autocomplete")
+RESULT_FIELDS = dict(zip(ENGINES, ("organic_results", "news_results", "local_results", "suggestions")))
+
+
+class ResponseError(ValueError):
+    """The provider response cannot be treated as completed search data."""
 
 
 def load_key():
-    """Ambil SERP_API_KEY dari environment, kalau belum ada dari file .env."""
-    if os.environ.get("SERP_API_KEY"):
-        return os.environ["SERP_API_KEY"]
-    env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
-    if os.path.exists(env_path):
-        for line in open(env_path, encoding="utf-8"):
-            line = line.strip()
-            if line.startswith("SERP_API_KEY="):
-                return line.split("=", 1)[1].strip()
+    key = os.environ.get("SERPAPI_API_KEY") or os.environ.get("SERP_API_KEY")
+    if key:
+        return key.strip()
+    path = Path(__file__).resolve().parent / ".env"
+    if path.exists():
+        for line in path.read_text(encoding="utf-8").splitlines():
+            name, sep, value = line.strip().partition("=")
+            if sep and name.strip() in ("SERPAPI_API_KEY", "SERP_API_KEY"):
+                value = value.strip().strip("\"'")
+                if value:
+                    return value
     return None
 
 
+def build_params(engine, keyword, api_key, gl="id", hl="id", domain="google.co.id", page=1):
+    if engine not in ENGINES:
+        raise ValueError("Unsupported engine.")
+    if not keyword.strip() or len(keyword) > 300:
+        raise ValueError("Use a keyword between 1 and 300 characters.")
+    if not 1 <= page <= 10:
+        raise ValueError("Page must be between 1 and 10.")
+    params = {"engine": engine, "q": keyword.strip(), "api_key": api_key, "hl": hl}
+    if engine != "google_maps":
+        params["gl"] = gl
+    if engine == "google":
+        params.update(google_domain=domain, start=str((page - 1) * 10))
+    if engine == "google_maps":
+        params["type"] = "search"
+    return params
+
+
+def validate_response(data, engine):
+    if not isinstance(data, dict):
+        raise ResponseError("Expected a JSON object; inspect the response format.")
+    if data.get("error"):
+        raise ResponseError("SerpApi returned an error. Check the request and account; no results were analyzed.")
+    metadata = data.get("search_metadata", {})
+    if not isinstance(metadata, dict):
+        raise ResponseError("Invalid search_metadata object.")
+    if metadata.get("status") in ("Processing", "Queued", "Error"):
+        raise ResponseError("Search is not successfully completed. Inspect its status before retrying.")
+    field = RESULT_FIELDS[engine]
+    if field in data and not isinstance(data[field], list):
+        raise ResponseError("Expected an array in " + field + ".")
+    if any(not isinstance(row, dict) for row in data.get(field, [])):
+        raise ResponseError("Expected result objects in " + field + ".")
+    return data
+
+
 def fetch_serpapi(engine, keyword, api_key, gl, hl, domain, page):
-    """Jalankan satu GET request ke SerpApi dan kembalikan JSON."""
-    params = {
-        "engine": engine,
-        "q": keyword,
-        "api_key": api_key,
-        "gl": gl,
-        "hl": hl,
-        "google_domain": domain,
-        "start": str((page - 1) * 10),
-    }
-    if engine == "google_news":
-        params.pop("google_domain", None)
-        params.pop("start", None)
-    url = API_ENDPOINT + "?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers={"User-Agent": "serp-id-tracker/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    params = build_params(engine, keyword, api_key, gl, hl, domain, page)
+    req = urllib.request.Request(API_ENDPOINT + "?" + urllib.parse.urlencode(params),
+                                 headers={"User-Agent": "serpapi-indonesian-learning-sample/1.1"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as response:
+            data = json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as error:
+        messages = {401: "Authentication failed; check your API key.",
+                    403: "Access denied; check account permissions.",
+                    429: "Quota or throughput limit; inspect your account before retrying."}
+        raise ResponseError(messages.get(error.code, "HTTP " + str(error.code) + "; retry only after checking the service.")) from None
+    except (urllib.error.URLError, TimeoutError, OSError):
+        raise ResponseError("Network request failed; check connectivity. No automatic retry was made.") from None
+    except (json.JSONDecodeError, UnicodeError):
+        raise ResponseError("The response was not valid UTF-8 JSON.") from None
+    return validate_response(data, engine)
 
 
 def load_sample(engine):
-    base = os.path.dirname(os.path.abspath(__file__))
-    path = os.path.join(base, "samples", f"sample_{engine}.json")
-    with open(path, encoding="utf-8") as f:
-        return json.load(f)
+    path = Path(__file__).resolve().parent / "samples" / ("sample_" + engine + ".json")
+    return validate_response(json.loads(path.read_text(encoding="utf-8")), engine)
 
 
-def _domain(link):
-    try:
-        return urllib.parse.urlsplit(link).netloc
-    except Exception:
-        return link or ""
+def rows(data, engine):
+    field = RESULT_FIELDS[engine]
+    if field not in data:
+        print("Field " + field + " tidak ada pada respons; periksa bentuk SERP dan respons lengkap.")
+    elif not data[field]:
+        print(field + " kosong pada respons ini.")
+    return data.get(field, [])
 
 
 def print_google(data, keyword, gl, hl):
-    organic = data.get("organic_results", [])
-    print(f'== Ranking untuk "{keyword}" (gl={gl}, hl={hl}) ==\n')
-    if not organic:
-        print("(tidak ada organic_results — periksa keyword atau mode offline)")
-    width_title = 52
-    print(f" {'#':>2}  {'Judul':<{width_title}} {'Domain'}")
-    print(f" {'-'*2}  {'-'*width_title}  {'-'*20}")
-    for r in organic[:10]:
-        pos = r.get("position", "?")
-        title = (r.get("title") or "")[:width_title]
-        print(f" {pos:>2}  {title:<{width_title}} {_domain(r.get('link'))}")
-    paa = data.get("people_also_ask", [])
-    if paa:
-        print("\n== People Also Ask ==")
-        for q in paa[:5]:
-            print(f"  • {q.get('question')}")
-    rel = data.get("related_searches", [])
-    if rel:
-        print("\n== Related Searches ==")
-        for q in rel[:5]:
-            print(f"  • {q.get('query')}")
+    print(f'Hasil web untuk "{keyword}" (gl={gl}, hl={hl})')
+    for result in rows(data, "google")[:10]:
+        domain = urllib.parse.urlsplit(result.get("link") or "").netloc
+        print(f"  {result.get('position', '?')}. {result.get('title', '')} | {domain}")
+    questions = data.get("related_questions", [])
+    if questions:
+        print("\nPertanyaan terkait")
+        for question in questions[:5]:
+            print("  - " + question.get("question", ""))
+    related = data.get("related_searches", [])
+    if related:
+        print("\nPencarian terkait")
+        for result in related[:5]:
+            print("  - " + result.get("query", ""))
 
 
 def print_news(data, keyword, gl, hl):
-    news = data.get("news_results", data.get("news", []))
-    print(f'== Berita untuk "{keyword}" (gl={gl}, hl={hl}) ==\n')
-    if not news:
-        print("(tidak ada news_results — periksa keyword atau mode offline)")
-    for r in news[:10]:
-        title = r.get("title") or r.get("name") or ""
-        source = r.get("source") or ""
-        if isinstance(source, dict):
-            source = source.get("name", "")
-        date = r.get("date") or ""
-        print(f"  • {title}")
-        if source or date:
-            print(f"    [{source} · {date}]")
+    print(f'Berita untuk "{keyword}" (gl={gl}, hl={hl})')
+    for result in rows(data, "google_news")[:10]:
+        # Google News can return a cluster with nested stories.
+        stories = result.get("stories") or [result]
+        for story in stories:
+            source = story.get("source") or ""
+            if isinstance(source, dict):
+                source = source.get("name", "")
+            print(f"  - {story.get('title', '')} [{source} | {story.get('date', '')}]")
 
 
 def print_maps(data, keyword, gl, hl):
-    places = data.get("local_results", data.get("maps_results", []))
-    print(f'== Tempat/Bisnis untuk "{keyword}" (gl={gl}, hl={hl}) ==\n')
-    if not places:
-        print("(tidak ada local_results — periksa keyword atau mode offline)")
-    for p in places[:10]:
-        name = p.get("title") or p.get("name") or ""
-        stars = p.get("rating") or p.get("star_rating")
-        count = p.get("reviews") or p.get("num_reviews")
-        ptype = p.get("type") or ""
-        rating = f" ({stars}★, {count} ulasan)" if stars else ""
-        typetxt = f" — {ptype}" if ptype else ""
-        print(f"  • {name}{rating}{typetxt}")
-        if p.get("address"):
-            print(f"    {p['address']}")
+    print(f'Tempat untuk "{keyword}" (hl={hl}; lokasi mengikuti query)')
+    for place in rows(data, "google_maps")[:10]:
+        print(f"  - {place.get('title', '')} | rating={place.get('rating', 'n/a')} | ulasan={place.get('reviews', 'n/a')}")
+        if place.get("address"):
+            print("    " + place["address"])
 
 
 def print_autocomplete(data, keyword, gl, hl):
-    sugg = data.get("suggestions", data.get("autocomplete_results", []))
-    print(f'== Saran Autocomplete untuk "{keyword}" (gl={gl}, hl={hl}) ==\n')
-    if not sugg:
-        print("(tidak ada suggestions — periksa keyword atau mode offline)")
-    for s in sugg[:15]:
-        if isinstance(s, dict):
-            text = s.get("value", s.get("suggestion", ""))
-        else:
-            text = str(s)
-        print(f"  • {text}")
+    print(f'Saran untuk "{keyword}" (gl={gl}, hl={hl})')
+    for suggestion in rows(data, "google_autocomplete")[:15]:
+        print("  - " + suggestion.get("value", ""))
 
 
-PRINTERS = {
-    "google": print_google,
-    "google_news": print_news,
-    "google_maps": print_maps,
-    "google_autocomplete": print_autocomplete,
-}
+PRINTERS = dict(zip(ENGINES, (print_google, print_news, print_maps, print_autocomplete)))
 
 
-def main():
-    ap = argparse.ArgumentParser(description="Lacak hasil pencarian Indonesia via SerpApi")
-    ap.add_argument("--keyword", required=True, help="Kata kunci yang ingin ditelusuri")
-    ap.add_argument("--engine", choices=ENGINES, default="google",
-                    help="Engine SerpApi (default: google)")
-    ap.add_argument("--pages", type=int, default=1, help="Jumlah halaman (engine google, default 1)")
-    ap.add_argument("--gl", default=DEFAULT_GL, help="Country code (default: id)")
-    ap.add_argument("--hl", default=DEFAULT_HL, help="Language code (default: id)")
-    ap.add_argument("--domain", default=DEFAULT_DOMAIN, help="Google domain (default: google.co.id)")
-    ap.add_argument("--offline", action="store_true", help="Pakai samples/, tanpa API key")
-    args = ap.parse_args()
-
-    printer = PRINTERS[args.engine]
-
-    if args.offline:
-        data = load_sample(args.engine)
-        printer(data, args.keyword, args.gl, args.hl)
-        print(f"\n[mode offline: sample_{args.engine}.json]")
+def main(argv=None):
+    parser = argparse.ArgumentParser(description="Jelajahi respons SerpApi untuk contoh Indonesia")
+    parser.add_argument("--keyword", required=True)
+    parser.add_argument("--engine", choices=ENGINES, default="google")
+    parser.add_argument("--pages", type=int, default=1, help="Google only, 1-10 requests; default 1")
+    parser.add_argument("--gl", default="id", help="Country for Google, News and Autocomplete")
+    parser.add_argument("--hl", default="id", help="Search interface language")
+    parser.add_argument("--domain", default="google.co.id", help="Google Search only")
+    parser.add_argument("--offline", action="store_true", help="Replay one stored sample; no request")
+    args = parser.parse_args(argv)
+    if not args.keyword.strip() or len(args.keyword) > 300:
+        parser.error("Keyword harus berisi 1-300 karakter.")
+    if not 1 <= args.pages <= 10:
+        parser.error("--pages harus 1-10.")
+    if args.pages != 1 and (args.engine != "google" or args.offline):
+        parser.error("--pages > 1 hanya tersedia untuk Google live; offline memutar satu sample.")
+    try:
+        if args.offline:
+            data = load_sample(args.engine)
+            original = data.get("search_parameters", {})
+            print("OFFLINE: replay sample tersimpan; --keyword tidak menjalankan pencarian baru.")
+            PRINTERS[args.engine](data, original.get("q", "sample"), original.get("gl", args.gl), original.get("hl", args.hl))
+            return 0
+        key = load_key()
+        if not key:
+            print("Set SERPAPI_API_KEY secara lokal atau gunakan --offline.", file=sys.stderr)
+            return 1
+        for page in range(1, args.pages + 1):
+            print(f"\nHalaman {page}; maksimal {args.pages} request, tanpa retry otomatis.")
+            data = fetch_serpapi(args.engine, args.keyword, key, args.gl, args.hl, args.domain, page)
+            PRINTERS[args.engine](data, args.keyword, args.gl, args.hl)
         return 0
-
-    api_key = load_key()
-    if not api_key:
-        print("Tidak ada SERP_API_KEY. Set lewat environment atau file .env, atau jalankan --offline.", file=sys.stderr)
+    except (ResponseError, OSError, json.JSONDecodeError) as error:
+        # Do not emit raw HTTP bodies or URLs that might contain the API key.
+        message = str(error) if isinstance(error, ResponseError) else "Sample tidak dapat dibaca; periksa file JSON lokal."
+        print(message, file=sys.stderr)
         return 1
-
-    pages = args.pages if args.engine == "google" else 1
-    for page in range(1, pages + 1):
-        print(f"\n--- Halaman {page} ---\n")
-        try:
-            data = fetch_serpapi(args.engine, args.keyword, api_key, args.gl, args.hl, args.domain, page)
-        except urllib.error.HTTPError as e:
-            print(f"HTTP {e.code}: {e.read().decode('utf-8', 'replace')}", file=sys.stderr)
-            return 1
-        except Exception as e:
-            print(f"Gagal memanggil SerpApi: {e}", file=sys.stderr)
-            return 1
-        printer(data, args.keyword, args.gl, args.hl)
-    return 0
 
 
 if __name__ == "__main__":

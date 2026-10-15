@@ -1,69 +1,44 @@
-# Google Search API — Panduan Lokalisasi (Bahasa Indonesia)
+# Membaca respons google
 
-> Cuplikan dokumentasi SerpApi yang telah diterjemahkan ke Bahasa Indonesia
-> sebagai contoh gaya lokalasi untuk komunitas developer.
->
-> **Catatan lokalasi:** istilah teknis (`endpoint`, `GET`, `JSON`,
-> `query parameter`, `api_key`, `organic_results`) **dibiarkan dalam bahasa
-> Inggris** karena komunitas developer membacanya dalam bentuk asli. Yang
-> diterjemahkan: narasi, langkah, dan contoh use case.
+Panduan edukasi Indonesia yang merujuk [dokumentasi resmi](https://serpapi.com/search-api).
+Ditinjau 15 Oktober 2026. Nama parameter dan field JSON dipertahankan agar
+penjelasan dapat dicocokkan langsung dengan respons.
 
-## Apa yang dilakukan endpoint `search`
-
-Endpoint `GET https://serpapi.com/search` mengembalikan hasil pencarian mesin
-mencari (default: Google) dalam bentuk `JSON` yang terstruktur. Satu request,
-satu respons — tidak perlu scraping, tidak perlu mengelola CAPTCHA.
-
-## Paramter wajib
-
-| Parameter | Wajib | Fungsi |
-|---|---|---|
-| `api_key` | **Ya** | API key SerpApi Anda |
-| `q` | **Ya** | Kata kunci pencarian |
-
-## Paramter penting untuk pasar Indonesia
-
-| Parameter | Contoh | Berfungsi untuk |
-|---|---|---|
-| `engine` | `google` | Pilih mesin pencari |
-| `gl` | `id` | **Lokasi (locale) = Indonesia** |
-| `hl` | `id` | **Bahasa hasil = Bahasa Indonesia** |
-| `google_domain` | `google.co.id` | Domain Google lokal, biar hasil lebih sesuai pasar lokal |
-| `start` | `0`, `10` | Paginasi hasil |
-
-### Contoh request untuk pasar Indonesia
+## Coba sample
 
 ```bash
-curl --get "https://serpapi.com/search" \
-  --data-urlencode "engine=google" \
-  --data-urlencode "q=kafe terbaik bogor" \
-  --data-urlencode "gl=id" \
-  --data-urlencode "hl=id" \
-  --data-urlencode "google_domain=google.co.id" \
-  --data-urlencode "api_key=API_KEY_ANDA"
+python3 serp_idi_tracker.py --engine google --keyword "kafe terbaik bogor" --offline
 ```
 
-> **Kunci lokalasi:** untuk audiens Indonesia, set `gl=id&hl=id&google_domain=google.co.id`.
-> Tanpa paramter ini, hasil default-nya mengikuti `google.com`/US — dan peringkat
-> kata kunci untuk pasar Indonesia tidak akurat.
+Perintah dijalankan dari root repo. Ini memutar satu sample tersimpan dan
+menampilkan query aslinya; keyword baru hanya dipakai dalam mode live.
 
-## Membaca respons
+## Request live
 
-Respons berisi beberapa bagian:
+Set `SERPAPI_API_KEY` secara lokal, lalu hilangkan `--offline`.
+Tool mengirim `engine`, `q`, `api_key`, `gl=id` dan `hl=id`. Untuk contoh Google Search ini, `google_domain=google.co.id` dan `start=0`.
+Satu eksekusi default membuat satu request. Jangan mengirim key ke repo atau issue.
 
-- **`organic_results[]`** — hasil utama (pos 1–10).
-  - `position` — peringkat
-  - `title`, `link`, `snippet` — judul, URL, deskripsi
-- **`people_also_ask[]`** — pertanyaan terkait (bahan ide konten)
-- **`related_searches[]`** — pencarian serupa (ekspansi keyword)
-- **`search_information`** — estimasi jumlah hasil & durasi query
+`hl` memilih bahasa pencarian. Pengaturan bahasa bukan jaminan semua hasil
+berbahasa Indonesia. `gl` memilih negara pencarian. Periksa dokumentasi engine sebelum menambah filter.
 
-## Use case lokal
+## Membaca hasil
 
-Lacak peringkat kata kunci bisnis Anda untuk pasar Indonesia, berulang dan
-otomatis — untuk dashboard, cron mingguan, atau laporan. Tool runnable-nya ada
-di [`../serp_idi_tracker.py`](../serp_idi_tracker.py).
+Field utama: `organic_results[]`. Field yang dibaca: `position`, `title`, `link`, `snippet`.
 
----
-*Terjemahan independen untuk tujuan edukasi. Referensi asli:
-[SerpApi Google Search API](https://serpapi.com/search-api).*
+Hasil web untuk memeriksa jenis halaman yang muncul. Pertanyaan terkait berada di `related_questions[].question`, bukan `people_also_ask`. Pencarian terkait berada di `related_searches[].query`. Field opsional dapat tidak muncul.
+
+## Saat hasil tidak sesuai harapan
+
+- HTTP 401: periksa credential tanpa membagikannya.
+- HTTP 429: periksa kuota dan throughput sebelum mengulang.
+- Payload `error`: request gagal; jangan menyebutnya hasil kosong.
+- Status `Processing` atau `Queued`: tunggu respons selesai sebelum membaca hasil.
+- Array kosong: respons memuat nol item pada bagian itu.
+- Field tidak ada: periksa respons lengkap; bagian SERP tersebut mungkin tidak muncul.
+
+## Latihan
+
+Jelaskan satu item sample dengan kata-kata sendiri. Sebutkan satu keputusan yang
+bisa dibantu data itu dan satu kesimpulan yang belum dapat dibuat.
+Bandingkan field di sample dengan [sumber resmi](https://serpapi.com/search-api) sebelum mengubah tutorial.

@@ -1,52 +1,44 @@
-# Google News API — Panduan Lokalisasi (Bahasa Indonesia)
+# Membaca respons google_news
 
-> Cuplikan dokumentasi SerpApi yang telah diterjemahkan ke Bahasa Indonesia
-> sebagai contoh gaya lokalasi untuk komunitas developer.
->
-> **Catatan lokalasi:** istilah teknis (`endpoint`, `GET`, `JSON`,
-> `news_results`) **dibiarkan dalam bahasa Inggris**; narasi & use case
-> disesuaikan ke konteks Indonesia.
+Panduan edukasi Indonesia yang merujuk [dokumentasi resmi](https://serpapi.com/google-news-api).
+Ditinjau 15 Oktober 2026. Nama parameter dan field JSON dipertahankan agar
+penjelasan dapat dicocokkan langsung dengan respons.
 
-## Apa yang dilakukan `engine=google_news`
-
-Endpoint `GET https://serpapi.com/search` dengan `engine=google_news`
-mengembalikan hasil **Google News** dalam bentuk `JSON` yang terstruktur —
-judul, sumber, dan waktu publikasi. Cocok untuk monitoring berita,
-sentiment tracking, dan agregasi konten berita lokal.
-
-## Paramter penting
-
-| Parameter | Wajib | Contoh | Fungsi |
-|---|---|---|---|
-| `q` | **Ya** | `gempa surabaya` | Kata kunci berita |
-| `engine` | — | `google_news` | Pilih mesin berita |
-| `gl` | Tidak | `id` | **Negara = Indonesia** |
-| `hl` | Tidak | `id` | **Bahasa = Indonesia** |
-
-### Contoh request untuk pasar Indonesia
+## Coba sample
 
 ```bash
-curl --get "https://serpapi.com/search" \
-  --data-urlencode "engine=google_news" \
-  --data-urlencode "q=gempa surabaya" \
-  --data-urlencode "gl=id" \
-  --data-urlencode "hl=id" \
-  --data-urlencode "api_key=API_KEY_ANDA"
+python3 serp_idi_tracker.py --engine google_news --keyword "gempa surabaya" --offline
 ```
 
-> **Kunci lokalasi:** set `gl=id&hl=id` agar berita yang dikembalikan relevan
-> dengan pasar Indonesia, bukan default `us`.
+Perintah dijalankan dari root repo. Ini memutar satu sample tersimpan dan
+menampilkan query aslinya; keyword baru hanya dipakai dalam mode live.
 
-## Membaca respons
+## Request live
 
-- **`news_results[]`** — daftar berita
-  - `title` — judul berita
-  - `source` — media yang memuat
-  - `date` — waktu publikasi
+Set `SERPAPI_API_KEY` secara lokal, lalu hilangkan `--offline`.
+Tool mengirim `engine`, `q`, `api_key`, `gl=id` dan `hl=id`.
+Satu eksekusi default membuat satu request. Jangan mengirim key ke repo atau issue.
 
-Tool runnable: [`../serp_idi_tracker.py`](../serp_idi_tracker.py) dengan
-`--engine google_news`.
+`hl` memilih bahasa pencarian. Pengaturan bahasa bukan jaminan semua hasil
+berbahasa Indonesia. `gl` memilih negara pencarian. Periksa dokumentasi engine sebelum menambah filter.
 
----
-*Terjemahan independen untuk tujuan edukasi. Referensi asli:
-[SerpApi Google News API](https://serpapi.com/google-news-api).*
+## Membaca hasil
+
+Field utama: `news_results[]`. Field yang dibaca: `title`, `source`, `date`; beberapa hasil memuat `stories[]`.
+
+Berita dapat berupa artikel langsung atau kelompok dengan `stories[]`. `source` dapat berupa objek dengan `name`. Judul dan sumber bukan analisis sentimen; baca konteks sebelum menarik kesimpulan.
+
+## Saat hasil tidak sesuai harapan
+
+- HTTP 401: periksa credential tanpa membagikannya.
+- HTTP 429: periksa kuota dan throughput sebelum mengulang.
+- Payload `error`: request gagal; jangan menyebutnya hasil kosong.
+- Status `Processing` atau `Queued`: tunggu respons selesai sebelum membaca hasil.
+- Array kosong: respons memuat nol item pada bagian itu.
+- Field tidak ada: periksa respons lengkap; bagian SERP tersebut mungkin tidak muncul.
+
+## Latihan
+
+Jelaskan satu item sample dengan kata-kata sendiri. Sebutkan satu keputusan yang
+bisa dibantu data itu dan satu kesimpulan yang belum dapat dibuat.
+Bandingkan field di sample dengan [sumber resmi](https://serpapi.com/google-news-api) sebelum mengubah tutorial.

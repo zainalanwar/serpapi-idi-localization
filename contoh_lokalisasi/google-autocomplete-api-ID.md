@@ -1,54 +1,44 @@
-# Google Autocomplete API — Panduan Lokalisasi (Bahasa Indonesia)
+# Membaca respons google_autocomplete
 
-> Cuplikan dokumentasi SerpApi yang telah diterjemahkan ke Bahasa Indonesia
-> sebagai contoh gaya lokalasi untuk komunitas developer.
->
-> **Catatan lokalasi:** istilah teknis (`endpoint`, `GET`, `JSON`,
-> `autocomplete_results`) **dibiarkan dalam bahasa Inggris**; narasi & use case
-> disesuaikan ke konteks Indonesia.
+Panduan edukasi Indonesia yang merujuk [dokumentasi resmi](https://serpapi.com/google-autocomplete-api).
+Ditinjau 15 Oktober 2026. Nama parameter dan field JSON dipertahankan agar
+penjelasan dapat dicocokkan langsung dengan respons.
 
-## Apa yang dilakukan `engine=google_autocomplete`
-
-Endpoint `GET https://serpapi.com/search` dengan `engine=google_autocomplete`
-mengembalikan **saran pencarian (suggestions)** yang muncul saat mengetik di
-kotak pencarian Google. Ini adalah data perilaku pencarian nyata — sangat
-berguna untuk riset keyword, ide konten, dan memahami apa yang sebenarnya
-dicari orang.
-
-## Paramter penting
-
-| Parameter | Wajib | Contoh | Fungsi |
-|---|---|---|---|
-| `q` | **Ya** | `cara membuat` | Awalan kata kunci |
-| `engine` | — | `google_autocomplete` | Pilih mesin autocomplete |
-| `gl` | Tidak | `id` | **Negara = Indonesia** |
-| `hl` | Tidak | `id` | **Bahasa = Indonesia** |
-
-### Contoh request untuk pasar Indonesia
+## Coba sample
 
 ```bash
-curl --get "https://serpapi.com/search" \
-  --data-urlencode "engine=google_autocomplete" \
-  --data-urlencode "q=cara membuat nasi goreng" \
-  --data-urlencode "gl=id" \
-  --data-urlencode "hl=id" \
-  --data-urlencode "api_key=API_KEY_ANDA"
+python3 serp_idi_tracker.py --engine google_autocomplete --keyword "cara membuat" --offline
 ```
 
-> **Kunci lokalasi:** set `gl=id&hl=id` agar saran yang dikembalikan
-> mencerminkan perilaku pencarian berbahasa Indonesia, bukan global.
+Perintah dijalankan dari root repo. Ini memutar satu sample tersimpan dan
+menampilkan query aslinya; keyword baru hanya dipakai dalam mode live.
 
-## Membaca respons
+## Request live
 
-- **`autocomplete_results[]`** — daftar saran
-  - `suggestion` — saran pencarian lengkap
+Set `SERPAPI_API_KEY` secara lokal, lalu hilangkan `--offline`.
+Tool mengirim `engine`, `q`, `api_key`, `gl=id` dan `hl=id`.
+Satu eksekusi default membuat satu request. Jangan mengirim key ke repo atau issue.
 
-Use case populer: kumpulkan saran untuk banyak awalan kata kunci, gabungkan,
-dan jadikan *keyword pool* untuk konten atau SEO.
+`hl` memilih bahasa pencarian. Pengaturan bahasa bukan jaminan semua hasil
+berbahasa Indonesia. `gl` memilih negara pencarian. Periksa dokumentasi engine sebelum menambah filter.
 
-Tool runnable: [`../serp_idi_tracker.py`](../serp_idi_tracker.py) dengan
-`--engine google_autocomplete`.
+## Membaca hasil
 
----
-*Terjemahan independen untuk tujuan edukasi. Referensi asli:
-[SerpApi Google Autocomplete API](https://serpapi.com/google-autocomplete-api).*
+Field utama: `suggestions[]`. Field yang dibaca: `value`; beberapa respons juga memuat `relevance` dan `type`.
+
+Setiap saran dibaca dari `suggestions[].value`. Saran bukan angka search volume, niat pengguna yang terverifikasi, atau jaminan permintaan pasar. Gunakan sebagai ide yang masih perlu diuji.
+
+## Saat hasil tidak sesuai harapan
+
+- HTTP 401: periksa credential tanpa membagikannya.
+- HTTP 429: periksa kuota dan throughput sebelum mengulang.
+- Payload `error`: request gagal; jangan menyebutnya hasil kosong.
+- Status `Processing` atau `Queued`: tunggu respons selesai sebelum membaca hasil.
+- Array kosong: respons memuat nol item pada bagian itu.
+- Field tidak ada: periksa respons lengkap; bagian SERP tersebut mungkin tidak muncul.
+
+## Latihan
+
+Jelaskan satu item sample dengan kata-kata sendiri. Sebutkan satu keputusan yang
+bisa dibantu data itu dan satu kesimpulan yang belum dapat dibuat.
+Bandingkan field di sample dengan [sumber resmi](https://serpapi.com/google-autocomplete-api) sebelum mengubah tutorial.
